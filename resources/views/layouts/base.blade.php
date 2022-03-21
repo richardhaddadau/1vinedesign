@@ -42,7 +42,7 @@
     <link rel="preload" href="{{ asset('fonts/Montserrat-SemiBold.otf') }}" as="font" crossorigin>
 
     <!-- 1VINEDesign CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.min.css?v240122') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     @yield('extra-css')
 
     <!-- Burger Button -->
@@ -342,7 +342,7 @@
     <script type="text/javascript" src="{{ asset('js/fall.min.js') }}"></script>
 
     <!-- 1VINE JS -->
-    <script type="text/javascript" src="{{ asset('js/app.min.js?v22') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/app.min.js') }}"></script>
 
     @if(Session::has('success'))
       <script>

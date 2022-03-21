@@ -5,7 +5,7 @@
 
     Project: 1VINE Design 2021
     First Created: 28.11.2020
-    Last Modified: 14.02.2022
+    Last Modified: 22.02.2022
 
     Colour Scheme:
     Green: #7.e.b.2.0.0
@@ -194,23 +194,23 @@ h6.make-coloured,
 }
 
 .mt-l-1 {
-  margin-top: -1em !important; 
+  margin-top: -1em !important;
 }
 
 .mt-l-2 {
-  margin-top: -2em !important; 
+  margin-top: -2em !important;
 }
 
 .mt-l-3 {
-  margin-top: -3em !important; 
+  margin-top: -3em !important;
 }
 
 .mt-l-4 {
-  margin-top: -4em !important; 
+  margin-top: -4em !important;
 }
 
 .mt-l-5 {
-  margin-top: -5em !important; 
+  margin-top: -5em !important;
 }
 
 .ml-2 {
@@ -457,7 +457,7 @@ p strong {
   align-items: center;
 
   padding-left: 70px;
-  
+
   width: 100%;
   height: 100%;
 
@@ -573,7 +573,7 @@ p strong {
 
   bottom: 2em;
   right: 2em;
-  
+
   opacity: 1;
   background-size: contain;
 
@@ -705,7 +705,7 @@ p strong {
   background-size: 60%;
   background-position: center;
   background-attachment: fixed;
-  
+
   color: #212121;
 }
 
@@ -724,7 +724,7 @@ p strong {
   background-size: 60%;
   background-position: center;
   background-attachment: fixed;
-  
+
   color: #fff;
 }
 
@@ -735,7 +735,7 @@ p strong {
   background-size: 60%;
   background-position: center;
   background-attachment: fixed;
-  
+
   color: #fff;
 }
 
@@ -770,10 +770,10 @@ p strong {
 
 .section.make-dark a:hover {
   padding: 3px;
-  
+
   border: 1px solid var(--main-theme-color);
   background-color: var(--main-theme-color);
-  
+
   color: #fff !important;
 }
 
@@ -857,9 +857,11 @@ a:hover .fa-comment-alt {
   flex-direction: row;
 
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 
   width: 100%;
+
+    transition: 0.35s all ease;
 }
 
 /* Card */
@@ -889,7 +891,7 @@ a:hover .fa-comment-alt {
   height: 100%;
 
   background-color: var(--main-theme-color);
-  
+
   z-index: 1;
 
   transition: 0.2s all ease;
@@ -959,7 +961,7 @@ a:hover .fa-comment-alt {
   color: var(--main-theme-color) !important;
 }
 
-.section .card:hover {
+.section .card-collection:not(.active) .card:hover {
   transform: translate(-8px, -8px);
   box-shadow: 0px 30px 60px rgba(0, 0, 0, 0.35);
 }
@@ -978,7 +980,7 @@ a:hover .fa-comment-alt {
 
 .section .card-link a:hover {
   padding: 7px;
-  
+
   border: 4px solid white;
   background-color: white;
 
@@ -1044,10 +1046,10 @@ a:hover .fa-comment-alt {
 .deliverables-collection.hinged {
   position: fixed;
   flex-direction: column;
-  
+
   padding: 0;
   margin: 0;
-  
+
   right: 0;
   top: 50%;
   transform: translateY(-50%);
@@ -1126,7 +1128,7 @@ a:hover .fa-comment-alt {
   display: block;
 
   position: relative;
-  
+
   padding: 1em;
   margin: auto;
 
@@ -1235,7 +1237,7 @@ p.package-card-info-header {
   height: 100%;
 
   background-color: var(--main-theme-color);
-  
+
   z-index: 1;
 
   transition: 0.2s all ease;
@@ -1394,7 +1396,7 @@ p.package-card-info-header {
 
 .package-card .package-card-back .package-close {
   cursor: pointer;
-  
+
   position: absolute;
   display: none;
 
@@ -1874,10 +1876,10 @@ form.make-contact input {
 
 .recaptcha-notice a:hover {
   padding: 3px;
-  
+
   border: 1px solid var(--main-theme-color);
   background-color: var(--main-theme-color);
-  
+
   color: #fff !important;
 }
 
@@ -2054,7 +2056,7 @@ ul.testimonials {
 .testimonials-item span a {
   position: relative;
   display: inline-flex;
-  
+
   font-style: italic;
   color: var(--main-theme-color) !important;
 
@@ -2063,10 +2065,10 @@ ul.testimonials {
 
 .testimonials-item span a:hover {
   padding: 5px 10px;
-  
+
   border: 1px solid var(--main-theme-color);
   background-color: var(--main-theme-color);
-  
+
   color: #fff !important;
 }
 
@@ -2103,7 +2105,7 @@ ul.testimonials {
 
 .client-gallery {
   flex-direction: row;
-  
+
   flex-wrap: wrap;
   justify-content: space-around;
 }
@@ -2334,7 +2336,7 @@ ul.testimonials {
   position: absolute;
 
   margin: 0;
-  
+
   padding: 20px 0;
 
   left: calc(-100vw + 100px);
@@ -2346,7 +2348,7 @@ ul.testimonials {
   background-color: rgba(33, 33, 33, .95);
 
   overflow: hidden;
-  
+
   z-index: 999;
 }
 
@@ -2392,12 +2394,12 @@ ul.testimonials {
 
   top: 50%;
   left: 50%;
-  
+
   width: calc(80vh - 40px - 70px);
 
   transform: rotate(-90deg) translate(-50%, -50%);
   transform-origin: 0 0;
-  
+
   text-align: center;
   font-size: 125%;
   font-weight: 200;
@@ -2425,7 +2427,7 @@ ul.testimonials {
 .menu-social-list {
   display: flex;
   flex-direction: column;
-  
+
   margin: 0;
   padding: 0;
 
@@ -2461,7 +2463,7 @@ ul.testimonials {
   opacity: 1;
   height: 60px;
   width: 60px;
-  
+
   /* background-color: var(--main-theme-color); */
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
@@ -2514,14 +2516,14 @@ ul.testimonials {
 ========================= */
 .footer {
   position: fixed;
- 
+
   padding: 1em 1em 1em calc(100px + 3em);
 
   bottom: 0;
 
   width: 100%;
   background-color:#212121 !important;
-  
+
   font-size: 0.8em !important;
   text-align: center;
 
@@ -2648,6 +2650,21 @@ a.futur-badge:hover {
   /* ===  5. Page Loading Animation [Desktop]  === */
   /* ===  6. Hero [Desktop]  === */
   /* ===  7. Main Page [Desktop]  === */
+    /* Cards when Active */
+    .card-collection.active {
+        /*flex-direction: column;*/
+    }
+
+    .card-collection.active .card {
+        width: 100% !important;
+        /*height: 50px;*/
+
+        transition: all 0.5s ease;
+    }
+
+    .card-collection.active .card.open {
+        /*max-height: 9999px;*/
+    }
   /* ===  8. Navigation [Desktop]  === */
   /* ===  9. Footer [Desktop]  === */
 }
@@ -2685,7 +2702,7 @@ a.futur-badge:hover {
   /* ===  7. Main Page [Tablet]  === */
   /* ===  8. Navigation [Tablet]  === */
   /* ===  9. Footer [Tablet]  === */
-  
+
 }
 /* ==================================================================================================== */
 /* =========================
@@ -2704,14 +2721,14 @@ a.futur-badge:hover {
   h1 {
     font-size: 2.5em;
     line-height: 1em;
-  
+
     margin-top: 0.25em;
   }
-  
+
   h2 {
     font-size: 2em;
   }
-  
+
   h3 {
     font-size: 1.5em;
   }
@@ -2730,7 +2747,7 @@ a.futur-badge:hover {
     min-width: 100%;
 
     text-align: center;
-    
+
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
   }
 
@@ -2751,7 +2768,7 @@ a.futur-badge:hover {
 
     bottom: calc(100px + 2em);
     right: 2em;
-    
+
     border-radius: 50%;
     opacity: 1;
 
@@ -2764,19 +2781,19 @@ a.futur-badge:hover {
   .one-btn {
     display: none;
     /* cursor: pointer;
-  
+
     position: fixed;
     display: flex;
     flex-direction: column;
-  
+
     justify-content: center;
     align-items: flex-end;
-  
+
     padding: 20px 10px 5px 10px;
-    
+
     min-height: 3.5em;
     min-width: 3.5em;
-    
+
     top: 70px;
     right: 0; */
   }
@@ -2806,7 +2823,7 @@ a.futur-badge:hover {
   .btn-collection {
     flex-direction: column;
   }
-  
+
   .btn-collection .btn-special.btn-solid.btn-orange {
     margin-left: 0 !important;
     margin-top: 1em;
@@ -2836,26 +2853,32 @@ a.futur-badge:hover {
 
     margin: auto !important;
   }
-  
+
   .hero-btn.btn-transparent.btn-white {
     margin: 50px auto 20px !important;
   }
 
+  /* Card Collection */
+    .card-collection .card,
+    .card-collection.active .card {
+        width: 100% !important;
+        height: auto !important;
+    }
 
   /* Package Cards */
   .package-card-front {
     flex-direction: column;
     padding: 1.5em;
   }
-  
+
   .package-card .package-card-back {
     padding: 1.5em;
   }
-  
+
   .package-card-front:hover .card-cover {
     top: 0;
   }
-  
+
   .package-card-front .card-left {
     border-bottom: 2px solid rgba(0, 0, 0, 0.25);
     border-right: 0;
@@ -2863,15 +2886,15 @@ a.futur-badge:hover {
     max-width: 100% !important;
     width: 100%;
   }
-  
-  .package-card-front .card-right {  
+
+  .package-card-front .card-right {
     padding-top: 1em;
     width: 100%;
   }
 
   .package-card .package-card-back .make-column-container {
     flex-direction: column;
-  
+
     justify-content: space-around;
   }
 
@@ -2897,16 +2920,16 @@ a.futur-badge:hover {
 
   .work-gallery .work-item .work-item-title {
     position: relative;
-  
+
     margin: 0;
     padding: 10px 15px;
-  
+
     top: -10px !important;
     bottom: inherit;
     right: 0;
 
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
-  
+
     font-size: 1em;
     text-align: center;
   }
@@ -2930,19 +2953,19 @@ a.futur-badge:hover {
     top: inherit;
     left: 0;
     bottom: 0;
-  
+
     width: 100%;
     min-height: 80px;
     max-height: 80px;
 
     z-index: 999 !important;
   }
-  
+
   #main-menu.is-active {
     left: 0;
     bottom: calc(100vh - 80px);
   }
-  
+
   .menu-bar {
     position: relative;
     flex-direction: row-reverse;
@@ -2956,7 +2979,7 @@ a.futur-badge:hover {
     margin: 0;
     padding-top: 5px !important;
   }
-  
+
   .menu-bulk {
     position: relative;
 
@@ -2965,12 +2988,12 @@ a.futur-badge:hover {
 
     left: 0;
     top: 0;
-  
+
     width: 100%;
     height: calc(100vh - 80px);
   }
-  
-  .menu-bulk .container {  
+
+  .menu-bulk .container {
     margin: 0;
     padding: 0 20px;
 
@@ -2978,7 +3001,7 @@ a.futur-badge:hover {
     height: 100%;
 
     background-color: rgba(33, 33, 33, .9);
-  
+
     justify-content: flex-start;
     align-items: center;
   }
@@ -2991,36 +3014,36 @@ a.futur-badge:hover {
   .menu-bulk h5 {
     font-size: 0.9em !important;
   }
-  
+
   .menu-chapter {
     display: none;
   }
-  
+
   .menu-bar .menu-separator {
     display: none;
   }
-  
+
   .menu-social {
     padding: 0;
     padding-right: 20px;
   }
-  
+
   .menu-social-list {
     flex-direction: row;
-  
+
     justify-content: space-around;
   }
-  
+
   .menu-social-list-item:hover {
     opacity: 1;
   }
-  
-  .brand {  
+
+  .brand {
     top: 30px;
     left: 50%;
 
     transform: translateX(-50%);
-  
+
     width: 100px;
   }
 
@@ -3097,7 +3120,7 @@ a.futur-badge:hover {
   h2 {
     font-size: 1.75em;;
     line-height: 1.5em;
-  }  
+  }
 
   .mcol-1 {
     margin: auto;
@@ -3190,12 +3213,12 @@ a.futur-badge:hover {
 
   .hero-btn {
     cursor: pointer;
-  
+
     position: relative;
     display: flex;
-  
+
     margin: 1.5em auto !important;
-  
+
     padding: 0.6em 1em 0.75em;
   }
 

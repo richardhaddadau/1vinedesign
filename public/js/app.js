@@ -4,7 +4,7 @@ let paintLogo = () => {
     const elLogo = document.querySelector('.brand');
     const elLogoTop = elLogo.offsetTop + window.scrollY;
     const elLogoBottom = elLogoTop + elLogo.offsetHeight;
-    
+
     for (let i = 0; i < document.querySelectorAll('.section').length; i++) {
 
         let currentSection = document.querySelectorAll('.section')[i];
@@ -47,7 +47,7 @@ let paintBackToTop = () => {
             break;
         }
     }
-    
+
     if (window.scrollY > 500) {
 
         if (elBackToTop.classList.contains('hide')) {
@@ -61,7 +61,7 @@ let paintBackToTop = () => {
             elBackToTop.classList.remove('flying');
             elBackToTop.classList.remove("fadeIn");
             elBackToTop.classList.add("fadeOut");
-    
+
             setTimeout(() => {
                 elBackToTop.classList.remove("show");
                 elBackToTop.classList.add("hide");
@@ -95,12 +95,12 @@ let sectionInFocus = (sectionType) => {
         currentSectionBottom = currentSectionTop + currentSection.offsetHeight;
 
         if ( (currentSectionBottom < windowTop) || (currentSectionTop > windowBottom) ) {
-            
+
             // Skip Section
             continue;
 
         } else {
-            
+
             areaTop = currentSectionTop > windowTop ? currentSectionTop : windowTop;
             areaBottom = currentSectionBottom < windowBottom ? currentSectionBottom : windowBottom;
 
@@ -114,14 +114,14 @@ let sectionInFocus = (sectionType) => {
         }
 
     }
-    
+
     return biggestAreaIndex;
 
 }
 
 let paintTheme = () => {
     if (document.querySelectorAll('.section').length > 1 ) {
-    
+
         if ( document.querySelectorAll('.section')[sectionInFocus('.section')].classList.contains('theme-green') ) {
             // document.documentElement.style.setProperty('--main-theme-color', '#212121');
             document.documentElement.style.setProperty('--main-theme-color', '#7eb200');
@@ -134,7 +134,7 @@ let paintTheme = () => {
         } else if ( document.querySelectorAll('.section')[sectionInFocus('.section')].classList.contains('theme-orange') ) {
             // document.documentElement.style.setProperty('--main-theme-color', '#212121');
             document.documentElement.style.setProperty('--main-theme-color', '#db3e00');
-            
+
             for (let i = 0; i < document.querySelectorAll('.make-light').length; i++) {
                 document.querySelectorAll('.make-light')[i].classList.remove('vine-green');
                 document.querySelectorAll('.make-light')[i].classList.add('vine-orange');
@@ -148,12 +148,12 @@ let randomTestimonial = () => {
     if (document.querySelector('.testimonials-item') == null ) {
         // Skip
     } else {
-        
+
         let min = 0;
         let max = document.querySelectorAll('.testimonials-item').length - 1;
-    
+
         let randomNo = Math.floor(Math.random() * max) + min;
-        
+
         document.querySelectorAll('.testimonials-item')[randomNo].classList.add('enter-right');
         document.querySelectorAll('.testimonials-item')[randomNo].classList.add('active');
 
@@ -181,7 +181,7 @@ setInterval(function() {
                 break;
             }
         }
-    
+
         // document.querySelectorAll('.testimonials-item')[j].classList.add('active');
         document.querySelectorAll('.testimonials-item')[x].classList.remove('enter-right');
         document.querySelectorAll('.testimonials-item')[x].classList.add('leave-left');
@@ -202,10 +202,42 @@ setInterval(function() {
 
 document.querySelectorAll('.card').forEach(item => {
     item.addEventListener('click', function(e) {
-        if (item.parentElement.style.flexDirection === 'column') {
-            item.parentElement.style.flexDirection = 'row';
-        } else {
-            item.parentElement.style.flexDirection = 'column';
+
+        if (window.innerWidth > 1090) {
+            let siblingsArr = [];
+            let currSibling = item.parentElement.firstChild;
+
+            while (currSibling) {
+                if (currSibling.nodeType === 1 && currSibling !== item) {
+                    siblingsArr.push(currSibling);
+                }
+
+                currSibling = currSibling.nextSibling;
+            }
+
+            for (let sibling in siblingsArr) {
+                siblingsArr[sibling].classList.remove('open');
+                siblingsArr[sibling].setAttribute('style', 'height: 50px');
+            }
+
+            if (item.parentElement.classList.contains('active') && item.classList.contains('open')) {
+
+                document.querySelectorAll('.card').forEach(card => {
+                    card.classList.remove('open');
+                    card.setAttribute('style', 'height: auto');
+                });
+
+                item.parentElement.classList.remove('active');
+
+            } else {
+
+                !item.parentElement.classList.contains('active') ?
+                    item.parentElement.classList.add('active')
+                    : null;
+
+                item.classList.add('open');
+                item.setAttribute('style', 'height: 500px');
+            }
         }
     });
 });
@@ -216,49 +248,49 @@ if (document.querySelector('form.make-contact')) {
         document.querySelector('.make-contact .btn-submit span.loading').style.display = "block";
         // e.preventDefault();
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=email]').forEach(item => {
         item.addEventListener('keyup', function(e) {
             selfValidateEmail(e.target);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=email]').forEach(item => {
         item.addEventListener('blur', function(e) {
             selfValidateEmail(e.target);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=text]').forEach(item => {
         item.addEventListener('keyup', function(e) {
             selfValidateText(e.target, 1);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=text]').forEach(item => {
         item.addEventListener('blur', function(e) {
             selfValidateText(e.target, 1);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=tel]').forEach(item => {
         item.addEventListener('keyup', function(e) {
             selfValidateTel(e.target);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact input[type=tel]').forEach(item => {
         item.addEventListener('blur', function(e) {
             selfValidateTel(e.target);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact textarea').forEach(item => {
         item.addEventListener('keyup', function(e) {
             selfValidateText(e.target, 10);
         });
     });
-    
+
     document.querySelectorAll('form.make-contact textarea').forEach(item => {
         item.addEventListener('blur', function(e) {
             selfValidateText(e.target, 10);
@@ -330,7 +362,7 @@ let actionIt = () => {
         formBack.classList.add('show');
         formBack.classList.add('appear');
     }, 3500);
-    
+
 }
 
 let goTo = (section) => {
@@ -425,11 +457,11 @@ let flipBack = (e) => {
     packageCard.classList.remove("activate");
 }
 
-// 
+//
 let ToggleReference = (e) => {
     let toggleElement = e.target;
     let siblingElement = document.querySelector(".package-reference[data-package-data='" + e.target.dataset.packageSource + "']");
-    
+
     toggleElement.classList.toggle("active");
     siblingElement.classList.toggle("active");
 
@@ -512,15 +544,15 @@ if (document.getElementById("quote_select") !== null) {
 //     let currentSection = document.querySelectorAll('.work-item')[sectionInFocus('.work-item')];
 
 //     if (currentSection.classList.contains("autoScroll")) {
-        
+
 //         e.preventDefault();
-        
+
 //         let nextSection = document.querySelectorAll('.work-item')[sectionInFocus('.work-item') + 1];
 //         let prevSection = document.querySelectorAll('.work-item')[sectionInFocus('.work-item') - 1];
-        
+
 //         let scrollTo = 0;
 //         let allowScroll = 0;
-        
+
 //         console.log(sectionInFocus('.work-item'));
 
 //         if (e.deltaY > 0 ) {
@@ -532,14 +564,14 @@ if (document.getElementById("quote_select") !== null) {
 //             } else {
 
 //                 if (nextSection) {
-                
+
 //                     allowScroll = 1;
 //                     scrollTo = nextSection.offsetTop;
-    
+
 //                 } else {
-    
+
 //                     scrollTo = currentSection.offsetTop;
-    
+
 //                 }
 
 //             }
@@ -553,7 +585,7 @@ if (document.getElementById("quote_select") !== null) {
 //             } else {
 
 //                 if (prevSection) {
-                    
+
 //                     allowScroll = 1;
 //                     scrollTo = prevSection.offsetTop;
 
