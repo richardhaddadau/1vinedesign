@@ -60,18 +60,54 @@
         <div class="heading-underline"></div>
         <p class="section-desc mt-3">My number <span class="make-one">one</span> goal is to help you establish your brand. Building a strong, future-proof brand means confidence, trust and longevity — three things that will drive your competitors crazy and bring customers to you. Here's how you can have that.</p>
 
-        <article class="card-collection mt-4">
-
-            <!-- <div class="card">
-                <div class="card-cover"></div>
-                <div class="card-icon"><img src="{{ asset('img/kickstart.svg') }}" alt=""></div>
-                <div class="card-body">
-                    <div class="card-header mt-1">Kickstart Your New Brand</div>
-                    <div class="card-main">Let's start your awesome business on the right foot.</div>
-                    <div class="card-link mt-3"><a href="/kickstart-your-brand">Find out how <i class="fas fa-chevron-circle-right"></i></a></div>
+        <div class="service-block mt-3">
+            <div class="service-list">
+                <div class="service-list-item" data-service="Branding">Branding <i class="fa-solid fa-arrow-right-to-line"></i></div>
+                <div class="service-list-item" data-service="Websites">Business Websites</div>
+                <div class="service-list-item" data-service="Development">Premium Web/App Development</div>
+                <div class="service-list-item" data-service="eCommerce">eCommerce Solutions</div>
+            </div>
+            <div class="service-single">
+                <div class="service-block" data-service-single="Branding">
+                    <h2 class="service-head"></h2>
+                    <p class="service-body"></p>
+                    <button class="service-button"></button>
                 </div>
-            </div> -->
+                <div class="service-block" data-service-single="Websites">
+                    <h2 class="service-head"></h2>
+                    <p class="service-body"></p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><i class="fa-brands fa-js"></i> Javascript</li>
+                        <li class="service-footer-item"><i class="fa-brands fa-laravel"></i> Laravel</li>
+                        <li class="service-footer-item"><i class="fa-brands fa-wordpress"></i> Wordpress</li>
+                    </ul>
+                    <button class="service-button"></button>
+                </div>
+                <div class="service-block" data-service-single="Development">
+                    <h2 class="service-head"></h2>
+                    <p class="service-body"></p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><i class="fa-brands fa-laravel"></i> Laravel</li>
+                        <li class="service-footer-item"><i class="fa-brands fa-react"></i> React</li>
+                        <li class="service-footer-item"><i class="fa-brands fa-python"></i> Python</li>
+                        <li class="service-footer-item"><i class="fa-brands fa-react"></i> React Native</li>
+                    </ul>
+                    <button class="service-button"></button>
+                </div>
+                <div class="service-block" data-service-single="eCommerce">
+                    <h2 class="service-head"></h2>
+                    <p class="service-body"></p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><i class="fa-brands fa-shopify"></i> Shopify</li>
+                        <li class="service-footer-item">BigCommerce</li>
+                        <li class="service-footer-item">WooCommerce</li>
+                    </ul>
+                    <button class="service-button"></button>
+                </div>
+            </div>
+        </div>
 
+        <article class="card-collection mt-4">
             <section class="card">
                 <div class="card-cover"></div>
                 <div class="card-icon"><img src="{{ asset('img/revamp.svg') }}" alt="Icon for Branding Card"></div>
@@ -103,7 +139,6 @@
                     <div class="card-link mt-3"><a href="/start-selling-online">Start selling <i class="fas fa-chevron-circle-right"></i></a></div>
                 </div>
             </section>
-
         </article>
 
         <article class="btn-collection mt-3">
@@ -139,7 +174,7 @@
                     <div class="card-link mt-3"><a href="/maximise-your-brands-seo">Boost Traffic <i class="fas fa-chevron-circle-right"></i></a></div>
                 </div>
             </section>
-            
+
             <section class="card">
                 <div class="card-cover"></div>
                 <div class="card-icon"><img src="{{ asset('img/deliverables.svg') }}" alt="Icon for Other Deliverables Card"></div>
@@ -163,11 +198,11 @@
         <h2>Who is 1VINE?</h2>
         <div class="heading-underline"></div>
         <p class="col-10"><span class="make-one">1VINE Design</span>, or 1VINE for short, is a <span class="make-strong">Branding and Web Development Consultancy</span> focused on helping Australian businesses make their mark as more than a business but as a brand.</p>
-        
+
         <p class="col-10">
         I build branding strategies to help you define your brand with clear and consistent messaging and professional, innovative branding design Along with that, I design and develop your touchpoints like your <span class="make-strong">logo, stationery sets: business cards, letterheads, envelopes, email marketing, signage design (posters, banners, advertisements), vehicle wrap design, packaging design and optimised, premium quality websites.</span>
         </p>
-        
+
         <p class="col-9 quote-post">
             <i class="fas fa-quote-left"></i> When people think of the service you offer, let them think of your brand. Only! <i class="fas fa-quote-right"></i></p>
 
@@ -208,7 +243,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -220,14 +255,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>

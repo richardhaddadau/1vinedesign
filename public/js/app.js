@@ -200,48 +200,6 @@ setInterval(function() {
 
 }, 10000);
 
-document.querySelectorAll('.card').forEach(item => {
-    item.addEventListener('click', function(e) {
-
-        if (window.innerWidth > 1090) {
-            let siblingsArr = [];
-            let currSibling = item.parentElement.firstChild;
-
-            while (currSibling) {
-                if (currSibling.nodeType === 1 && currSibling !== item) {
-                    siblingsArr.push(currSibling);
-                }
-
-                currSibling = currSibling.nextSibling;
-            }
-
-            for (let sibling in siblingsArr) {
-                siblingsArr[sibling].classList.remove('open');
-                siblingsArr[sibling].setAttribute('style', 'height: 50px');
-            }
-
-            if (item.parentElement.classList.contains('active') && item.classList.contains('open')) {
-
-                document.querySelectorAll('.card').forEach(card => {
-                    card.classList.remove('open');
-                    card.setAttribute('style', 'height: auto');
-                });
-
-                item.parentElement.classList.remove('active');
-
-            } else {
-
-                !item.parentElement.classList.contains('active') ?
-                    item.parentElement.classList.add('active')
-                    : null;
-
-                item.classList.add('open');
-                item.setAttribute('style', 'height: 500px');
-            }
-        }
-    });
-});
-
 if (document.querySelector('form.make-contact')) {
     document.querySelector('form.make-contact').addEventListener('submit', function(e) {
         document.querySelector('.make-contact .btn-submit span.default').style.display = "none";
