@@ -170,7 +170,7 @@ h6.make-coloured,
 }
 
 .mt-0 {
-    margin-top: 0em !important;
+    margin-top: 0 !important;
 }
 
 .mt-1 {
@@ -999,7 +999,7 @@ a:hover .fa-comment-alt {
     justify-content: space-between;
     align-items: flex-start;
 
-    padding: 20px;
+    padding: 10px;
 
     width: 100%;
 
@@ -1015,12 +1015,13 @@ a:hover .fa-comment-alt {
     margin-right: 20px;
 
     width: 35%;
-    border: #212121 1px solid;
 
     text-align: left;
 }
 
 .service-list-item {
+    position: relative;
+
     display: flex;
     flex-direction: row;
 
@@ -1031,27 +1032,38 @@ a:hover .fa-comment-alt {
     margin: 5px;
 
     font-weight: bold;
+    font-size: 95%;
     color: #212121 !important;
 
-    transition: 0.4s all ease;
-}
-
-.service-list-item * {
+    transition: 0.3s all ease;
 }
 
 .service-list-item:hover {
     cursor: pointer;
 
+    padding-left: 45px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
     color: var(--main-theme-color) !important;
-    background-color: #212121;
 }
 
-.service-list-item .fa-rocket {
-    opacity: 1;
-    color: #212121 !important;
+.service-list-item i {
+    position: absolute;
+
+    margin-left: 10px;
+    margin-right: 10px;
+
+    left: 0;
+
+    color: var(--main-theme-color) !important;
+
+    opacity: 0;
+
+    transition: all 0.4s ease;
 }
 
-.service-list-item:hover .fa-rocket {
+.service-list-item:hover i {
     opacity: 1;
 }
 
@@ -1736,20 +1748,24 @@ li.package-source.active .fa-caret-down {
 
     opacity: 0;
 
-    transition: all 0.25s ease;
+    transition: all 0.4s ease;
 }
 
-.hero-btn .fa-file-download *,
-.hero-btn .fa-hiking *,
-.hero-btn .fa-rocket *,
-.super-btn .fa-globe-asia *,
-.super-btn .fa-wordpress *,
-.btn-subscribe .fa-file-signature *,
-.btn-submit .fa-paper-plane * {
-    color: var(--main-theme-color);
+.hero-btn .fa-file-download,
+.hero-btn .fa-hiking,
+.hero-btn .fa-rocket,
+.super-btn .fa-globe-asia,
+.super-btn .fa-wordpress,
+.btn-subscribe .fa-file-signature,
+.btn-submit .fa-paper-plane {
+    color: var(--main-theme-color) !important;
 }
 
-.btn-submit .fa-rocket * {
+.fa-hiking {
+    margin-top: 3px;
+}
+
+.btn-submit .fa-rocket {
     color: white;
 }
 
@@ -2418,8 +2434,7 @@ ul.testimonials {
     display: flex;
     flex-direction: column;
 
-    padding: 0;
-    padding-bottom: 20px;
+    padding: 0 0 20px 0;
     margin: 0 auto;
 
     width: calc(100% + 20px);

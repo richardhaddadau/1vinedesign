@@ -35,9 +35,6 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="{{ asset('css/materialize.min.css') }}"  media="screen,projection"/>
 
-      <!-- FontAwesome JS -->
-      <script src="https://kit.fontawesome.com/d190122821.js" crossorigin="anonymous"></script>
-
     <!-- FONTS -->
     <link rel="preload" href="{{ asset('fonts/Montserrat-Bold.otf') }}" as="font" crossorigin>
     <link rel="preload" href="{{ asset('fonts/Montserrat-Light.otf') }}" as="font" crossorigin>
@@ -47,6 +44,9 @@
     <!-- 1VINEDesign CSS -->
     <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     @yield('extra-css')
+
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="{{ asset('fontawesome/css/all.min.css') }}">
 
     <!-- Burger Button -->
     <link href="{{ asset('css/hamburgers.css') }}" rel="stylesheet">

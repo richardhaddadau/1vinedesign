@@ -62,10 +62,12 @@
 
         <div class="service-block mt-3">
             <div class="service-list">
-                <div class="service-list-item" data-service="Branding"><i class="fa-solid fa-rocket-launch"></i> Branding</div>
-                <div class="service-list-item" data-service="Websites">Business Websites</div>
-                <div class="service-list-item" data-service="Development">Premium Web/App Development</div>
-                <div class="service-list-item" data-service="eCommerce">eCommerce Solutions</div>
+                <div class="service-list-item" data-service="Branding"><i class="fa-solid fa-box-open"></i> Branding</div>
+                <div class="service-list-item" data-service="Websites"><i class="fa-solid fa-desktop"></i> Business
+                    Websites</div>
+                <div class="service-list-item" data-service="Development"><i class="fa-brands fa-dev"></i> Premium Development</div>
+                <div class="service-list-item" data-service="eCommerce"><i class="fa-solid fa-tags"></i> eCommerce
+                    Solutions</div>
             </div>
             <div class="service-single">
                 <div class="service-block" data-service-single="Branding">
