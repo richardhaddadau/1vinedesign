@@ -62,7 +62,7 @@
 
         <div class="service-block mt-3">
             <div class="service-list">
-                <div class="service-list-item" data-service="Branding">Branding <i class="fa-solid fa-arrow-right-to-line"></i></div>
+                <div class="service-list-item" data-service="Branding"><i class="fa-solid fa-rocket-launch"></i> Branding</div>
                 <div class="service-list-item" data-service="Websites">Business Websites</div>
                 <div class="service-list-item" data-service="Development">Premium Web/App Development</div>
                 <div class="service-list-item" data-service="eCommerce">eCommerce Solutions</div>

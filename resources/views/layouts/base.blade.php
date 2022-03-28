@@ -35,6 +35,9 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="{{ asset('css/materialize.min.css') }}"  media="screen,projection"/>
 
+      <!-- FontAwesome JS -->
+      <script src="https://kit.fontawesome.com/d190122821.js" crossorigin="anonymous"></script>
+
     <!-- FONTS -->
     <link rel="preload" href="{{ asset('fonts/Montserrat-Bold.otf') }}" as="font" crossorigin>
     <link rel="preload" href="{{ asset('fonts/Montserrat-Light.otf') }}" as="font" crossorigin>
@@ -337,9 +340,6 @@
 
     <!-- Materialize JS -->
     <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}"></script>
-
-    <!-- FontAwesome JS -->
-    <script type="text/javascript" src="{{ asset('js/fall.min.js') }}"></script>
 
     <!-- 1VINE JS -->
     <script type="text/javascript" src="{{ asset('js/app.min.js') }}"></script>
