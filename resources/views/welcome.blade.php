@@ -62,12 +62,16 @@
 
         <div class="service-block mt-3">
             <div class="service-list">
-                <div class="service-list-item" data-service="Branding"><i class="fa-solid fa-box-open"></i> Branding</div>
-                <div class="service-list-item" data-service="Websites"><i class="fa-solid fa-desktop"></i> Business
-                    Websites</div>
-                <div class="service-list-item" data-service="Development"><i class="fa-brands fa-dev"></i> Premium Development</div>
-                <div class="service-list-item" data-service="eCommerce"><i class="fa-solid fa-tags"></i> eCommerce
-                    Solutions</div>
+                <div class="service-list-item" data-service="Branding">
+                    <i class="fa-solid fa-box-open"></i> Branding and Strategy</div>
+                <div class="service-list-item" data-service="Websites">
+                    <i class="fa-solid fa-desktop"></i> Business Websites</div>
+                <div class="service-list-item" data-service="Development">
+                    <i class="fa-brands fa-dev"></i> Premium Development</div>
+                <div class="service-list-item" data-service="eCommerce">
+                    <i class="fa-solid fa-tags"></i> eCommerce Solutions</div>
+                <div class="service-list-item" data-service="Security">
+                    <i class="fa-brands fa-dev"></i> Security and Ethical Hacking</div>
             </div>
             <div class="service-single">
                 <div class="service-block" data-service-single="Branding">
@@ -103,6 +107,15 @@
                         <li class="service-footer-item"><i class="fa-brands fa-shopify"></i> Shopify</li>
                         <li class="service-footer-item">BigCommerce</li>
                         <li class="service-footer-item">WooCommerce</li>
+                    </ul>
+                    <button class="service-button"></button>
+                </div>
+                <div class="service-block" data-service-single="Security">
+                    <h2 class="service-head"></h2>
+                    <p class="service-body"></p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><i class="fa-brands fa-linux"></i> Kali Linux</li>
+                        <li class="service-footer-item"><i class="fa-solid fa-eye"></i> Nmap</li>
                     </ul>
                     <button class="service-button"></button>
                 </div>

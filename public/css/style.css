@@ -1043,7 +1043,7 @@ a:hover .fa-comment-alt {
 
     padding-left: 45px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 
     color: var(--main-theme-color) !important;
 }
@@ -1069,8 +1069,23 @@ a:hover .fa-comment-alt {
 
 .service-single {
     flex-grow: 2;
+}
 
-    border: red 1px solid;
+.service-single [data-service-single] {
+    display: none;
+}
+
+.service-single [data-service-single] * {
+    font-weight: 500;
+    color: #212121 !important;
+}
+
+.service-single [data-service-single].show {
+    display: block;
+}
+
+.service-single .service-block {
+    text-align: left;
 }
 
 /* Portfolio Summary */
