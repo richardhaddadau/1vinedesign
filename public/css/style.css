@@ -1002,9 +1002,6 @@ a:hover .fa-comment-alt {
     padding: 10px;
 
     width: 100%;
-
-    background-color: white;
-    border-radius: 10px;
 }
 
 .service-list {
@@ -1031,25 +1028,33 @@ a:hover .fa-comment-alt {
     padding: 15px;
     margin: 5px;
 
-    font-weight: bold;
-    font-size: 95%;
-    color: #212121 !important;
+    border-radius: 10px;
 
     transition: 0.3s all ease;
 }
 
-.service-list-item:hover {
-    cursor: pointer;
+.service-list-item span {
+    font-weight: bold;
+    font-size: 95%;
 
-    padding-left: 45px;
-    border-radius: 10px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.3s all ease;
+}
+
+.service-list-item:hover span,
+.service-list-item.active span {
+    padding-left: 35px;
 
     color: var(--main-theme-color) !important;
 }
 
+.service-list-item:hover,
+.service-list-item.active {
+    cursor: pointer;
+}
+
 .service-list-item i {
     position: absolute;
+    opacity: 0;
 
     margin-left: 10px;
     margin-right: 10px;
@@ -1058,21 +1063,47 @@ a:hover .fa-comment-alt {
 
     color: var(--main-theme-color) !important;
 
-    opacity: 0;
-
-    transition: all 0.4s ease;
+    transition: all 0.5s ease;
 }
 
-.service-list-item:hover i {
+.service-list-item:hover i,
+.service-list-item.active i {
     opacity: 1;
 }
 
 .service-single {
+    position: relative;
+
     flex-grow: 2;
+    padding: 30px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    overflow: hidden;
 }
 
 .service-single [data-service-single] {
     display: none;
+
+    transition: all 0.5s ease;
+}
+
+.service-single [data-service-single]::after {
+    content: "";
+
+    display: block;
+    position: absolute;
+
+    left: 0;
+    top: 0%;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: white;
+
+    transition: all 1.5s ease;
 }
 
 .service-single [data-service-single] * {
@@ -1084,8 +1115,84 @@ a:hover .fa-comment-alt {
     display: block;
 }
 
+.service-single [data-service-single].grow::after {
+    top: 100%;
+}
+
 .service-single .service-block {
     text-align: left;
+}
+
+.service-single .service-head {
+    margin: 0;
+
+    font-size: 135%;
+    font-weight: 700 !important;
+    text-align: left;
+}
+
+.service-single .service-head i {
+    margin-right: 10px;
+    font-weight: 600;
+}
+
+.service-single p.service-body {
+    text-align: left;
+}
+
+.service-single .service-footer {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: flex-start;
+    align-items: stretch;
+
+    width: 100%;
+    max-width: 600px;
+}
+
+.service-single .service-footer .service-footer-item {
+    display: flex;
+    position: relative;
+
+    flex-direction: column;
+
+    flex-wrap: nowrap;
+
+    justify-content: flex-end;
+    align-items: center;
+
+    margin-right: 30px;
+    margin-top: 30px;
+
+    font-size: 90%;
+    font-weight: bold;
+
+    transition: all 0.35s ease;
+}
+
+.service-single .service-footer .service-footer-item img {
+    display: inline-block;
+    position: relative;
+
+    margin-bottom: 10px;
+    max-width: 25px;
+
+    filter: grayscale(100);
+    opacity: 0.5;
+
+    transition: all 0.5s ease;
+}
+
+.service-single .service-footer .service-footer-item:hover img {
+    filter: grayscale(0);
+    opacity: 1;
+}
+
+.service-single .service-footer .service-footer-item i {
+    margin-right: 10px;
 }
 
 /* Portfolio Summary */
@@ -2809,7 +2916,7 @@ a.futur-badge:hover {
     /* ===  2. Fonts [Mobile & Tablet]  === */
     /* ===  3. Universal Codes [Mobile & Tablet]  === */
     * {
-        font-size: 20px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -3040,6 +3147,33 @@ a.futur-badge:hover {
         text-align: center;
     }
 
+    /* Service Block */
+    .service-block {
+        flex-direction: column;
+        align-items: stretch;
+
+        min-height: 300px;
+    }
+
+    .service-list {
+        flex-direction: row;
+        justify-content: space-between;
+
+        width: auto;
+    }
+
+    .service-list-item i:not(:hover) {
+        opacity: 1;
+        color: white !important;
+    }
+
+    .service-list-item i {
+    }
+
+    .service-list span {
+        display: none;
+    }
+
     /* ===  8. Navigation [Mobile & Tablet]  === */
     #main-menu {
         padding: 0;
@@ -3208,6 +3342,11 @@ a.futur-badge:hover {
     /* ===  1. Bulma Reset [Mobile]  === */
     /* ===  2. Fonts [Mobile]  === */
     /* ===  3. Universal Codes [Mobile]  === */
+    * {
+        font-size: 16px;
+        text-align: center;
+    }
+
     h1 {
         font-size: 2.25em;
         line-height: 1em;
@@ -3319,6 +3458,16 @@ a.futur-badge:hover {
     }
 
     /* ===  7. Main Page [Mobile]  === */
+    .section:not(.hero) .container {
+        width: 100% !important;
+        max-width: 100% !important;
+        padding: 5px;
+    }
+
+    .section-desc {
+        max-width: 85%;
+    }
+
     .deliverables-collection {
         display: none;
     }
@@ -3328,6 +3477,32 @@ a.futur-badge:hover {
         min-width: inherit;
         max-width: inherit;
         width: 40%;
+    }
+
+    .service-single {
+        padding: 20px;
+    }
+
+    .service-single .service-card h3,
+    .service-single .service-card p {
+        text-align: center;
+    }
+
+    .service-single .service-head i {
+        display: none;
+    }
+
+    .service-single .service-footer {
+        justify-content: space-evenly;
+    }
+
+    .service-single .service-footer .service-footer-item {
+        margin: 10px;
+    }
+
+    .service-single .service-footer .service-footer-item img {
+        opacity: 1;
+        filter: grayscale(0);
     }
 
     /* TOP LINKS */

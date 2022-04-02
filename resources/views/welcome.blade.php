@@ -62,99 +62,83 @@
 
         <div class="service-block mt-3">
             <div class="service-list">
-                <div class="service-list-item" data-service="Branding">
-                    <i class="fa-solid fa-box-open"></i> Branding and Strategy</div>
+                <div class="service-list-item active" data-service="Branding">
+                    <i class="fa-solid fa-box-open"></i> <span>Branding and Strategy</span></div>
                 <div class="service-list-item" data-service="Websites">
-                    <i class="fa-solid fa-desktop"></i> Business Websites</div>
-                <div class="service-list-item" data-service="Development">
-                    <i class="fa-brands fa-dev"></i> Premium Development</div>
+                    <i class="fa-solid fa-desktop"></i> <span>Business Websites</span></div>
                 <div class="service-list-item" data-service="eCommerce">
-                    <i class="fa-solid fa-tags"></i> eCommerce Solutions</div>
+                    <i class="fa-solid fa-tags"></i> <span>eCommerce Solutions</span></div>
+                <div class="service-list-item" data-service="Development">
+                    <i class="fa-brands fa-dev"></i> <span>Premium Development</span></div>
                 <div class="service-list-item" data-service="Security">
-                    <i class="fa-brands fa-dev"></i> Security and Ethical Hacking</div>
+                    <i class="fa-solid fa-dragon"></i> <span>Security & Ethical Hacking</span></div>
             </div>
             <div class="service-single">
-                <div class="service-block" data-service-single="Branding">
-                    <h2 class="service-head"></h2>
-                    <p class="service-body"></p>
-                    <button class="service-button"></button>
+                <div class="service-card show grow" data-service-single="Branding">
+                    <h3 class="service-head"><i class="fa-solid fa-box-open"></i> Branding and Strategy</h3>
+                    <p class="service-body">Complete branding packages with strategy & design.</p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
+                                                             alt="Illustrator logo"> Illustrator</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}"
+                                                             alt="InDesign logo"> InDesign</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}"
+                                                             alt="Photoshop logo"> Photoshop</li>
+                    </ul>
                 </div>
-                <div class="service-block" data-service-single="Websites">
-                    <h2 class="service-head"></h2>
+                <div class="service-card" data-service-single="Websites">
+                    <h3 class="service-head"><i class="fa-solid fa-desktop"></i> Business Websites</h3>
+                    <p class="service-body">Show off your brand with an awesome website.</p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}"
+                                                             alt="Javascript logo"> Javascript</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
+                                                             alt="Laravel logo"> Laravel</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-wordpress.svg')  }}"
+                                                             alt="Wordpress logo"> Wordpress</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-service-single="Development">
+                    <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
                     <p class="service-body"></p>
                     <ul class="service-footer">
-                        <li class="service-footer-item"><i class="fa-brands fa-js"></i> Javascript</li>
-                        <li class="service-footer-item"><i class="fa-brands fa-laravel"></i> Laravel</li>
-                        <li class="service-footer-item"><i class="fa-brands fa-wordpress"></i> Wordpress</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
+                                                             alt="Laravel logo"> Laravel</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')  }}"
+                                                             alt="React logo"> React</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}"
+                                                             alt="Python logo"> Python</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}"
+                                                             alt="React Native logo"> React Native</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}"
+                                                             alt="Kotlin logo"> Kotlin</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}"
+                                                             alt="Swift logo"> Swift</li>
                     </ul>
-                    <button class="service-button"></button>
                 </div>
-                <div class="service-block" data-service-single="Development">
-                    <h2 class="service-head"></h2>
+                <div class="service-card" data-service-single="eCommerce">
+                    <h3 class="service-head"><i class="fa-solid fa-tags"></i> eCommerce Solutions</h3>
+                    <p class="service-body">Get awesome solutions for your online store.</p>
+                    <ul class="service-footer">
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
+                                                             alt="Swift logo"> Shopify</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}"
+                                                             alt="BigCommerce logo"> BigCommerce</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}"
+                                                             alt="WooCommerce logo"> WooCommerce</li>
+                    </ul>
+                </div>
+                <div class="service-card" data-service-single="Security">
+                    <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>
                     <p class="service-body"></p>
                     <ul class="service-footer">
-                        <li class="service-footer-item"><i class="fa-brands fa-laravel"></i> Laravel</li>
-                        <li class="service-footer-item"><i class="fa-brands fa-react"></i> React</li>
-                        <li class="service-footer-item"><i class="fa-brands fa-python"></i> Python</li>
-                        <li class="service-footer-item"><i class="fa-brands fa-react"></i> React Native</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
+                                                             alt="Kali Linux logo"> Kali Linux</li>
+                        <li class="service-footer-item">Nmap</li>
                     </ul>
-                    <button class="service-button"></button>
-                </div>
-                <div class="service-block" data-service-single="eCommerce">
-                    <h2 class="service-head"></h2>
-                    <p class="service-body"></p>
-                    <ul class="service-footer">
-                        <li class="service-footer-item"><i class="fa-brands fa-shopify"></i> Shopify</li>
-                        <li class="service-footer-item">BigCommerce</li>
-                        <li class="service-footer-item">WooCommerce</li>
-                    </ul>
-                    <button class="service-button"></button>
-                </div>
-                <div class="service-block" data-service-single="Security">
-                    <h2 class="service-head"></h2>
-                    <p class="service-body"></p>
-                    <ul class="service-footer">
-                        <li class="service-footer-item"><i class="fa-brands fa-linux"></i> Kali Linux</li>
-                        <li class="service-footer-item"><i class="fa-solid fa-eye"></i> Nmap</li>
-                    </ul>
-                    <button class="service-button"></button>
                 </div>
             </div>
         </div>
-
-        <article class="card-collection mt-4">
-            <section class="card">
-                <div class="card-cover"></div>
-                <div class="card-icon"><img src="{{ asset('img/revamp.svg') }}" alt="Icon for Branding Card"></div>
-                <div class="card-body">
-                    <div class="card-header mt-1">Empower Your Awesome Brand</div>
-                    <div class="card-main">Complete branding packages with strategy & design.</div>
-                    <div class="card-link mt-3">
-                        <a href="/empower-your-awesome-brand">Let's do it <i class="fas fa-chevron-circle-right"></i></a>
-                    </div>
-                </div>
-            </section>
-
-            <section class="card">
-                <div class="card-cover"></div>
-                <div class="card-icon"><img src="{{ asset('img/web-development.svg') }}" alt="Icon for Web Development Card"></div>
-                <div class="card-body">
-                    <div class="card-header mt-1">Establish Your Brand Online</div>
-                    <div class="card-main">Show off your brand with an awesome website.</div>
-                    <div class="card-link mt-3"><a href="/establish-your-brand-online">Go Live <i class="fas fa-chevron-circle-right"></i></a></div>
-                </div>
-            </section>
-
-            <section class="card">
-                <div class="card-cover"></div>
-                <div class="card-icon"><img src="{{ asset('img/sell.svg') }}" alt="Icon for eCommerce Card"></div>
-                <div class="card-body">
-                    <div class="card-header mt-1">Start Selling Online</div>
-                    <div class="card-main">Get awesome solutions for your online store.</div>
-                    <div class="card-link mt-3"><a href="/start-selling-online">Start selling <i class="fas fa-chevron-circle-right"></i></a></div>
-                </div>
-            </section>
-        </article>
 
         <article class="btn-collection mt-3">
             <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
