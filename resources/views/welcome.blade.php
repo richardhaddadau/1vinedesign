@@ -118,7 +118,11 @@
                 </div>
                 <div class="service-card" data-service-single="eCommerce">
                     <h3 class="service-head"><i class="fa-solid fa-tags"></i> eCommerce Solutions</h3>
-                    <p class="service-body">Get awesome solutions for your online store.</p>
+                    <p class="service-body">Having an eCommerce consultant experienced in various fields and with
+                        different platforms means that you can rest assured you'll be getting professional and
+                        personalised solutions for your online store Being a partner on the major eCommerce
+                        platforms means that I cannot have a bias toward any over the others. You will only receive
+                        honest, customised advice.</p>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
                                                              alt="Swift logo"> Shopify</li>
@@ -126,6 +130,10 @@
                                                              alt="BigCommerce logo"> BigCommerce</li>
                         <li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}"
                                                              alt="WooCommerce logo"> WooCommerce</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-square.svg')  }}"
+                                                             alt="Square logo"> Square</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg')  }}"
+                                                             alt="Vend logo"> Vend</li>
                     </ul>
                 </div>
                 <div class="service-card" data-service-single="Security">

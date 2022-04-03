@@ -1178,7 +1178,7 @@ a:hover .fa-comment-alt {
     position: relative;
 
     margin-bottom: 10px;
-    max-width: 25px;
+    max-width: 35px;
 
     filter: grayscale(100);
     opacity: 0.5;
@@ -3156,22 +3156,40 @@ a.futur-badge:hover {
     }
 
     .service-list {
-        flex-direction: row;
-        justify-content: space-between;
-
-        width: auto;
-    }
-
-    .service-list-item i:not(:hover) {
-        opacity: 1;
-        color: white !important;
-    }
-
-    .service-list-item i {
-    }
-
-    .service-list span {
         display: none;
+    }
+
+    .service-single {
+        padding: 0 !important;
+        background-color: transparent;
+    }
+
+    .service-single [data-service-single] {
+        display: block;
+
+        padding: 30px;
+        margin-bottom: 20px;
+
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .service-single [data-service-single] h3,
+    .service-single [data-service-single] p {
+        text-align: center;
+    }
+
+    .service-single [data-service-single]::after {
+        display: none;
+    }
+
+    .service-single .service-footer {
+        justify-content: center;
+    }
+
+    .service-single .service-footer .service-footer-item img {
+        opacity: 1;
+        filter: grayscale(0);
     }
 
     /* ===  8. Navigation [Mobile & Tablet]  === */
@@ -3498,11 +3516,6 @@ a.futur-badge:hover {
 
     .service-single .service-footer .service-footer-item {
         margin: 10px;
-    }
-
-    .service-single .service-footer .service-footer-item img {
-        opacity: 1;
-        filter: grayscale(0);
     }
 
     /* TOP LINKS */
