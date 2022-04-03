@@ -338,7 +338,7 @@ if (document.querySelector("form.make-contact")) {
 }
 
 let selfValidateEmail = (emailInput) => {
-    if (emailInput.value.length == 0) {
+    if (emailInput.value.length === 0) {
         emailInput.classList.remove("validate");
         emailInput.classList.remove("invalid");
         document
@@ -574,18 +574,35 @@ document.querySelector(".menu-bulk").addEventListener("click", function () {
     document.getElementById("main-menu").classList.toggle("is-active");
 });
 
-document.querySelectorAll(".service-list-item").forEach((item) => {
-    item.addEventListener("click", (e) => {
-        let selectedService = e.target.dataset.service;
+document.querySelectorAll(".service-list-item").forEach(function (item) {
+    item.addEventListener("click", function (e) {
+        let selectedElement =
+            e.target.tagName === "DIV" ? e.target : e.target.parentElement;
+        let selectedService = selectedElement.dataset.service;
+
+        document.querySelectorAll(".service-list-item").forEach((service) => {
+            if (service !== selectedElement) {
+                service.classList.remove("active");
+            } else {
+                if (!service.classList.contains("active")) {
+                    service.classList.add("active");
+                }
+            }
+        });
 
         document.querySelectorAll("[data-service-single]").forEach((single) => {
             let currentService = single.dataset.serviceSingle;
 
             if (currentService !== selectedService) {
                 single.classList.remove("show");
+                single.classList.remove("grow");
             } else {
                 if (!single.classList.contains("show")) {
                     single.classList.add("show");
+
+                    setTimeout(() => {
+                        single.classList.add("grow");
+                    }, 10);
                 }
             }
         });
