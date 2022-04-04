@@ -290,15 +290,17 @@
           <p class="mt-0">
             <a href="/">Home</a><br>
             <a href="/about-1vine">About</a><br>
-            <a href="/work-portfolio">Our Work</a>
+            <a href="/work-portfolio">My Work</a>
           </p>
           <h3 class="mb-1">Services</h3>
           <p class="mt-0">
-            <a href="/empower-your-awesome-brand">Empower Your Awesome Brand</a><br>
-            <a href="/establish-your-brand-online">Establish Your Brand Online</a><br>
-            <a href="/start-selling-online">Start Selling Online</a><br>
-            <a href="/protect-your-brand-online">Protect Your Brand Online</a><br>
-            <a href="/maximise-your-brands-seo">Maximise Your Brand's SEO</a><br>
+            <a href="/branding-and-strategy">Branding and Strategy</a><br>
+            <a href="/business-websites">Business Websites</a><br>
+            <a href="/ecommerce-solutions">eCommerce Solutions</a><br>
+            <a href="/premium-development">Premium Development</a><br>
+            <a href="/security-and-ethical-hacking">Security and Ethical Hacking</a><br>
+            <a href="/web-maintenance">Web Maintenance</a><br>
+            <a href="/web-seo">Web SEO</a><br>
             <a href="/other-deliverables">Other Deliverables</a>
           </p>
           <!-- <a href="/frequently-asked-questions">FAQ</a><p class="mt-0"> -->
