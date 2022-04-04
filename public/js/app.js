@@ -638,6 +638,12 @@ window.addEventListener("load", function () {
             deliverablesCollection.classList.remove("hinged");
         }
     }
+
+    // Check for Safari
+    if (navigator.userAgent.toLowerCase().indexOf("Safari") > -1) {
+        document.querySelector(".section.hero .container-shadow").style.filter =
+            "none";
+    }
 });
 
 window.addEventListener("resize", function () {
