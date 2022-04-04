@@ -344,6 +344,9 @@
     <!-- 1VINE JS -->
     <script type="text/javascript" src="{{ asset('js/app.min.js') }}"></script>
 
+    <!-- Detect JS -->
+    <script type="text/javascript" src="{{ asset('js/Detect.min.js') }}"></script>
+
     @if(Session::has('success'))
       <script>
         document.querySelector('.front-form').style.display = "none";

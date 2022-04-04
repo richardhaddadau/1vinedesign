@@ -6,16 +6,6 @@ use Illuminate\Http\Request;
 
 class ViewsController extends Controller
 {
-    // FUNNEL PAGES
-    // Get Free Poster Page
-    public function freePoster() {
-        return view('freePoster');
-    }
-
-    public function downloadPoster() {
-        return response()->download('storage/1VINE_A3-Inspirational-Poster.pdf');
-    }
-
     // STANDARD PAGES
     // Load Welcome Page
     public function welcome() {
@@ -41,21 +31,21 @@ class ViewsController extends Controller
     }
 
     // Load 'Start Selling Online' Page
-    public function ecommerce() {
-        return view('ecommerce');
+    public function selling() {
+        return view('selling');
     }
 
-    // Load 'Start Selling Online' Page
+    // Load 'Web SEO' Page
     public function seoStrategy() {
         return view('seoStrategy');
     }
 
-    // Load 'Start Selling Online' Page
+    // Load 'Web Maintenance' Page
     public function webMaintenance() {
         return view('webMaintenance');
     }
 
-    // Load 'Start Selling Online' Page
+    // Load 'Other Deliverables' Page
     public function deliverables() {
         return view('deliverables');
     }
@@ -73,6 +63,42 @@ class ViewsController extends Controller
     // Load Privacy Policy Page
     public function privacy() {
         return view('privacy');
+    }
+
+    // NEW PAGES
+    // Load Branding and Strategy Page
+    public function branding() {
+        return view('branding');
+    }
+
+    // Load Business Websites Page
+    public function websites() {
+        return view('websites');
+    }
+
+    // Load eCommerce Solutions Page
+    public function ecommerce() {
+        return view('ecommerce');
+    }
+
+    // Load Premium Development Page
+    public function development() {
+        return view('development');
+    }
+
+    // Load Security and Ethical Hacking Page
+    public function security() {
+        return view('security');
+    }
+
+    // Load Web Maintenance Page
+    public function maintenance() {
+        return view('maintenance');
+    }
+
+    // Load Web SEO Page
+    public function seo() {
+        return view('seo');
     }
 
     // Get Quote Page

@@ -610,6 +610,17 @@ document.querySelectorAll(".service-list-item").forEach(function (item) {
 });
 
 window.addEventListener("load", function () {
+    var user = detect.parse(navigator.userAgent);
+    console.log(user.browser.family);
+
+    document.querySelectorAll('h1').innerText = user.browser.family;
+
+    // Check for Safari
+    if (user.browser.family.toLowerCase().indexOf("safari") === 0) {
+        document.querySelector(".section.hero .container-shadow").style.filter =
+            "none";
+    }
+
     let thisYear = new Date().getFullYear();
 
     document.getElementById("footer-copyright").innerHTML =
@@ -637,12 +648,6 @@ window.addEventListener("load", function () {
         } else {
             deliverablesCollection.classList.remove("hinged");
         }
-    }
-
-    // Check for Safari
-    if (navigator.userAgent.toLowerCase().indexOf("Safari") > -1) {
-        document.querySelector(".section.hero .container-shadow").style.filter =
-            "none";
     }
 });
 

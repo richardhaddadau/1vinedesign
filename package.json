@@ -17,6 +17,7 @@
         "prettier": "2.6.0"
     },
     "dependencies": {
-        "csso-cli": "^3.0.0"
+        "csso-cli": "^3.0.0",
+        "uglify-js": "^3.15.3"
     }
 }

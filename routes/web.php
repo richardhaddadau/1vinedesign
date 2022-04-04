@@ -17,13 +17,38 @@ use App\Http\Controllers\QuotesController;
 */
 
 Route::get(
-    '/download-freebies-a3-inspirational-poster',
-    [ViewsController::class, 'downloadPoster']
+    '/branding-and-strategy',
+    [ViewsController::class, 'branding']
 );
 
 Route::get(
-    '/free-inspirational-poster',
-    [ViewsController::class, 'freePoster']
+    '/business-websites',
+    [ViewsController::class, 'websites']
+);
+
+Route::get(
+    '/ecommerce-solutions',
+    [ViewsController::class, 'ecommerce']
+);
+
+Route::get(
+    '/premium-development',
+    [ViewsController::class, 'development']
+);
+
+Route::get(
+    '/security-and-ethical-hacking',
+    [ViewsController::class, 'security']
+);
+
+Route::get(
+    '/web-maintenance',
+    [ViewsController::class, 'maintenance']
+);
+
+Route::get(
+    '/web-seo',
+    [ViewsController::class, 'seo']
 );
 
 Route::get(
@@ -43,7 +68,7 @@ Route::get(
 
 Route::get(
     '/start-selling-online',
-    [ViewsController::class, 'ecommerce']
+    [ViewsController::class, 'selling']
 );
 
 Route::get(

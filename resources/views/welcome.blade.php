@@ -55,7 +55,7 @@
 </header>
 
 <section class="section make-dark theme-green">
-    <section class="container make-centered">
+    <section class="container large-container make-centered">
         <h2>How can 1VINE help?</h2>
         <div class="heading-underline"></div>
         <p class="section-desc mt-3">My number <span class="make-one">one</span> goal is to help you establish your brand. Building a strong, future-proof brand means confidence, trust and longevity — three things that will drive your competitors crazy and bring customers to you. Here's how you can have that.</p>
@@ -76,7 +76,10 @@
             <div class="service-single">
                 <div class="service-card show grow" data-service-single="Branding">
                     <h3 class="service-head"><i class="fa-solid fa-box-open"></i> Branding and Strategy</h3>
-                    <p class="service-body">Complete branding packages with strategy & design.</p>
+                    <div class="service-body">
+                        <p>Your brand is a reputation and a promise. Customers want to know that they can trust you and you want them to know that they absolutely can. That's why branding is so crucial for every business. It isn't just about people seeing your brand but knowing that yours is the service or product that they need.</p>
+                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                    </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
                                                              alt="Illustrator logo"> Illustrator</li>
@@ -88,7 +91,10 @@
                 </div>
                 <div class="service-card" data-service-single="Websites">
                     <h3 class="service-head"><i class="fa-solid fa-desktop"></i> Business Websites</h3>
-                    <p class="service-body">Show off your brand with an awesome website.</p>
+                    <div class="service-body">
+                        <p>Did you know that 97% of consumers search online for a service or product they're after? That means that if you don't have an online presence, most consumers aren't even seeing your brand. Get a professional website built by an expert developer who will put your brand and your needs first.</p>
+                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                    </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}"
                                                              alt="Javascript logo"> Javascript</li>
@@ -100,7 +106,10 @@
                 </div>
                 <div class="service-card" data-service-single="Development">
                     <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
-                    <p class="service-body"></p>
+                    <div class="service-body">
+                        <p>Do you have a great project idea that need professional development? Then, you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
+                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                    </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
                                                              alt="Laravel logo"> Laravel</li>
@@ -118,11 +127,14 @@
                 </div>
                 <div class="service-card" data-service-single="eCommerce">
                     <h3 class="service-head"><i class="fa-solid fa-tags"></i> eCommerce Solutions</h3>
-                    <p class="service-body">Having an eCommerce consultant experienced in various fields and with
+                    <div class="service-body">
+                        <p>Having an eCommerce consultant experienced in various fields and with
                         different platforms means that you can rest assured you'll be getting professional and
                         personalised solutions for your online store Being a partner on the major eCommerce
                         platforms means that I cannot have a bias toward any over the others. You will only receive
-                        honest, customised advice.</p>
+                            honest, customised advice.</p>
+                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                    </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
                                                              alt="Swift logo"> Shopify</li>
@@ -138,7 +150,10 @@
                 </div>
                 <div class="service-card" data-service-single="Security">
                     <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>
-                    <p class="service-body"></p>
+                    <div class="service-body">
+                        <p>Some projects can get away with passive security. Others, though, cannot wait for a vulnerability to be exposed by malicious attacks before they do something about it. Cyber Security and Ethical Hacking is a new service that 1VINE is now offering. Find weaknesses in your security and fix them to keep your data and your clients safe.</p>
+                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                    </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
                                                              alt="Kali Linux logo"> Kali Linux</li>

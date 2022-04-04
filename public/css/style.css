@@ -676,6 +676,10 @@ p strong {
 
 .section:not(.hero) .container {
     width: 90% !important;
+    max-width: 900px;
+}
+
+.section:not(.hero) .container.large-container {
     max-width: 1200px;
 }
 
@@ -1009,9 +1013,10 @@ a:hover .fa-comment-alt {
     flex-direction: column;
     flex-wrap: nowrap;
 
-    margin-right: 20px;
+    margin-right: 10px;
 
-    width: 35%;
+    width: 30%;
+    min-width: 335px;
 
     text-align: left;
 }
@@ -1136,8 +1141,27 @@ a:hover .fa-comment-alt {
     font-weight: 600;
 }
 
-.service-single p.service-body {
+.service-single .service-body p {
     text-align: left;
+}
+
+.service-single .service-body a,
+.service-single .service-body a i {
+    font-weight: 600 !important;
+    color: var(--main-theme-color) !important;
+}
+
+.service-single .service-body a:hover,
+.service-single .service-body a:hover i {
+    padding: 10px 10px 10px 20px;
+
+    border-radius: 100px;
+
+    color: white !important;
+}
+
+.service-single .service-body a:hover i {
+    margin-left: 20px;
 }
 
 .service-single .service-footer {
@@ -1145,6 +1169,8 @@ a:hover .fa-comment-alt {
     flex-direction: row;
 
     flex-wrap: wrap;
+
+    margin-top: 50px;
 
     justify-content: flex-start;
     align-items: stretch;
@@ -1180,8 +1206,8 @@ a:hover .fa-comment-alt {
     margin-bottom: 10px;
     max-width: 35px;
 
-    filter: grayscale(100);
-    opacity: 0.5;
+    filter: grayscale(0);
+    opacity: 1;
 
     transition: all 0.5s ease;
 }
@@ -1189,10 +1215,6 @@ a:hover .fa-comment-alt {
 .service-single .service-footer .service-footer-item:hover img {
     filter: grayscale(0);
     opacity: 1;
-}
-
-.service-single .service-footer .service-footer-item i {
-    margin-right: 10px;
 }
 
 /* Portfolio Summary */
@@ -2090,6 +2112,8 @@ form.make-contact input {
 }
 
 .section-desc {
+    max-width: 900px;
+
     font-weight: 200;
     font-size: 0.95em;
     line-height: 2em;
@@ -2568,6 +2592,20 @@ ul.testimonials {
     align-items: center;
 
     overflow-y: scroll;
+}
+
+.menu-bulk .container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    font-size: 120%;
+}
+
+.menu-bulk .container h5 {
+    margin-top: 40px;
+    margin-bottom: 0;
+
+    font-size: 90%;
 }
 
 .menu-bulk .container * {
@@ -3184,7 +3222,12 @@ a.futur-badge:hover {
     }
 
     .service-single .service-footer {
-        justify-content: center;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .service-single .service-footer .service-footer-item {
+        margin: auto;
     }
 
     .service-single .service-footer .service-footer-item img {
