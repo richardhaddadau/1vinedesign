@@ -2,16 +2,16 @@
 @extends('layouts.base')
 
 <!-- Page Title -->
-@section('title', 'Web SEO')
+@section('title', 'Branding Strategy')
 
 <!-- Page Description -->
-@section('description', 'Every business should take SEO very seriously and work with a team they can trust.')
+@section('description', 'xx.')
 
 <!-- Page Keywords -->
-@section('keywords', '1VINE SEO, Search Engine Optimisation, SEO Strategy, Social Media Strategy, SEO and Social Media')
+@section('keywords', 'xx')
 
 <!-- Page URL -->
-@section('url', 'https://1vinedesign.com.au/web-seo')
+@section('url', 'https://1vinedesign.com.au/branding-strategy')
 
 <!-- Page Description -->
 @section('social-media-tags')

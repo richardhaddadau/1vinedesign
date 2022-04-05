@@ -2,31 +2,31 @@
 @extends('layouts.base')
 
 <!-- Page Title -->
-@section('title', 'Start Selling Online')
+@section('title', 'Web SEO')
 
 <!-- Page Description -->
-@section('description', "I've worked on many online stores for Australian businesses and have extensive experience with various platforms like BigCommerce, Shopify and WooCommerce.")
+@section('description', 'Every business should take SEO very seriously and work with a team they can trust.')
 
 <!-- Page Keywords -->
-@section('keywords', 'australia ecommerce, estore, online selling, online store, e-commerce store, ecommerce maintenance')
+@section('keywords', '1VINE SEO, Search Engine Optimisation, SEO Strategy, Social Media Strategy, SEO and Social Media')
 
 <!-- Page URL -->
-@section('url', 'https://1vinedesign.com.au/start-selling-online')
+@section('url', 'https://1vinedesign.com.au/web-seo')
 
 <!-- Page Description -->
 @section('social-media-tags')
 
 <!-- Facebook -->
 <meta property="og:site_name" content="1VINE Design">
-<meta property="og:title" content="Start Selling Online - 1VINE Design">
-<meta property="og:description" content="Start Selling Online with 1VINE Design.">
+<meta property="og:title" content="Maximise Your Brand's SEO - 1VINE Design">
+<meta property="og:description" content="Maximise Your Brand's SEO with 1VINE Design.">
 <meta property="og:image" content="https://1vinedesign.com.au/img/bg.jpg">
-<meta property="og:url" content="https://1vinedesign.com.au/start-selling-online">
+<meta property="og:url" content="https://1vinedesign.com.au/maximise-your-brands-seo">
 
 <!-- Twitter -->
 <meta name="twitter:title" content="@1vinedesign">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="Start Selling Online with 1VINE Design.">
+<meta name="twitter:description" content="Maximise Your Brand's SEO with 1VINE Design.">
 <meta name="twitter:image" content="https://1vinedesign.com.au/img/bg.jpg">
 <meta name="twitter:image:alt" content="1VINE Design Header.">
 @endsection
@@ -38,13 +38,13 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Start Selling Online')
+@section('menu-chapter', 'Maximise Your Brand\'s SEO')
 
 <!-- Hero Section -->
-<div class="section make-dark theme-green make-medium">
+<div class="section make-dark theme-orange make-medium">
     <div class="container">
         <div class="hero-content">
-            <h1 class="make-centered">Start Selling Online</h1>
+            <h1 class="make-centered">Maximise Your Brand's SEO</h1>
         </div>
     </div>
 </div>
@@ -57,16 +57,65 @@
     </ul>
 </div> -->
 
-<div class="section make-light theme-orange">
+<!-- <div class="section make-light theme-orange">
     <div class="container">
-        <h2>"We have a good range of products that we'd like to start selling online"</h2>
-        <p class="col-10">From statistics and data collected over the past three years, it is clear that eCommerce is in no way slowing down. More people are preferring online shopping whether because of the convenience of the process or simply the freedom to compare prices with ease.</p>
-        <p class="col-10">According to <a href="https://firstsiteguide.com/ecommerce-stats/">firstsiteguide.com</a>, "<span class="make-strong">by the year 2040, it’s estimated that 95% of all purchases will be through eCommerce.</span>" In other words, now is the perfect time to hop aboard this fast-growing industry, add an online sales channel to your business and grow your brand's reach.</p>
-        
-        <h2 class="make-centered">"But why <span class="make-one">1VINE</span> exactly?"</h2>
+        <h2>Looking to further your reach?</h2>
+    </div>
+</div> -->
 
-        <p class="col-10">The reason why you should trust me with your new eCommerce Store is because I've worked on many online stores and have extensive experience with various platforms like BigCommerce, Shopify and WooCommerce. Every platform brings something different to the table and there's no one solution that fits all.</p>
-        <p class="col-10">I spend the majority of the initial 1-hour free consultation learning about your business, what you want to sell, what your goals are, if you've sold products online before, and so on. This helps in fleshing out your eCommerce Strategy.</p>
+<div class="section make-small make-light theme-green">
+    <div class="container">
+        <h2 class="make-centered">What is SEO?</h2>
+        <p class="col-10"><strong>Search Engine Optimisation</strong>, or <strong>SEO</strong> for short, is the process of enhancing your website to perform and rank best on all the major search engines.</p>
+        <p class="col-10">The main goal of search engines is to provide people with search results that suit their queries. For example, someone searching for new comfortable running shoes for men doesn't want to be taken to a website that sells succulent plants. This is why <strong>SEO</strong> work is so critical to any business because it makes sure that your website delivers what it promises and becomes a reputable and reliable source for search engines like Google and Bing to send their customers to.</p>
+    </div>
+</div>
+
+<div class="section make-small make-light theme-green">
+    <div class="container">
+        <h2>SEO Strategy and<br>Web Maintenance Packages</h2>
+        <div class="heading-underline"></div>
+        <p class="section-desc mt-3 make-centered mb-0">These packages are suited for businesses who want a bigger digital footprint and greater online reach. Supersize your traffic with <strong>Search Engine Optimisation (SEO)</strong>.</p>
+
+        <p class="section-desc mt-3 mb-0 make-centered"><strong>All of our SEO packages come with the following Optimisations:</strong></p>
+
+        <div class="package-card">
+            <div class="package-card-content">
+                <div class="package-card-info">
+                    <p class="package-card-info-header">On-Site Optimisation</p>
+                    <ul>
+                        <li><i class="fas fa-link"></i> URL Optimisation</li>
+                        <li><i class="fas fa-chart-line"></i> Web Analytics (Google, Facebook & Premium)</li>
+                        <li><i class="fas fa-tools"></i> Webmaster Tools (Google, Bing & Premium)</li>
+                        <li><i class="fas fa-code"></i> URL Canonicalisation</li>
+                        <li><i class="fas fa-robot"></i> Robots.txt Optimisation</li>
+                        <li><i class="fas fa-file-code"></i> XML & HTML Sitemap Generation</li>
+                        <li><i class="fas fa-tachometer-alt"></i> Performance Optimisations</li>
+                        <li><i class="fab fa-html5"></i> HTML Tag Optimisations</li>
+                        <li><i class="fas fa-file-medical"></i> Technical Audit (Website Health Fixes)</li>
+                        <li><i class="fas fa-network-wired"></i> Internal Link Structuring and Optimisation</li>
+                        <li><i class="fab fa-searchengin"></i> Meta Data Optimisation</li>
+                    </ul>
+
+                    <p class="package-card-info-header">Off-Site Optimisation</p>
+                    <ul>
+                        <li><i class="fas fa-project-diagram"></i> Promotion to 80+ Online Directories</li>
+                        <li><i class="fas fa-handshake"></i> Local and National Business Listing</li>
+                    </ul>
+
+                    <p class="package-card-info-header">Some of the Tools We Use</p>
+                    <ul>
+                        <li>AHREFS</li>
+                        <li>MOZ SEO</li>
+                        <li>SEMRush</li>
+                        <li>SEO PowerSuite</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <h2>Why do you need all of these SEO tools?</h2>
+        <p class="section-desc make-centered mb-0">Each of the tools mentioned above excels in different areas. They are very well known across the industry and I would strongly recommend you steer clear of anyone who offers you SEO without mentioning at least one of these tools.</p>
     </div>
 </div>
 
@@ -74,27 +123,28 @@
     <div class="container make-centered">
         <h2>My Recommendations</h2>
         <div class="heading-underline"></div>
-        <p class="section-desc mt-3 make-centered mb-3"></p>
+        <p class="section-desc mt-3 make-centered mb-3">The following packages follow my recommendations to maximise your brand's reach through SEO. Feel free to get in touch if you're looking for a more customised solution.</p>
 
         <div class="package-card">
             <div class="package-card-content">
                 <div class="package-card-front">
                     <div class="card-cover"></div>
                     <div class="card-left">
-                        <div class="package-header">The Standard</div>
+                        <div class="package-header">One-Way SEO</div>
+                        <div class="package-subheader">Not to be thought of as a lesser package but not as aggressive as Combative. One-Way SEO deals with less competitive keywords.</div>
                         <div class="package-features">
                             <ul>
 
-                                @include('packages.ecommerce-standard')
+                                @include('packages.seo-one-way')
 
                             </ul>
                         </div>
                     </div>
                     <div class="card-right">
-                    <!-- <div class="package-price"><span class="package-per-month">From</span>$8k</div> -->
-                    <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
+                        <!-- <div class="package-price">$899<span class="package-per-month">per Month</span></div> -->
+                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
                         <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/ecommerce-the-standard"><div class="purchase-link">Purchase<br>Package</div></a>
+                        <a href="/get-quote/seo-one-way"><div class="purchase-link">Purchase<br>Package</div></a>
                     </div>
                 </div>
             </div>
@@ -105,19 +155,21 @@
                 <div class="package-card-front">
                     <div class="card-cover"></div>
                     <div class="card-left">
-                        <div class="package-header">The Extensive</div>
+                        <div class="package-header">Combative SEO</div>
+                        <span class="package-subheader">The Combative package is a more aggressive SEO style which looks more in-depth at your competitors and audience to compete harder.</span>
                         <div class="package-features">
                             <ul>
 
-                                @include('packages.ecommerce-extensive')
+                                @include('packages.seo-combative')
+
                             </ul>
                         </div>
                     </div>
                     <div class="card-right">
-                    <!-- <div class="package-price"><span class="package-per-month">From</span>$15k</div> -->
-                    <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
+                        <!-- <div class="package-price">$2799<span class="package-per-month">per Month</span></div> -->
+                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
                         <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/ecommerce-the-extensive"><div class="purchase-link">Purchase<br>Package</div></a>
+                        <a href="/get-quote/seo-combative"><div class="purchase-link">Purchase<br>Package</div></a>
                     </div>
                 </div>
             </div>
@@ -157,7 +209,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -169,14 +221,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
@@ -214,4 +266,5 @@
         <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
     </ul>
 </div> -->
+
 @endsection

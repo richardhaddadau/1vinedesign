@@ -78,7 +78,7 @@
                     <h3 class="service-head"><i class="fa-solid fa-box-open"></i> Branding and Strategy</h3>
                     <div class="service-body">
                         <p>Your brand is a reputation and a promise. Customers want to know that they can trust you and you want them to know that they absolutely can. That's why branding is so crucial for every business. It isn't just about people seeing your brand but knowing that yours is the service or product that they need.</p>
-                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                        <p><a href="/branding-and-strategy">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
                     </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
@@ -93,7 +93,8 @@
                     <h3 class="service-head"><i class="fa-solid fa-desktop"></i> Business Websites</h3>
                     <div class="service-body">
                         <p>Did you know that 97% of consumers search online for a service or product they're after? That means that if you don't have an online presence, most consumers aren't even seeing your brand. Get a professional website built by an expert developer who will put your brand and your needs first.</p>
-                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                        <p><a href="/business-websites">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
                     </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}"
@@ -102,13 +103,18 @@
                                                              alt="Laravel logo"> Laravel</li>
                         <li class="service-footer-item"><img src="{{ asset('img/tools-wordpress.svg')  }}"
                                                              alt="Wordpress logo"> Wordpress</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')  }}"
+                                                             alt="Strapi logo"> Strapi</li>
+                        <li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')  }}"
+                                                             alt="Statamic logo"> Statmic</li>
                     </ul>
                 </div>
                 <div class="service-card" data-service-single="Development">
                     <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
                     <div class="service-body">
                         <p>Do you have a great project idea that need professional development? Then, you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
-                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                        <p><a href="/premium-development">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
                     </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
@@ -133,7 +139,8 @@
                         personalised solutions for your online store Being a partner on the major eCommerce
                         platforms means that I cannot have a bias toward any over the others. You will only receive
                             honest, customised advice.</p>
-                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                        <p><a href="/ecommerce-solutions">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
                     </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
@@ -152,7 +159,8 @@
                     <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>
                     <div class="service-body">
                         <p>Some projects can get away with passive security. Others, though, cannot wait for a vulnerability to be exposed by malicious attacks before they do something about it. Cyber Security and Ethical Hacking is a new service that 1VINE is now offering. Find weaknesses in your security and fix them to keep your data and your clients safe.</p>
-                        <p><a href="">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
+                        <p><a href="/security-and-ethical-hacking">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
                     </div>
                     <ul class="service-footer">
                         <li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
