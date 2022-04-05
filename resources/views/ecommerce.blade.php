@@ -2,16 +2,16 @@
 @extends('layouts.base')
 
 <!-- Page Title -->
-@section('title', 'Web SEO')
+@section('title', 'eCommerce Solutions')
 
 <!-- Page Description -->
-@section('description', 'Every business should take SEO very seriously and work with a team they can trust.')
+@section('description', 'xx')
 
 <!-- Page Keywords -->
-@section('keywords', '1VINE SEO, Search Engine Optimisation, SEO Strategy, Social Media Strategy, SEO and Social Media')
+@section('keywords', 'xx')
 
 <!-- Page URL -->
-@section('url', 'https://1vinedesign.com.au/web-seo')
+@section('url', 'https://1vinedesign.com.au/ecommerce-solutions')
 
 <!-- Page Description -->
 @section('social-media-tags')
@@ -38,46 +38,15 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Maximise Your Brand\'s SEO')
+@section('menu-chapter', 'eCommerce Solutions')
 
-<!-- Hero Section -->
-<div class="section make-dark theme-orange make-medium">
-    <div class="container">
-        <div class="hero-content">
-            <h1 class="make-centered">Maximise Your Brand's SEO</h1>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="section portfolio-summary">
-    <ul class="portfolio-list">
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-    </ul>
-</div> -->
-
-<!-- <div class="section make-light theme-orange">
-    <div class="container">
-        <h2>Looking to further your reach?</h2>
-    </div>
-</div> -->
-
-<div class="section make-small make-light theme-green">
-    <div class="container">
-        <h2 class="make-centered">What is SEO?</h2>
-        <p class="col-10"><strong>Search Engine Optimisation</strong>, or <strong>SEO</strong> for short, is the process of enhancing your website to perform and rank best on all the major search engines.</p>
-        <p class="col-10">The main goal of search engines is to provide people with search results that suit their queries. For example, someone searching for new comfortable running shoes for men doesn't want to be taken to a website that sells succulent plants. This is why <strong>SEO</strong> work is so critical to any business because it makes sure that your website delivers what it promises and becomes a reputable and reliable source for search engines like Google and Bing to send their customers to.</p>
-    </div>
-</div>
-
-<div class="section make-small make-light theme-green">
-    <div class="container">
-        <h2>SEO Strategy and<br>Web Maintenance Packages</h2>
+<div class="section make-medium make-light theme-green">
+    <div class="container large-container">
+        <h2>eCommerce Solutions</h2>
         <div class="heading-underline"></div>
-        <p class="section-desc mt-3 make-centered mb-0">These packages are suited for businesses who want a bigger digital footprint and greater online reach. Supersize your traffic with <strong>Search Engine Optimisation (SEO)</strong>.</p>
-
-        <p class="section-desc mt-3 mb-0 make-centered"><strong>All of our SEO packages come with the following Optimisations:</strong></p>
+        <p class="section-desc mt-1 mb-2">Develop a brand that customers cannot forget and a strategy that will make
+            you irresistible.
+        </p>
 
         <div class="package-card">
             <div class="package-card-content">

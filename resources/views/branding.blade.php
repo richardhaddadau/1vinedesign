@@ -11,7 +11,7 @@
 @section('keywords', 'xx')
 
 <!-- Page URL -->
-@section('url', 'https://1vinedesign.com.au/branding-strategy')
+@section('url', 'https://1vinedesign.com.au/branding-and-strategy')
 
 <!-- Page Description -->
 @section('social-media-tags')
@@ -38,92 +38,19 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Maximise Your Brand\'s SEO')
+@section('menu-chapter', 'Branding and Strategy')
 
-<!-- Hero Section -->
-<div class="section make-dark theme-orange make-medium">
-    <div class="container">
-        <div class="hero-content">
-            <h1 class="make-centered">Maximise Your Brand's SEO</h1>
-        </div>
-    </div>
-</div>
-
-<!-- <div class="section portfolio-summary">
-    <ul class="portfolio-list">
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-        <li class="portfolio-item"><img src="{{ asset('img/bg.jpg') }}" alt=""></li>
-    </ul>
-</div> -->
-
-<!-- <div class="section make-light theme-orange">
-    <div class="container">
-        <h2>Looking to further your reach?</h2>
-    </div>
-</div> -->
-
-<div class="section make-small make-light theme-green">
-    <div class="container">
-        <h2 class="make-centered">What is SEO?</h2>
-        <p class="col-10"><strong>Search Engine Optimisation</strong>, or <strong>SEO</strong> for short, is the process of enhancing your website to perform and rank best on all the major search engines.</p>
-        <p class="col-10">The main goal of search engines is to provide people with search results that suit their queries. For example, someone searching for new comfortable running shoes for men doesn't want to be taken to a website that sells succulent plants. This is why <strong>SEO</strong> work is so critical to any business because it makes sure that your website delivers what it promises and becomes a reputable and reliable source for search engines like Google and Bing to send their customers to.</p>
-    </div>
-</div>
-
-<div class="section make-small make-light theme-green">
-    <div class="container">
-        <h2>SEO Strategy and<br>Web Maintenance Packages</h2>
+<div class="section make-medium make-light theme-green">
+    <div class="container large-container">
+        <h2>Branding and Strategy</h2>
         <div class="heading-underline"></div>
-        <p class="section-desc mt-3 make-centered mb-0">These packages are suited for businesses who want a bigger digital footprint and greater online reach. Supersize your traffic with <strong>Search Engine Optimisation (SEO)</strong>.</p>
+        <p class="section-desc mt-1 mb-2">Develop a brand that customers cannot forget and a strategy that will make
+            you irresistible.
+        </p>
 
-        <p class="section-desc mt-3 mb-0 make-centered"><strong>All of our SEO packages come with the following Optimisations:</strong></p>
+        <div class="pricing-block">
 
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-info">
-                    <p class="package-card-info-header">On-Site Optimisation</p>
-                    <ul>
-                        <li><i class="fas fa-link"></i> URL Optimisation</li>
-                        <li><i class="fas fa-chart-line"></i> Web Analytics (Google, Facebook & Premium)</li>
-                        <li><i class="fas fa-tools"></i> Webmaster Tools (Google, Bing & Premium)</li>
-                        <li><i class="fas fa-code"></i> URL Canonicalisation</li>
-                        <li><i class="fas fa-robot"></i> Robots.txt Optimisation</li>
-                        <li><i class="fas fa-file-code"></i> XML & HTML Sitemap Generation</li>
-                        <li><i class="fas fa-tachometer-alt"></i> Performance Optimisations</li>
-                        <li><i class="fab fa-html5"></i> HTML Tag Optimisations</li>
-                        <li><i class="fas fa-file-medical"></i> Technical Audit (Website Health Fixes)</li>
-                        <li><i class="fas fa-network-wired"></i> Internal Link Structuring and Optimisation</li>
-                        <li><i class="fab fa-searchengin"></i> Meta Data Optimisation</li>
-                    </ul>
-
-                    <p class="package-card-info-header">Off-Site Optimisation</p>
-                    <ul>
-                        <li><i class="fas fa-project-diagram"></i> Promotion to 80+ Online Directories</li>
-                        <li><i class="fas fa-handshake"></i> Local and National Business Listing</li>
-                    </ul>
-
-                    <p class="package-card-info-header">Some of the Tools We Use</p>
-                    <ul>
-                        <li>AHREFS</li>
-                        <li>MOZ SEO</li>
-                        <li>SEMRush</li>
-                        <li>SEO PowerSuite</li>
-                    </ul>
-                </div>
-            </div>
         </div>
-
-        <h2>Why do you need all of these SEO tools?</h2>
-        <p class="section-desc make-centered mb-0">Each of the tools mentioned above excels in different areas. They are very well known across the industry and I would strongly recommend you steer clear of anyone who offers you SEO without mentioning at least one of these tools.</p>
-    </div>
-</div>
-
-<div class="section make-light theme-green">
-    <div class="container make-centered">
-        <h2>My Recommendations</h2>
-        <div class="heading-underline"></div>
-        <p class="section-desc mt-3 make-centered mb-3">The following packages follow my recommendations to maximise your brand's reach through SEO. Feel free to get in touch if you're looking for a more customised solution.</p>
 
         <div class="package-card">
             <div class="package-card-content">
