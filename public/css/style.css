@@ -1199,6 +1199,40 @@ a:hover .fa-comment-alt {
     transition: all 0.35s ease;
 }
 
+.service-single .service-footer a {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.service-single .service-footer a .service-footer-item::after {
+    content: "";
+    display: block;
+    position: absolute;
+
+    bottom: -5px;
+    left: 0;
+
+    width: 0%;
+    height: 4px;
+
+    background-color: var(--main-theme-color);
+
+    transition: all 0.35s ease;
+}
+
+.service-single .service-footer a:hover .service-footer-item::after {
+    width: 100%;
+}
+
+.service-single .service-footer a:hover {
+    padding: inherit;
+
+    background-color: inherit;
+    border: inherit;
+
+    color: inherit !important;
+}
+
 .service-single .service-footer .service-footer-item img {
     display: inline-block;
     position: relative;
