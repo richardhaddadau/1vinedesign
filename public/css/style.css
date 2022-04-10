@@ -1170,8 +1170,7 @@ a:hover .fa-comment-alt {
 }
 
 .service-single .service-footer {
-    padding: 10px;
-    padding-bottom: 20px;
+    padding: 20px;
 
     background-color: #212121;
     border-radius: 10px;
@@ -1192,13 +1191,12 @@ a:hover .fa-comment-alt {
 
     flex-wrap: wrap;
 
-    margin-top: 50px;
+    margin-top: 20px;
 
     justify-content: flex-start;
     align-items: flex-end;
 
     width: 100%;
-    max-width: 600px;
 }
 
 .service-single .footer-heading {
@@ -1218,7 +1216,7 @@ a:hover .fa-comment-alt {
     justify-content: flex-end;
     align-items: center;
 
-    margin: 30px;
+    margin: 20px;
 
     min-width: 80px;
 
@@ -3623,7 +3621,7 @@ a.futur-badge:hover {
     }
 
     .service-single .service-footer-list .service-footer-item {
-        margin: 20px 10px;
+        margin: 15px 10px;
         min-width: inherit;
     }
 

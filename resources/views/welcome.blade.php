@@ -81,7 +81,6 @@
                         <p><a href="/branding-and-strategy">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
-                        <p class="footer-heading">Technology Stack</p>
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
                                                                  alt="Illustrator logo"> Illustrator</li></a>
@@ -100,7 +99,6 @@
                         fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
-                        <p class="footer-heading">Technology Stack</p>
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset
                             ('img/tools-javascript.svg')  }}"
@@ -125,7 +123,6 @@
                         fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
-                        <p class="footer-heading">Technology Stack</p>
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
                                                                  alt="Laravel logo"> Laravel</li></a>
@@ -154,7 +151,6 @@
                         fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
-                        <p class="footer-heading">Technology Stack</p>
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
                                                                  alt="Swift logo"> Shopify</li></a>
@@ -176,7 +172,6 @@
                         fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
-                        <p class="footer-heading">Technology Stack</p>
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
                                                                  alt="Kali Linux logo"> Kali Linux</li></a>
