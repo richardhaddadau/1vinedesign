@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ViewsController;
+use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\ContactsController;
 use App\Http\Controllers\QuotesController;
 
@@ -16,39 +17,54 @@ use App\Http\Controllers\QuotesController;
 |
 */
 
+Route::group(['prefix' => 'services'], function() {
+    Route::get('laravel-development-services', [ServicesController::class,'laravel']);
+    Route::get('wordpress-development-services', [ServicesController::class,'wordpress']);
+    Route::get('content-management-systems', [ServicesController::class,'cms']);
+
+    Route::get('react-development-services', [ServicesController::class,'react']);
+    Route::get('python-development-services', [ServicesController::class,'python']);
+    Route::get('native-development-services', [ServicesController::class,'native']);
+
+    Route::get('shopify-ecommerce-services', [ServicesController::class,'shopify']);
+    Route::get('bigcommerce-ecommerce-services', [ServicesController::class,'bigcommerce']);
+    Route::get('woocommerce-ecommerce-services', [ServicesController::class,'woocommerce']);
+    Route::get('vend-commerce-services', [ServicesController::class,'vend']);
+});
+
 Route::get(
     '/branding-and-strategy',
-    [ViewsController::class, 'branding']
+    [ServicesController::class, 'branding']
 );
 
 Route::get(
     '/business-websites',
-    [ViewsController::class, 'websites']
+    [ServicesController::class, 'websites']
 );
 
 Route::get(
     '/ecommerce-solutions',
-    [ViewsController::class, 'ecommerce']
+    [ServicesController::class, 'ecommerce']
 );
 
 Route::get(
     '/premium-development',
-    [ViewsController::class, 'development']
+    [ServicesController::class, 'development']
 );
 
 Route::get(
     '/security-and-ethical-hacking',
-    [ViewsController::class, 'security']
+    [ServicesController::class, 'security']
 );
 
 Route::get(
     '/web-maintenance',
-    [ViewsController::class, 'maintenance']
+    [ServicesController::class, 'maintenance']
 );
 
 Route::get(
     '/web-seo',
-    [ViewsController::class, 'seo']
+    [ServicesController::class, 'seo']
 );
 
 Route::get(

@@ -1170,6 +1170,23 @@ a:hover .fa-comment-alt {
 }
 
 .service-single .service-footer {
+    padding: 10px;
+    padding-bottom: 20px;
+
+    background-color: #212121;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.service-single .service-footer p {
+    margin-top: 10px !important;
+}
+
+.service-single .service-footer * {
+    color: #e7e7e7 !important;
+}
+
+.service-single .service-footer-list {
     display: flex;
     flex-direction: row;
 
@@ -1178,13 +1195,19 @@ a:hover .fa-comment-alt {
     margin-top: 50px;
 
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: flex-end;
 
     width: 100%;
     max-width: 600px;
 }
 
-.service-single .service-footer .service-footer-item {
+.service-single .footer-heading {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.service-single .service-footer-list .service-footer-item {
     display: flex;
     position: relative;
 
@@ -1195,8 +1218,9 @@ a:hover .fa-comment-alt {
     justify-content: flex-end;
     align-items: center;
 
-    margin-right: 30px;
-    margin-top: 30px;
+    margin: 30px;
+
+    min-width: 80px;
 
     font-size: 90%;
     font-weight: bold;
@@ -1204,12 +1228,12 @@ a:hover .fa-comment-alt {
     transition: all 0.35s ease;
 }
 
-.service-single .service-footer a {
+.service-single .service-footer-list a {
     font-size: inherit;
     font-weight: inherit;
 }
 
-.service-single .service-footer a .service-footer-item::after {
+.service-single .service-footer-list a .service-footer-item::after {
     content: "";
     display: block;
     position: absolute;
@@ -1225,11 +1249,11 @@ a:hover .fa-comment-alt {
     transition: all 0.35s ease;
 }
 
-.service-single .service-footer a:hover .service-footer-item::after {
+.service-single .service-footer-list a:hover .service-footer-item::after {
     width: 100%;
 }
 
-.service-single .service-footer a:hover {
+.service-single .service-footer-list a:hover {
     padding: inherit;
 
     background-color: inherit;
@@ -1238,7 +1262,7 @@ a:hover .fa-comment-alt {
     color: inherit !important;
 }
 
-.service-single .service-footer .service-footer-item img {
+.service-single .service-footer-list .service-footer-item img {
     display: inline-block;
     position: relative;
 
@@ -1251,7 +1275,7 @@ a:hover .fa-comment-alt {
     transition: all 0.5s ease;
 }
 
-.service-single .service-footer .service-footer-item:hover img {
+.service-single .service-footer-list .service-footer-item:hover img {
     filter: grayscale(0);
     opacity: 1;
 }
@@ -3266,16 +3290,16 @@ a.futur-badge:hover {
         display: none;
     }
 
-    .service-single .service-footer {
+    .service-single .service-footer-list {
         margin: auto;
         justify-content: space-around;
     }
 
-    .service-single .service-footer .service-footer-item {
+    .service-single .service-footer-list .service-footer-item {
         margin: auto;
     }
 
-    .service-single .service-footer .service-footer-item img {
+    .service-single .service-footer-list .service-footer-item img {
         opacity: 1;
         filter: grayscale(0);
     }
@@ -3594,12 +3618,13 @@ a.futur-badge:hover {
         display: none;
     }
 
-    .service-single .service-footer {
+    .service-single .service-footer-list {
         justify-content: space-evenly;
     }
 
-    .service-single .service-footer .service-footer-item {
-        margin: 10px;
+    .service-single .service-footer-list .service-footer-item {
+        margin: 20px 10px;
+        min-width: inherit;
     }
 
     .btn-submit.btn-solid, .btn-subscribe.btn-solid, .section .btn-collection .btn-special.btn-solid {

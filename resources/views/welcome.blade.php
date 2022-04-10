@@ -80,14 +80,17 @@
                         <p>Your brand is a reputation and a promise. Customers want to know that they can trust you and you want them to know that they absolutely can. That's why branding is so crucial for every business. It isn't just about people seeing your brand but knowing that yours is the service or product that they need.</p>
                         <p><a href="/branding-and-strategy">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
                     </div>
-                    <ul class="service-footer">
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
-                                                             alt="Illustrator logo"> Illustrator</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}"
-                                                             alt="InDesign logo"> InDesign</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}"
-                                                             alt="Photoshop logo"> Photoshop</li></a>
-                    </ul>
+                    <div class="service-footer">
+                        <p class="footer-heading">Technology Stack</p>
+                        <ul class="service-footer-list">
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
+                                                                 alt="Illustrator logo"> Illustrator</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}"
+                                                                 alt="InDesign logo"> InDesign</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}"
+                                                                 alt="Photoshop logo"> Photoshop</li></a>
+                        </ul>
+                    </div>
                 </div>
                 <div class="service-card" data-service-single="Websites">
                     <h3 class="service-head"><i class="fa-solid fa-desktop"></i> Business Websites</h3>
@@ -96,20 +99,23 @@
                         <p><a href="/business-websites">See pricing and more <i class="fas
                         fa-arrow-circle-right"></i></a></p>
                     </div>
-                    <ul class="service-footer">
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset
-                        ('img/tools-javascript.svg')  }}"
-                                                                        alt="Javascript logo"> Javascript</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
-                                                             alt="Laravel logo"> Laravel</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset
-                        ('img/tools-wordpress.svg')  }}"
-                                                             alt="Wordpress logo"> Wordpress</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')  }}"
-                                                             alt="Strapi logo"> Strapi</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')  }}"
-                                                             alt="Statamic logo"> Statamic</li></a>
-                    </ul>
+                    <div class="service-footer">
+                        <p class="footer-heading">Technology Stack</p>
+                        <ul class="service-footer-list">
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset
+                            ('img/tools-javascript.svg')  }}"
+                                                                            alt="Javascript logo"> Javascript</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
+                                                                 alt="Laravel logo"> Laravel</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset
+                            ('img/tools-wordpress.svg')  }}"
+                                                                 alt="Wordpress logo"> Wordpress</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')  }}"
+                                                                 alt="Strapi logo"> Strapi</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')  }}"
+                                                                 alt="Statamic logo"> Statamic</li></a>
+                        </ul>
+                    </div>
                 </div>
                 <div class="service-card" data-service-single="Development">
                     <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
@@ -118,20 +124,23 @@
                         <p><a href="/premium-development">See pricing and more <i class="fas
                         fa-arrow-circle-right"></i></a></p>
                     </div>
-                    <ul class="service-footer">
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
-                                                             alt="Laravel logo"> Laravel</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')  }}"
-                                                             alt="React logo"> React</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}"
-                                                             alt="Python logo"> Python</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}"
-                                                             alt="React Native logo"> React Native</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}"
-                                                             alt="Kotlin logo"> Kotlin</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}"
-                                                             alt="Swift logo"> Swift</li></a>
-                    </ul>
+                    <div class="service-footer">
+                        <p class="footer-heading">Technology Stack</p>
+                        <ul class="service-footer-list">
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
+                                                                 alt="Laravel logo"> Laravel</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')  }}"
+                                                                 alt="React logo"> React</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}"
+                                                                 alt="Python logo"> Python</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}"
+                                                                 alt="React Native logo"> React Native</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}"
+                                                                 alt="Kotlin logo"> Kotlin</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}"
+                                                                 alt="Swift logo"> Swift</li></a>
+                        </ul>
+                    </div>
                 </div>
                 <div class="service-card" data-service-single="eCommerce">
                     <h3 class="service-head"><i class="fa-solid fa-tags"></i> eCommerce Solutions</h3>
@@ -144,33 +153,37 @@
                         <p><a href="/ecommerce-solutions">See pricing and more <i class="fas
                         fa-arrow-circle-right"></i></a></p>
                     </div>
-                    <ul class="service-footer">
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
-                                                             alt="Swift logo"> Shopify</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}"
-                                                             alt="BigCommerce logo"> BigCommerce</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}"
-                                                             alt="WooCommerce logo"> WooCommerce</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-square.svg')  }}"
-                                                             alt="Square logo"> Square</li></a>
-                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg')  }}"
-                                                             alt="Vend logo"> Vend</li></a>
-                    </ul>
+                    <div class="service-footer">
+                        <p class="footer-heading">Technology Stack</p>
+                        <ul class="service-footer-list">
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
+                                                                 alt="Swift logo"> Shopify</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}"
+                                                                 alt="BigCommerce logo"> BigCommerce</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}"
+                                                                 alt="WooCommerce logo"> WooCommerce</li></a>
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg')  }}"
+                                                                 alt="Vend logo"> Vend</li></a>
+                        </ul>
+                    </div>
                 </div>
 
-{{--                <div class="service-card" data-service-single="Security">--}}
-{{--                    <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>--}}
-{{--                    <div class="service-body">--}}
-{{--                        <p>Some projects can get away with passive security. Others, though, cannot wait for a vulnerability to be exposed by malicious attacks before they do something about it. Cyber Security and Ethical Hacking is a new service that 1VINE is now offering. Find weaknesses in your security and fix them to keep your data and your clients safe.</p>--}}
-{{--                        <p><a href="/security-and-ethical-hacking">See pricing and more <i class="fas--}}
-{{--                        fa-arrow-circle-right"></i></a></p>--}}
-{{--                    </div>--}}
-{{--                    <ul class="service-footer">--}}
-{{--                        <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"--}}
-{{--                                                             alt="Kali Linux logo"> Kali Linux</li></a>--}}
-{{--                        <a href="/"><li class="service-footer-item">Nmap</li>--}}
-{{--                    </ul>--}}
-{{--                </div>--}}
+                <div class="service-card" data-service-single="Security">
+                    <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>
+                    <div class="service-body">
+                        <p>Some projects can get away with passive security. Others, though, cannot wait for a vulnerability to be exposed by malicious attacks before they do something about it. Cyber Security and Ethical Hacking is a new service that 1VINE is now offering. Find weaknesses in your security and fix them to keep your data and your clients safe.</p>
+                        <p><a href="/security-and-ethical-hacking">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
+                    </div>
+                    <div class="service-footer">
+                        <p class="footer-heading">Technology Stack</p>
+                        <ul class="service-footer-list">
+                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
+                                                                 alt="Kali Linux logo"> Kali Linux</li></a>
+                            <a href="/"><li class="service-footer-item">Nmap</li></a>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
 
