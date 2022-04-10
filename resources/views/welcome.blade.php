@@ -45,8 +45,8 @@
     <div class="container-shadow">
         <section class="container">
             <article class="hero-content">
-                <h1 class="make-white">Build a brand that<br>speaks for itself.</h1>
-                <h3 class="make-white subtitle">Establish your business, get customers<br>and beat the competition</h3>
+                <h1 class="make-white">Build anything with 1VINE.</h1>
+                <h3 class="make-white subtitle">The design and development consultancy that is building the future, today!</h3>
 
                 <button class="hero-btn btn-solid btn-orange mt-2" onclick="goTo(1)">Start Your Journey <i class="fas fa-hiking"></i></button>
             </article>
@@ -249,7 +249,7 @@
 
 <div class="section make-orange theme-orange autoScroll">
     <div class="container">
-        <div id="mlb2-1895856" class="ml-f orm-embedContainer ml-subscribe-form ml-subscribe-form-1895856">
+        <div id="mlb2-1895856" class="mcol-11 ml-f orm-embedContainer ml-subscribe-form ml-subscribe-form-1895856">
             <div class="ml-form-align-center">
                 <div class="ml-form-embedWrapper embedForm">
                     <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">

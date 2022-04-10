@@ -238,7 +238,7 @@
     <div class="section make-dark make-fullscreen theme-orange make-shadow make-last">
         <div class="container">
 
-          <div class="front-form">
+          <div class="mcol-11 front-form">
             <h2>Start a New Project</h2>
             <div class="heading-underline"></div>
             <p class="section-desc mt-1">Hire me for your next awesome project.</p>

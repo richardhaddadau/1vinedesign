@@ -121,7 +121,7 @@ html.hold {
 h1 {
     display: block;
     font-weight: 700;
-    font-size: 3.5em;
+    font-size: 2.75em;
     line-height: 1.1em;
 
     margin-top: 0.1em;
@@ -480,6 +480,11 @@ p strong {
 .section.hero h1,
 .section.hero h3 {
     text-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+}
+
+.section.hero h3 {
+    max-width: 650px;
+    width: 90%;
 }
 
 .hero-btn {
@@ -2993,7 +2998,7 @@ a.futur-badge:hover {
     }
 
     h1 {
-        font-size: 2.5em;
+        font-size: 2.25em;
         line-height: 1em;
 
         margin-top: 0.25em;
@@ -3004,7 +3009,7 @@ a.futur-badge:hover {
     }
 
     h3 {
-        font-size: 1.5em;
+        font-size: 1.25em;
     }
 
     /* ===  4. "Make-" Codes [Mobile & Tablet]  === */
@@ -3017,12 +3022,18 @@ a.futur-badge:hover {
     }
 
     .section.hero .container {
-        width: 100% !important;
+        padding: 0 75px;
+
         min-width: 100%;
+        width: 100% !important;
 
         text-align: center;
 
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    }
+
+    .section.hero h3 {
+        margin: auto;
     }
 
     .hero-btn {
@@ -3515,12 +3526,8 @@ a.futur-badge:hover {
     /* ===  4. "Make-" Codes [Mobile]  === */
     /* ===  5. Page Loading Animation [Mobile]  === */
     /* ===  6. Hero [Mobile]  === */
-    .section.hero {
-        padding: 100px 0px;
-    }
-
     .section.hero .container {
-        padding: 0 10px;
+        padding: 100px 20px;
     }
 
     .section.hero figure {
@@ -3528,17 +3535,16 @@ a.futur-badge:hover {
     }
 
     .section.hero h1 {
-        font-size: 1.75em;
-        margin-bottom: 1em;
+        font-size: 2.0em;
     }
 
     .section.hero h3 {
-        font-size: 1em;
+        font-size: 1.15em;
         font-weight: 500;
     }
 
     .col-6 {
-        width: 100%;
+        width: 90%;
     }
 
     .hero-btn {
@@ -3560,7 +3566,8 @@ a.futur-badge:hover {
     }
 
     .section-desc {
-        max-width: 85%;
+        margin: auto;
+        max-width: 90%;
     }
 
     .deliverables-collection {
@@ -3595,12 +3602,21 @@ a.futur-badge:hover {
         margin: 10px;
     }
 
+    .btn-submit.btn-solid, .btn-subscribe.btn-solid, .section .btn-collection .btn-special.btn-solid {
+        padding: 1em 0.75em;
+    }
+
+    .btn-submit.btn-solid .default {
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
     /* TOP LINKS */
     .make-links-button {
         font-size: 1.2rem !important;
     }
 
-    /* ===  8. Navigation  === */
+    /* ===  8. Navigation [Mobile]  === */
     .menu-social-list .share,
     .menu-social-list .faq {
         display: none !important;
@@ -3620,7 +3636,7 @@ a.futur-badge:hover {
     }
 
     /* ===  8. Navigation [Mobile]  === */
-    /* ===  9. Footer [Desktop & Mobile]  === */
+    /* ===  9. Footer [Mobile]  === */
 }
 
 /* ==================================================================================================== */
