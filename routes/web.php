@@ -17,6 +17,7 @@ use App\Http\Controllers\QuotesController;
 |
 */
 
+// Service Tools Pages
 Route::group(['prefix' => 'services'], function() {
     Route::get('laravel-development-services', [ServicesController::class,'laravel']);
     Route::get('wordpress-development-services', [ServicesController::class,'wordpress']);
@@ -32,109 +33,36 @@ Route::group(['prefix' => 'services'], function() {
     Route::get('vend-commerce-services', [ServicesController::class,'vend']);
 });
 
-Route::get(
-    '/branding-and-strategy',
-    [ServicesController::class, 'branding']
-);
+// Service Pages
+Route::get('/branding-and-strategy', [ServicesController::class, 'branding']);
+Route::get('/business-websites', [ServicesController::class, 'websites']);
+Route::get('/ecommerce-solutions', [ServicesController::class, 'ecommerce']);
+Route::get('/premium-development', [ServicesController::class, 'development']);
+Route::get('/security-and-ethical-hacking', [ServicesController::class, 'security']);
+Route::get('/web-maintenance', [ServicesController::class, 'maintenance']);
+Route::get('/web-seo', [ServicesController::class, 'seo']);
 
-Route::get(
-    '/business-websites',
-    [ServicesController::class, 'websites']
-);
+Route::get('/other-deliverables', [ViewsController::class, 'deliverables']);
 
-Route::get(
-    '/ecommerce-solutions',
-    [ServicesController::class, 'ecommerce']
-);
+// Main Pages
+Route::get('/empower-your-awesome-brand', [ViewsController::class, 'empower']);
+Route::get('/establish-your-brand-online', [ViewsController::class, 'webDevelopment']);
+Route::get('/start-selling-online', [ViewsController::class, 'selling']);
+Route::get('/maximise-your-brands-seo', [ViewsController::class, 'seoStrategy']);
+Route::get('/protect-your-brand-online', [ViewsController::class, 'webMaintenance']);
+Route::get('/work-portfolio', [ViewsController::class, 'portfolio']);
+Route::get('/about-1vine', [ViewsController::class, 'about']);
+Route::get('/get-quote/{chosenPackage?}', [ViewsController::class, 'getQuote']);
 
-Route::get(
-    '/premium-development',
-    [ServicesController::class, 'development']
-);
+// Legal Pages
+Route::get('/terms-and-conditions', [ViewsController::class, 'terms']);
+Route::get('/privacy-policy', [ViewsController::class, 'privacy']);
 
-Route::get(
-    '/security-and-ethical-hacking',
-    [ServicesController::class, 'security']
-);
+// Important Links
+Route::get('/top-links', [ViewsController::class, 'links']);
 
-Route::get(
-    '/web-maintenance',
-    [ServicesController::class, 'maintenance']
-);
-
-Route::get(
-    '/web-seo',
-    [ServicesController::class, 'seo']
-);
-
-Route::get(
-    '/empower-your-awesome-brand',
-    [ViewsController::class, 'empower']
-);
-
-Route::get(
-    '/establish-your-brand-online',
-    [ViewsController::class, 'webDevelopment']
-);
-
-Route::get(
-    '/other-deliverables',
-    [ViewsController::class, 'deliverables']
-);
-
-Route::get(
-    '/start-selling-online',
-    [ViewsController::class, 'selling']
-);
-
-Route::get(
-    '/maximise-your-brands-seo',
-    [ViewsController::class, 'seoStrategy']
-);
-
-Route::get(
-    '/protect-your-brand-online',
-    [ViewsController::class, 'webMaintenance']
-);
-
-Route::get(
-    '/about-1vine',
-    [ViewsController::class, 'about']
-);
-
-Route::get(
-    '/terms-and-conditions',
-    [ViewsController::class, 'terms']
-);
-
-Route::get(
-    '/privacy-policy',
-    [ViewsController::class, 'privacy']
-);
-
-Route::get(
-    '/work-portfolio',
-    [ViewsController::class, 'portfolio']
-);
-
-Route::get(
-    '/get-quote/{chosenPackage?}',
-    [ViewsController::class, 'getQuote']
-);
-
-Route::get(
-    '/top-links',
-    [ViewsController::class, 'links']
-);
-
-Route::get('/', function() {
-    return 'hi';
-});
-
-Route::get(
-    '/',
-    [ViewsController::class, 'welcome']
-);
+// Home
+Route::get('/', [ViewsController::class, 'welcome']);
 
 Route::post('/contacts', [ContactsController::class, 'store'])->name('contacts.store');
 Route::post('/quotes', [QuotesController::class, 'store'])->name('quotes.store');
