@@ -65,42 +65,6 @@ class ViewsController extends Controller
         return view('privacy');
     }
 
-    // NEW PAGES
-    // Load Branding and Strategy Page
-    public function branding() {
-        return view('branding');
-    }
-
-    // Load Business Websites Page
-    public function websites() {
-        return view('websites');
-    }
-
-    // Load eCommerce Solutions Page
-    public function ecommerce() {
-        return view('ecommerce');
-    }
-
-    // Load Premium Development Page
-    public function development() {
-        return view('development');
-    }
-
-    // Load Security and Ethical Hacking Page
-    public function security() {
-        return view('security');
-    }
-
-    // Load Web Maintenance Page
-    public function maintenance() {
-        return view('maintenance');
-    }
-
-    // Load Web SEO Page
-    public function seo() {
-        return view('seo');
-    }
-
     // Get Quote Page
     public function getQuote($package = null) {
         $array = array (
