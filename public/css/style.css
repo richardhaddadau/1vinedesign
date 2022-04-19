@@ -2640,10 +2640,6 @@ ul.testimonials {
     font-weight: 600;
 }
 
-.pricing-list-item i {
-    color: var(--main-theme-color) !important;
-}
-
 a.pricing-button {
     display: block;
     cursor: pointer;
@@ -2710,21 +2706,11 @@ a.pricing-button:hover {
     font-size: 90%;
 }
 
-h5.pricing-head {
-    margin: 20px 0 0 0;
-    text-align: left;
-    font-size: 90%;
-    font-weight: 600;
-}
-
 .pricing-table-feature-item {
     margin: 5px 0;
-    font-size: 95%;
+    font-size: 90%;
+    font-weight: 400;
     text-align: left !important;
-}
-
-.pricing-table-feature-item:nth-child(2n) {
-    background-color: #ededed;
 }
 
 .pricing-table-feature-item {
@@ -2734,18 +2720,42 @@ h5.pricing-head {
 }
 
 .pricing-table-feature-marker {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
     padding: 9px;
     margin: 5px 0;
 
     height: 40px;
+
+    font-size: 70%;
 }
 
+.pricing-table-feature-item.rows-2,
+.pricing-table-feature-marker.rows-2 {
+    height: 50px;
+}
+
+.pricing-table-feature-item.rows-3,
+.pricing-table-feature-marker.rows-3 {
+    height: 60px;
+}
+
+.pricing-table-feature-item.rows-4,
+.pricing-table-feature-marker.rows-4 {
+    height: 70px;
+}
+
+.pricing-table-feature-item:nth-child(2n),
 .pricing-table-feature-marker:nth-child(2n) {
-    background-color: #ededed;
+    background-color: #f7f7f7;
 }
 
 .pricing-table-feature-marker i {
-    font-size: 80%;
+    /*font-size: 80%;*/
 }
 
 .pricing-table-feature-marker i.fa-check {
@@ -2753,11 +2763,62 @@ h5.pricing-head {
 }
 
 .pricing-table-feature-marker i.fa-minus {
-    color: #474747;
+    color: #a7a7a7;
 }
 
 .pricing-plan-col {
-    width: 100px;
+    width: 120px;
+}
+
+h5.pricing-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    margin: 20px 0 0 0;
+
+    text-align: left;
+    font-size: 90%;
+    font-weight: 600;
+
+    height: 40px;
+}
+
+.pricing-plan-col h5 {
+    text-align: center;
+    font-size: 100%;
+
+    height: 40px;
+}
+
+.pricing-foot {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    margin: 10px 5px 5px 5px;
+    padding: 10px;
+
+    height: 60px !important;
+
+    background-color: #212121;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    /*font-size: 80% !important;*/
+    font-weight: 700;
+    color: white !important;
+}
+
+.pricing-foot span {
+    font-size: 70%;
+    color: white !important;
+}
+
+.pricing-foot.call-for-quote {
+    font-size: 80% !important;
 }
 
 /* =========================
@@ -2893,7 +2954,7 @@ h5.pricing-head {
 
     text-align: center;
     font-size: 125%;
-    font-weight: 200;
+    font-weight: 400;
     color: #fff;
 }
 
@@ -3597,6 +3658,16 @@ a.futur-badge:hover {
         width: 100px;
     }
 
+    /* Pricing */
+    .pricing-banner {
+        flex-direction: column;
+    }
+
+    .pricing-topic,
+    .pricing-group {
+        width: 100%;
+    }
+
     /* ===  9. Footer [Mobile & Tablet]  === */
     footer {
         position: relative !important;
@@ -3851,6 +3922,24 @@ a.futur-badge:hover {
     .menu-bulk h2 {
         font-size: 110% !important;
         margin: 10px 0;
+    }
+
+    /* Pricing */
+    .pricing-topic,
+    .pricing-group {
+        width: 90%;
+    }
+
+    .pricing-group {
+        flex-direction: column;
+    }
+
+    .pricing-cell {
+        width: 100%;
+    }
+
+    .pricing-cell .pricing-cost {
+        font-size: 270%;
     }
 
     /* ===  8. Navigation [Mobile]  === */
