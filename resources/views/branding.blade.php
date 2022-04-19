@@ -57,27 +57,27 @@
 
             <div class="pricing-group">
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Title</h4>
-                    <h3 class="pricing-cost">$9999</h3>
-                    <p class="pricing-terms">per month</p>
+                    <h4 class="pricing-title">Starter</h4>
+                    <h3 class="pricing-cost">$4999</h3>
+                    <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #1</li>
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #2</li>
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #3</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Branding</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Webhosting</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Security</li>
                     </ul>
-                    <a class="pricing-button primary">Compare <i class="fas fa-th-list"></i></a>
+                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Title</h4>
+                    <h4 class="pricing-title">Premium</h4>
                     <h3 class="pricing-cost">$9999</h3>
-                    <p class="pricing-terms">per month</p>
+                    <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #1</li>
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #2</li>
-                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Item #3</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Strategy</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Stationery Set</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Web Package</li>
                     </ul>
-                    <a class="pricing-button secondary">See Details <i class="fas fa-th-list"></i></a>
+                    <a class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas fa-th-list"></i></a>
                 </div>
             </div>
         </div>
@@ -91,45 +91,201 @@
         <h2>Compare plans</h2>
         <div class="pricing-table">
             <div class="pricing-table-features">
-                <h5 class="pricing-head">Soemthing</h5>
+                <h5 class="pricing-head">&nbsp;</h5>
                 <div class="pricing-table-feature-item">1 Hour Consultation</div>
-                <div class="pricing-table-feature-item">Analysis and Strategy Report</div>
-                <div class="pricing-table-feature-item">Define Brand Positioning</div>
+
+                <h5 class="pricing-head">Visual Identity</h5>
                 <div class="pricing-table-feature-item">Brand Logo Design</div>
+                <div class="pricing-table-feature-item">Brand Colour Palette</div>
+                <div class="pricing-table-feature-item">Brand Typography</div>
+                <div class="pricing-table-feature-item">Identity Mockups</div>
                 <div class="pricing-table-feature-item">Business Card Design</div>
                 <div class="pricing-table-feature-item">Business Card Print</div>
                 <div class="pricing-table-feature-item">Envelope Design</div>
                 <div class="pricing-table-feature-item">Envelope Print</div>
                 <div class="pricing-table-feature-item">Letterhead Design</div>
-                <div class="pricing-table-feature-item">Feature 1</div>
+
+                <h5 class="pricing-head">Website (Non-eCommerce)</h5>
+                <div class="pricing-table-feature-item">CMS-Based</div>
+                <div class="pricing-table-feature-item">Total Pages</div>
+                <div class="pricing-table-feature-item">Professional UI / UX Design</div>
+                <div class="pricing-table-feature-item">Image Search and Stock</div>
+                <div class="pricing-table-feature-item">Content Copywriting</div>
+                <div class="pricing-table-feature-item">Initial SEO Setup</div>
+                <div class="pricing-table-feature-item">Legal Pages</div>
+                <div class="pricing-table-feature-item rows-3">Domain Names<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-item">Web Hosting</div>
+                <div class="pricing-table-feature-item">SSL Certificate</div>
+                <div class="pricing-table-feature-item">Email Addresses</div>
+
+                <h5 class="pricing-head">Brand Strategy</h5>
+                <div class="pricing-table-feature-item">Business Analysis</div>
+                <div class="pricing-table-feature-item">Customer Profiles</div>
+                <div class="pricing-table-feature-item">Audit of Competition</div>
+                <div class="pricing-table-feature-item">Brand Messaging</div>
+                <div class="pricing-table-feature-item">Brand Voice & Tone</div>
+                <div class="pricing-table-feature-item">Brand Name Analysis</div>
+                <div class="pricing-table-feature-item">Value Proposition</div>
+                <div class="pricing-table-feature-item">Brand Pillars</div>
+                <div class="pricing-table-feature-item">Brand Tagline</div>
+
+                <h5 class="pricing-head">Email Marketing</h5>
+                <div class="pricing-table-feature-item">Account Setup</div>
+                <div class="pricing-table-feature-item">Newsletter Template</div>
+                <div class="pricing-table-feature-item">Complete Newsletters</div>
             </div>
 
             <div class="pricing-plan-col">
+                <h5 class="pricing-head">Starter</h5>
+                <div class="pricing-table-feature-marker" style="margin-top: 5px;"><i class="fas fa-check"></i></div>
+
+                {{-- Visual Identity --}}
                 <h5 class="pricing-head">&nbsp;</h5>
-                <div class="pricing-table-feature-marker" style="margin-top: 3px;"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                {{-- Website Design and Development --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">3</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker rows-3">.com.au<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">1 Email</div>
+
+                {{-- Brand Strategy --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                {{-- Email Marketing --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <h5 class="pricing-foot">$4999<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
+                <h5 class="pricing-head">Premium</h5>
+                <div class="pricing-table-feature-marker" style="margin-top: 5px;"><i class="fas fa-check"></i></div>
+
+                {{-- Visual Identity --}}
                 <h5 class="pricing-head">&nbsp;</h5>
-                <div class="pricing-table-feature-marker" style="margin-top: 3px;"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                {{-- Website Design and Development --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">6</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">5 Emails</div>
+
+                {{-- Brand Strategy --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                {{-- Email Marketing --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <h5 class="pricing-foot">$9999<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Enterprise</h5>
+                <div class="pricing-table-feature-marker" style="margin-top: 5px;"><i class="fas fa-check"></i></div>
+
+                {{-- Visual Identity --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                {{-- Website Design and Development --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">Unlimited</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>.au</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">Unlimited</div>
+
+                {{-- Brand Strategy --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                {{-- Email Marketing --}}
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">12 Issues</div>
+
+                <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
     </div>
