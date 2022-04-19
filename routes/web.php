@@ -19,6 +19,9 @@ use App\Http\Controllers\QuotesController;
 
 // Service Tools Pages
 Route::group(['prefix' => 'services'], function() {
+    Route::get('adobe-design-services', [ServicesController::class,'adobe']);
+
+    Route::get('javascript-development-services', [ServicesController::class,'laravel']);
     Route::get('laravel-development-services', [ServicesController::class,'laravel']);
     Route::get('wordpress-development-services', [ServicesController::class,'wordpress']);
     Route::get('content-management-systems', [ServicesController::class,'cms']);

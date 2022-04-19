@@ -82,12 +82,9 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}"
-                                                                 alt="Illustrator logo"> Illustrator</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}"
-                                                                 alt="InDesign logo"> InDesign</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}"
-                                                                 alt="Photoshop logo"> Photoshop</li></a>
+                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}" alt="Illustrator logo"> Illustrator</li></a>
+                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}" alt="InDesign logo"> InDesign</li></a>
+                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}" alt="Photoshop logo"> Photoshop</li></a>
                         </ul>
                     </div>
                 </div>
@@ -100,18 +97,11 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset
-                            ('img/tools-javascript.svg')  }}"
-                                                                            alt="Javascript logo"> Javascript</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
-                                                                 alt="Laravel logo"> Laravel</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset
-                            ('img/tools-wordpress.svg')  }}"
-                                                                 alt="Wordpress logo"> Wordpress</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')  }}"
-                                                                 alt="Strapi logo"> Strapi</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')  }}"
-                                                                 alt="Statamic logo"> Statamic</li></a>
+                            <a href="/javascript-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}" alt="Javascript logo"> Javascript</li></a>
+                            <a href="/laravel-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
+                            <a href="/wordpress-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-wordpress.svg')  }}" alt="Wordpress logo"> Wordpress</li></a>
+                            <a href="/content-management-systems"><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')}}" alt="Strapi logo"> Strapi</li></a>
+                            <a href="/content-management-systems"><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')}}" alt="Statamic logo"> Statamic</li></a>
                         </ul>
                     </div>
                 </div>
@@ -124,42 +114,29 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}"
-                                                                 alt="Laravel logo"> Laravel</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')  }}"
-                                                                 alt="React logo"> React</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}"
-                                                                 alt="Python logo"> Python</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}"
-                                                                 alt="React Native logo"> React Native</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}"
-                                                                 alt="Kotlin logo"> Kotlin</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}"
-                                                                 alt="Swift logo"> Swift</li></a>
+                            <a href="/laravel-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
+                            <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')}}" alt="React logo"> React</li></a>
+                            <a href="/python-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}" alt="Python logo"> Python</li></a>
+                            <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}" alt="React Native logo"> React Native</li></a>
+                            <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}" alt="Kotlin logo"> Kotlin</li></a>
+                            <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}" alt="Swift logo"> Swift</li></a>
                         </ul>
                     </div>
                 </div>
                 <div class="service-card" data-service-single="eCommerce">
                     <h3 class="service-head"><i class="fa-solid fa-tags"></i> eCommerce Solutions</h3>
                     <div class="service-body">
-                        <p>Having an eCommerce consultant experienced in various fields and with
-                        different platforms means that you can rest assured you'll be getting professional and
-                        personalised solutions for your online store Being a partner on the major eCommerce
-                        platforms means that I cannot have a bias toward any over the others. You will only receive
-                            honest, customised advice.</p>
-                        <p><a href="/ecommerce-solutions">See pricing and more <i class="fas
-                        fa-arrow-circle-right"></i></a></p>
+                        <p>Having an eCommerce consultant experienced in various fields and with different platforms
+                            means that you can rest assured you'll be getting professional and personalised
+                            solutions for your online store Being a partner on the major eCommerce platforms means that I cannot have a bias toward any over the others. You will only receive honest, customised advice.</p>
+                        <p><a href="/ecommerce-solutions">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')  }}"
-                                                                 alt="Swift logo"> Shopify</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}"
-                                                                 alt="BigCommerce logo"> BigCommerce</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}"
-                                                                 alt="WooCommerce logo"> WooCommerce</li></a>
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg')  }}"
-                                                                 alt="Vend logo"> Vend</li></a>
+                            <a href="/shopify-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')}}" alt="Shopify logo"> Shopify</li></a>
+                            <a href="/bigcommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}" alt="BigCommerce logo"> BigCommerce</li></a>
+                            <a href="/woocommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}" alt="WooCommerce logo"> WooCommerce</li></a>
+                            <a href="/vend-commerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg') }}" alt="Vend logo"> Vend</li></a>
                         </ul>
                     </div>
                 </div>
@@ -174,7 +151,7 @@
                     <div class="service-footer">
                         <ul class="service-footer-list">
                             <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
-                                                                 alt="Kali Linux logo"> Kali Linux</li></a>
+                                                                             alt="Kali Linux logo"> Kali Linux</li></a>
                             <a href="/"><li class="service-footer-item">Nmap</li></a>
                         </ul>
                     </div>

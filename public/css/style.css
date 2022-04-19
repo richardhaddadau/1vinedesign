@@ -673,6 +673,12 @@ p strong {
     z-index: 5 !important;
 }
 
+.section.banner-header {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .section .container {
     display: flex;
     position: relative;
@@ -726,7 +732,7 @@ p strong {
 }
 
 .section.make-orange {
-    background-color: var(--main-theme-color);
+    background-color: var(--secondary-theme-color);
     background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 900 1500' style='enable-background:new 0 0 900 1500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.05;%7D .st1%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg id='Group_54' class='st0'%3E%3Cpath id='Path_15' class='st1' d='M802.1,93V1407H379.3v-892H97.9V304L379.3,93H802.1 M887.3,7.7h-536L328.7,25l-282,211.1 l-34,25.6v338.7h281.4v892h593.2V7.7z'/%3E%3C/g%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: 60%;
@@ -737,7 +743,7 @@ p strong {
 }
 
 .section.make-green {
-    background-color: var(--secondary-theme-color);
+    background-color: var(--main-theme-color);
     background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 900 1500' style='enable-background:new 0 0 900 1500;' xml:space='preserve'%3E%3Cstyle type='text/css'%3E .st0%7Bopacity:0.05;%7D .st1%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg id='Group_54' class='st0'%3E%3Cpath id='Path_15' class='st1' d='M802.1,93V1407H379.3v-892H97.9V304L379.3,93H802.1 M887.3,7.7h-536L328.7,25l-282,211.1 l-34,25.6v338.7h281.4v892h593.2V7.7z'/%3E%3C/g%3E%3C/svg%3E");
     background-repeat: no-repeat;
     background-size: 60%;
@@ -1085,7 +1091,6 @@ a:hover .fa-comment-alt {
     position: relative;
 
     flex-grow: 2;
-    padding: 30px;
 
     background-color: white;
     border-radius: 10px;
@@ -1135,6 +1140,7 @@ a:hover .fa-comment-alt {
 
 .service-single .service-head {
     margin: 0;
+    padding: 30px 30px 0 30px;
 
     font-size: 135%;
     font-weight: 700 !important;
@@ -1146,35 +1152,48 @@ a:hover .fa-comment-alt {
     font-weight: 600;
 }
 
+.service-single .service-body {
+    padding: 0 30px;
+}
+
 .service-single .service-body p {
     text-align: left;
 }
 
-.service-single .service-body a,
+.service-single .service-body a {
+    padding: 10px 10px 10px 20px;
+
+    border-radius: 100px;
+
+    font-size: 90%;
+    font-weight: 600 !important;
+    color: var(--main-theme-color) !important;
+
+    border: var(--main-theme-color) solid 3px;
+}
+
 .service-single .service-body a i {
     font-weight: 600 !important;
     color: var(--main-theme-color) !important;
 }
 
-.service-single .service-body a:hover,
-.service-single .service-body a:hover i {
+.service-single .service-body a:hover {
     padding: 10px 10px 10px 20px;
 
-    border-radius: 100px;
-
     color: white !important;
+
+    border: var(--main-theme-color) solid 3px;
 }
 
 .service-single .service-body a:hover i {
     margin-left: 20px;
+    color: white !important;
 }
 
 .service-single .service-footer {
-    padding: 20px;
-
-    background-color: #212121;
-    border-radius: 10px;
-    box-shadow: inset 0px 0px 15px 15px rgba(0, 0, 0, 1);
+    margin-top: 40px;
+    /*border-top: #c7c7c7 solid 1px;*/
+    background-color: rgba(33, 33, 33, 0.85);
 }
 
 .service-single .service-footer p {
@@ -1191,7 +1210,7 @@ a:hover .fa-comment-alt {
 
     flex-wrap: wrap;
 
-    margin-top: 20px;
+    margin: 0;
 
     justify-content: flex-start;
     align-items: flex-end;
@@ -1220,7 +1239,7 @@ a:hover .fa-comment-alt {
 
     min-width: 80px;
 
-    font-size: 90%;
+    font-size: 75%;
     font-weight: bold;
 
     transition: all 0.35s ease;
@@ -1229,26 +1248,6 @@ a:hover .fa-comment-alt {
 .service-single .service-footer-list a {
     font-size: inherit;
     font-weight: inherit;
-}
-
-.service-single .service-footer-list a .service-footer-item::after {
-    content: "";
-    display: block;
-    position: absolute;
-
-    bottom: -5px;
-    left: 0;
-
-    width: 0%;
-    height: 4px;
-
-    background-color: var(--main-theme-color);
-
-    transition: all 0.35s ease;
-}
-
-.service-single .service-footer-list a:hover .service-footer-item::after {
-    width: 100%;
 }
 
 .service-single .service-footer-list a:hover {
@@ -2567,6 +2566,200 @@ ul.testimonials {
     color: inherit;
 }
 
+/* Pricing */
+.pricing-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricing-topic {
+    width: 35%;
+}
+
+.pricing-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 55%;
+}
+
+.pricing-cell {
+    flex-grow: 2;
+
+    margin: 10px;
+    padding: 10px;
+
+    height: 100%;
+
+    background-color: white;
+    border-radius: 10px;
+
+    text-align: center;
+}
+
+.pricing-cell * {
+    color: #212121 !important;
+}
+
+.pricing-title {
+    margin-bottom: 10px;
+
+    font-size: 75%;
+    color: #b7b7b7 !important;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.pricing-cost {
+    margin: 10px 0;
+
+    font-size: 350%;
+    font-weight: 700;
+}
+
+.pricing-terms {
+    margin: 5px 0;
+    margin-top: -30px !important;
+
+    font-size: 80%;
+}
+
+.pricing-list {
+}
+
+.pricing-list-item {
+    margin: 10px;
+
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.pricing-list-item i {
+    color: var(--main-theme-color) !important;
+}
+
+a.pricing-button {
+    display: block;
+    cursor: pointer;
+
+    padding: 15px;
+    margin: 30px auto 20px auto;
+
+    width: 80% !important;
+
+    border-radius: 100px;
+
+    font-size: 90%;
+    font-weight: 600;
+}
+
+a.pricing-button i {
+    opacity: 0;
+    margin-left: -25px;
+
+    transition: all 0.3s ease;
+}
+
+a.pricing-button.primary {
+    background-color: var(--main-theme-color);
+
+    color: white !important;
+}
+
+a.pricing-button.secondary {
+    background-color: rgba(131, 177, 35, 0.15);
+
+    color: var(--main-theme-color) !important;
+}
+
+a.pricing-button.primary i {
+    color: white !important;
+}
+
+a.pricing-button.secondary i {
+    color: var(--main-theme-color) !important;
+}
+
+a.pricing-button:hover i {
+    opacity: 1 !important;
+    margin-left: 10px !important;
+}
+
+a.pricing-button:hover {
+}
+
+.pricing-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    justify-content: space-evenly;
+
+    width: 90%;
+}
+
+.pricing-table-features {
+    flex-grow: 2;
+
+    font-size: 90%;
+}
+
+h5.pricing-head {
+    margin: 20px 0 0 0;
+    text-align: left;
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.pricing-table-feature-item {
+    margin: 5px 0;
+    font-size: 95%;
+    text-align: left !important;
+}
+
+.pricing-table-feature-item:nth-child(2n) {
+    background-color: #ededed;
+}
+
+.pricing-table-feature-item {
+    padding: 10px;
+
+    height: 40px;
+}
+
+.pricing-table-feature-marker {
+    padding: 9px;
+    margin: 5px 0;
+
+    height: 40px;
+}
+
+.pricing-table-feature-marker:nth-child(2n) {
+    background-color: #ededed;
+}
+
+.pricing-table-feature-marker i {
+    font-size: 80%;
+}
+
+.pricing-table-feature-marker i.fa-check {
+    color: var(--main-theme-color);
+}
+
+.pricing-table-feature-marker i.fa-minus {
+    color: #474747;
+}
+
+.pricing-plan-col {
+    width: 100px;
+}
+
 /* =========================
     8. Navigation [General]
 ========================= */
@@ -3557,7 +3750,7 @@ a.futur-badge:hover {
     }
 
     .section.hero h1 {
-        font-size: 2.0em;
+        font-size: 2em;
     }
 
     .section.hero h3 {
@@ -3625,7 +3818,9 @@ a.futur-badge:hover {
         min-width: inherit;
     }
 
-    .btn-submit.btn-solid, .btn-subscribe.btn-solid, .section .btn-collection .btn-special.btn-solid {
+    .btn-submit.btn-solid,
+    .btn-subscribe.btn-solid,
+    .section .btn-collection .btn-special.btn-solid {
         padding: 1em 0.75em;
     }
 
