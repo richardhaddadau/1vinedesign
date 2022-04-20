@@ -34,6 +34,9 @@ Route::group(['prefix' => 'services'], function() {
     Route::get('bigcommerce-ecommerce-services', [ServicesController::class,'bigcommerce']);
     Route::get('woocommerce-ecommerce-services', [ServicesController::class,'woocommerce']);
     Route::get('vend-commerce-services', [ServicesController::class,'vend']);
+
+    Route::get('domain-names', [ServicesController::class,'domains']);
+    Route::get('shared-web-hosting', [ServicesController::class,'hosting']);
 });
 
 // Service Pages

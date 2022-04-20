@@ -42,6 +42,16 @@ class ServicesController extends Controller
         return view('seo');
     }
 
+    // Load Domain Names Page
+    public function domains() {
+        return view('domains');
+    }
+
+    // Load Web Hosting Page
+    public function hosting() {
+        return view('hosting');
+    }
+
     // TOOLS
     // Load JavaScript
     public function javascript() {

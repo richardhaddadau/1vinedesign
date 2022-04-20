@@ -2570,12 +2570,12 @@ ul.testimonials {
 .pricing-banner {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 .pricing-topic {
-    width: 35%;
+    width: 40%;
 }
 
 .pricing-group {
@@ -2586,6 +2586,14 @@ ul.testimonials {
     align-items: center;
 
     width: 55%;
+}
+
+.pricing-topic.for-cells-3 {
+    width: 30%;
+}
+
+.pricing-group.for-cells-3 {
+    width: 70%;
 }
 
 .pricing-cell {
@@ -2668,10 +2676,14 @@ a.pricing-button.primary {
     color: white !important;
 }
 
-a.pricing-button.secondary {
+.theme-green a.pricing-button.secondary {
     background-color: rgba(131, 177, 35, 0.15);
 
     color: var(--main-theme-color) !important;
+}
+
+.theme-orange a.pricing-button.secondary {
+    background-color: rgba(210, 62, 14, 0.15);
 }
 
 a.pricing-button.primary i {
@@ -2767,7 +2779,36 @@ a.pricing-button:hover {
 }
 
 .pricing-plan-col {
+    position: relative;
     width: 120px;
+
+    transition: all 0.75s ease;
+}
+
+.pricing-plan-col::before {
+    pointer-events: none;
+
+    content: "";
+
+    display: block;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    border: 3px solid transparent;
+    border-radius: 15px;
+
+    transition: all 0.5s ease;
+
+    z-index: 0;
+}
+
+.pricing-plan-col:hover::before {
+    border: 3px solid var(--main-theme-color);
 }
 
 h5.pricing-head {
@@ -2791,25 +2832,44 @@ h5.pricing-head {
     height: 40px;
 }
 
-.pricing-foot {
+.pricing-foot,
+.pricing-foot-button {
     display: flex;
     flex-direction: column;
 
     justify-content: center;
     align-items: center;
 
-    margin: 10px 5px 5px 5px;
     padding: 10px;
 
     height: 60px !important;
 
     background-color: #212121;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
 
-    /*font-size: 80% !important;*/
     font-weight: 700;
     color: white !important;
+
+    z-index: 5;
+}
+
+.pricing-foot {
+    margin: 0 5px 5px 5px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.pricing-foot-button {
+    cursor: pointer;
+
+    margin: 10px 5px 0 5px;
+
+    font-size: 90% !important;
+
+    transition: all 0.35s ease;
+}
+
+.pricing-foot-button:hover {
+    background-color: var(--main-theme-color) !important;
 }
 
 .pricing-foot span {

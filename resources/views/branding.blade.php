@@ -2,13 +2,13 @@
 @extends('layouts.base')
 
 <!-- Page Title -->
-@section('title', 'Branding Strategy')
+@section('title', 'Branding & Strategy')
 
 <!-- Page Description -->
-@section('description', 'xx.')
+@section('description', 'Establish your business, get customers and beat the competition.')
 
 <!-- Page Keywords -->
-@section('keywords', 'xx')
+@section('keywords', '')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/branding-and-strategy')
@@ -18,15 +18,15 @@
 
 <!-- Facebook -->
 <meta property="og:site_name" content="1VINE Design">
-<meta property="og:title" content="Maximise Your Brand's SEO - 1VINE Design">
-<meta property="og:description" content="Maximise Your Brand's SEO with 1VINE Design.">
+<meta property="og:title" content="Build a Brand that Speaks for Itself - 1VINE Design">
+<meta property="og:description" content="Establish your business, get customers and beat the competition.">
 <meta property="og:image" content="https://1vinedesign.com.au/img/bg.jpg">
-<meta property="og:url" content="https://1vinedesign.com.au/maximise-your-brands-seo">
+<meta property="og:url" content="https://1vinedesign.com.au/branding-and-strategy">
 
 <!-- Twitter -->
 <meta name="twitter:title" content="@1vinedesign">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:description" content="Maximise Your Brand's SEO with 1VINE Design.">
+<meta name="twitter:description" content="Establish your business, get customers and beat the competition.">
 <meta name="twitter:image" content="https://1vinedesign.com.au/img/bg.jpg">
 <meta name="twitter:image:alt" content="1VINE Design Header.">
 @endsection
@@ -38,7 +38,7 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Branding and Strategy')
+@section('menu-chapter', 'Branding & Strategy')
 
 <div class="section make-small make-dark theme-green banner-header">
     <div class="container" style="padding-bottom: 30px;">
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Premium</h4>
+                    <h4 class="pricing-title">Professional</h4>
                     <h3 class="pricing-cost">$9999</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
@@ -183,11 +183,12 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
+                <a class="pricing-foot-button">Purchase</a>
                 <h5 class="pricing-foot">$4999<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
-                <h5 class="pricing-head">Premium</h5>
+                <h5 class="pricing-head">Pro</h5>
                 <div class="pricing-table-feature-marker" style="margin-top: 5px;"><i class="fas fa-check"></i></div>
 
                 {{-- Visual Identity --}}
@@ -234,6 +235,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
+                <a class="pricing-foot-button">Purchase</a>
                 <h5 class="pricing-foot">$9999<span>AUD</span></h5>
             </div>
 
@@ -285,6 +287,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">12 Issues</div>
 
+                <a class="pricing-foot-button">Contact</a>
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
