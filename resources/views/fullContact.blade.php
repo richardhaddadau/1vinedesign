@@ -48,17 +48,15 @@
         <div class="heading-underline"></div>
         <p class="section-desc mt-1">Let's kick off your awesome project!</p>
 
-        {!! RecaptchaV3::initJs() !!}
-
-        <form action="{{ route('quotes.store') }}" method="post" class="col-8 mcol-11 make-contact mt-3">            
+        <form action="{{ route('quotes.store') }}" method="post" class="col-8 mcol-11 make-contact mt-3">
             <input type="hidden" name="_token" value="{{ csrf_token() }}" />
-            
+
             @if (isset($theKey))
                 <div class="input-field mb-2 quote-select-wrapper make-chosen">
             @else
                 <div class="input-field mb-2 quote-select-wrapper make-default">
             @endif
-                <span class="quote-select">Chosen Package*</span>
+                <span class="quote-select">Chosen Package*: </span>
                 <select id="quote_select" name="quote_select" class="browser-default mt-1" required>
 
                     @if (isset($theKey))
@@ -75,9 +73,9 @@
                         @endif
                         {{ $theArray[$x] }}</option>
                     @endfor
-                    
+
                 </select>
-            </div>            
+            </div>
 
             <div class="input-field">
                 <input id="quote_name" name="quote_name" type="text" class="validate" required>
@@ -108,8 +106,6 @@
                 <textarea id="quote_message" name="quote_message" class="materialize-textarea validate" required></textarea>
                 <label for="quote_message">Project Details (min. 10 Words)*</label>
             </div>
-            
-            {!! RecaptchaV3::field('quote') !!}
 
             <div class="recaptcha-notice">This site is protected by reCAPTCHA & the Google
             <a href="https://policies.google.com/privacy">Privacy Policy</a> &
