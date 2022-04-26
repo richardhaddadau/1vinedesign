@@ -49,7 +49,7 @@ class ServicesController extends Controller
 
     // Load Web Hosting Page
     public function hosting() {
-        return view('hosting');
+        return view('webHosting');
     }
 
     // TOOLS
