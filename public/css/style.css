@@ -2106,7 +2106,7 @@ form.make-contact input {
 }
 
 .make-contact .quote-select-wrapper {
-    padding: 20px;
+    padding: 0px 10px 30px 10px;
     border-radius: 10px;
 }
 
@@ -2117,18 +2117,18 @@ form.make-contact input {
 
 .make-contact .quote-select-wrapper.make-chosen {
     border: none;
-    background-color: var(--secondary-theme-color);
+    background-color: var(--main-theme-color);
 }
 
 .make-contact select {
-    padding: 10px 0;
+    padding: 10px 0 10px 10px;
 
     height: auto;
     border: none;
     background-color: transparent;
     border-bottom: 1px solid #fff;
 
-    font-size: 0.9em;
+    font-size: 1.2em;
 }
 
 .make-contact select:focus {
@@ -2138,11 +2138,11 @@ form.make-contact input {
 
 .make-contact select option {
     color: #212121 !important;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 .make-contact span.quote-select {
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .grecaptcha-badge {
