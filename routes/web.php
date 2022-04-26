@@ -48,6 +48,9 @@ Route::get('/security-and-ethical-hacking', [ServicesController::class, 'securit
 Route::get('/web-maintenance', [ServicesController::class, 'maintenance']);
 Route::get('/web-seo', [ServicesController::class, 'seo']);
 
+Route::get('/webhosting-solutions', [ServicesController::class, 'hosting']);
+Route::get('/domain-names', [ServicesController::class, 'domains']);
+
 Route::get('/other-deliverables', [ViewsController::class, 'deliverables']);
 
 // Main Pages

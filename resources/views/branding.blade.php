@@ -183,7 +183,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/branding-starter">Purchase</a>
                 <h5 class="pricing-foot">$4999<span>AUD</span></h5>
             </div>
 
@@ -235,7 +235,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/branding-professional">Purchase</a>
                 <h5 class="pricing-foot">$9999<span>AUD</span></h5>
             </div>
 
@@ -287,7 +287,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">12 Issues</div>
 
-                <a class="pricing-foot-button">Contact</a>
+                <a class="pricing-foot-button" href="/get-quote/branding-enterprise">Contact</a>
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>

@@ -38,7 +38,7 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Branding & Strategy')
+@section('menu-chapter', 'Business Websites')
 
 <div class="section make-small make-dark theme-green banner-header">
     <div class="container" style="padding-bottom: 30px;">
@@ -65,7 +65,7 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Initial SEO</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Webhosting</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <a class="pricing-button primary" onclick="goTo(3)">Compare <i class="fas fa-th-list"></i></a>
                 </div>
 
                 <div class="pricing-cell">
@@ -77,13 +77,23 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> UI / UX Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Email Setup</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas fa-th-list"></i></a>
+                    <a class="pricing-button secondary" onclick="goTo(3)">See Details <i class="fas fa-th-list"></i></a>
                 </div>
             </div>
         </div>
-
     </div>
+</div>
 
+<div class="section make-small make-dark theme-green banner-header">
+    <div class="container make-centered large-container mb-4">
+        <h2>Looking for easy, affordable and reliable web hosting?</h2>
+
+        <article class="btn-collection">
+            <a href="/webhosting-solutions/" title="Link to WebHosting solutions page">
+                <button class="btn-special btn-solid btn-black">See Here</button>
+            </a>
+        </article>
+    </div>
 </div>
 
 <div class="section make-light make-small theme-green autoScroll">
@@ -139,7 +149,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/website-essential">Purchase</a>
                 <h5 class="pricing-foot">$2850<span>AUD</span></h5>
             </div>
 
@@ -167,7 +177,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/website-premium">Purchase</a>
                 <h5 class="pricing-foot">$5890<span>AUD</span></h5>
             </div>
 
@@ -195,7 +205,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button">Contact</a>
+                <a class="pricing-foot-button" href="/get-quote/website-enterprise">Contact</a>
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>

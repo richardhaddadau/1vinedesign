@@ -38,7 +38,7 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Branding & Strategy')
+@section('menu-chapter', 'eCommerce Solutions')
 
 <div class="section make-small make-dark theme-green banner-header">
     <div class="container" style="padding-bottom: 30px;">
@@ -152,7 +152,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/ecommerce-basic">Purchase</a>
                 <h5 class="pricing-foot">$2850<span>AUD</span></h5>
             </div>
 
@@ -180,7 +180,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/ecommerce-standard">Purchase</a>
                 <h5 class="pricing-foot">$5890<span>AUD</span></h5>
             </div>
 
@@ -208,7 +208,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/ecommerce-extensive">Purchase</a>
                 <h5 class="pricing-foot">$5890<span>AUD</span></h5>
             </div>
 
@@ -236,7 +236,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button">Contact</a>
+                <a class="pricing-foot-button" href="/get-quote/ecommerce-enterprise">Contact</a>
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
