@@ -873,7 +873,7 @@ a:hover .fa-comment-alt {
     flex-direction: row;
 
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
     width: 100%;
 
@@ -2585,7 +2585,7 @@ ul.testimonials {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: stretch;
 
     width: 55%;
 }
@@ -2599,17 +2599,23 @@ ul.testimonials {
 }
 
 .pricing-cell {
+    position: relative;
+
     flex-grow: 2;
 
     margin: 10px;
     padding: 10px;
 
-    height: 100%;
+    width: 50%;
 
     background-color: white;
     border-radius: 10px;
 
     text-align: center;
+}
+
+.for-cells-3 .pricing-cell {
+    width: 30%;
 }
 
 .pricing-cell * {
@@ -2825,6 +2831,20 @@ h5.pricing-head {
     font-weight: 600;
 
     height: 40px;
+}
+
+.pricing-note {
+    margin: 0 !important;
+    text-align: left;
+    font-size: 85%;
+    font-style: italic;
+}
+
+.pricing-note-marker {
+    margin: -3px 0 0 0 !important;
+    text-align: left;
+    font-size: 85%;
+    font-style: italic;
 }
 
 .pricing-plan-col h5 {
@@ -3730,6 +3750,11 @@ a.futur-badge:hover {
         width: 100%;
     }
 
+    .pricing-topic.for-cells-3,
+    .pricing-group.for-cells-3 {
+        width: 100%;
+    }
+
     /* ===  9. Footer [Mobile & Tablet]  === */
     footer {
         position: relative !important;
@@ -3997,7 +4022,8 @@ a.futur-badge:hover {
     }
 
     .pricing-cell {
-        width: 100%;
+        margin: 10px auto;
+        width: 90% !important;
     }
 
     .pricing-cell .pricing-cost {
