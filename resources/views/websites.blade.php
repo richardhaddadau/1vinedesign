@@ -21,7 +21,7 @@
 <meta property="og:title" content="Establish your brand's digital footprint - 1VINE Design">
 <meta property="og:description" content="Establish you brand online with a premium, professionally-built website.">
 <meta property="og:image" content="https://1vinedesign.com.au/img/bg.jpg">
-<meta property="og:url" content="https://1vinedesign.com.au/maximise-your-brands-seo">
+<meta property="og:url" content="https://1vinedesign.com.au/business-websites">
 
 <!-- Twitter -->
 <meta name="twitter:title" content="@1vinedesign">
@@ -90,7 +90,7 @@
 
         <article class="btn-collection">
             <a href="/webhosting-solutions/" title="Link to WebHosting solutions page">
-                <button class="btn-special btn-solid btn-black">See Here</button>
+                <button class="btn-special btn-solid btn-black">Visit 1VINE Hosting</button>
             </a>
         </article>
     </div>

@@ -89,7 +89,7 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> App Builds</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> POS Integration</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas fa-th-list"></i></a>
+                    <a class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
                 </div>
             </div>
         </div>

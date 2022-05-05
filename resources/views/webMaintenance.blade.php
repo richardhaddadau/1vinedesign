@@ -179,7 +179,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -191,14 +191,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
