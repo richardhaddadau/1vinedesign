@@ -215,10 +215,9 @@
               <a href="/business-websites">Business Websites</a><br>
               <a href="/ecommerce-solutions">eCommerce Solutions</a><br>
               <a href="/premium-development">Premium Development</a><br>
-              <a href="/security-and-ethical-hacking">Security and Ethical Hacking</a><br>
               <a href="/web-maintenance">Web Maintenance</a><br>
-              <a href="/web-seo">Web SEO</a><br>
-              <a href="/other-deliverables">Other Deliverables</a>
+              <a href="/other-deliverables">Other Deliverables</a><br>
+              <a href="/webhosting-solutions">Webhosting Solutions</a>
           </p>
 
           <!-- <a href="/frequently-asked-questions">FAQ</a><p class="mt-0"> -->

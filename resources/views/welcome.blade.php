@@ -70,8 +70,6 @@
                     <i class="fa-solid fa-tags"></i> <span>eCommerce Solutions</span></div>
                 <div class="service-list-item" data-service="Development">
                     <i class="fa-brands fa-dev"></i> <span>Premium Development</span></div>
-{{--                <div class="service-list-item" data-service="Security">--}}
-{{--                    <i class="fa-solid fa-dragon"></i> <span>Security & Ethical Hacking</span></div>--}}
             </div>
             <div class="service-single">
                 <div class="service-card show grow" data-service-single="Branding">
@@ -108,7 +106,7 @@
                 <div class="service-card" data-service-single="Development">
                     <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
                     <div class="service-body">
-                        <p>Do you have a great project idea that need professional development? Then, you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
+                        <p>Do you have a great project idea that need professional development? Then you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
                         <p><a href="/premium-development">See pricing and more <i class="fas
                         fa-arrow-circle-right"></i></a></p>
                     </div>
@@ -118,6 +116,10 @@
                             <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')}}" alt="React logo"> React</li></a>
                             <a href="/python-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}" alt="Python logo"> Python</li></a>
                             <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}" alt="React Native logo"> React Native</li></a>
+                            <a href="/database-management-services"><li class="service-footer-item"><img src="{{ asset('img/tools-mysql.svg')  }}" alt="MySQL logo"> MySQL</li></a>
+                            <a href="/database-management-services"><li class="service-footer-item"><img src="{{ asset('img/tools-fauna.svg')  }}" alt="FaunaDB logo"> FaunaDB</li></a>
+                            <a href="/frontend-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-svelte.svg')  }}" alt="Svelte logo"> Svelte</li></a>
+                            <a href="#"><li class="service-footer-item"><img src="{{ asset('img/tools-csharp.svg')  }}" alt="C# logo"> C#</li></a>
                             <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}" alt="Kotlin logo"> Kotlin</li></a>
                             <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}" alt="Swift logo"> Swift</li></a>
                         </ul>
@@ -137,22 +139,6 @@
                             <a href="/bigcommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}" alt="BigCommerce logo"> BigCommerce</li></a>
                             <a href="/woocommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}" alt="WooCommerce logo"> WooCommerce</li></a>
                             <a href="/vend-commerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg') }}" alt="Vend logo"> Vend</li></a>
-                        </ul>
-                    </div>
-                </div>
-
-                <div class="service-card" data-service-single="Security">
-                    <h3 class="service-head"><i class="fa-solid fa-dragon"></i> Security & Ethical Hacking</h3>
-                    <div class="service-body">
-                        <p>Some projects can get away with passive security. Others, though, cannot wait for a vulnerability to be exposed by malicious attacks before they do something about it. Cyber Security and Ethical Hacking is a new service that 1VINE is now offering. Find weaknesses in your security and fix them to keep your data and your clients safe.</p>
-                        <p><a href="/security-and-ethical-hacking">See pricing and more <i class="fas
-                        fa-arrow-circle-right"></i></a></p>
-                    </div>
-                    <div class="service-footer">
-                        <ul class="service-footer-list">
-                            <a href="/"><li class="service-footer-item"><img src="{{ asset('img/tools-kali.svg')  }}"
-                                                                             alt="Kali Linux logo"> Kali Linux</li></a>
-                            <a href="/"><li class="service-footer-item">Nmap</li></a>
                         </ul>
                     </div>
                 </div>
@@ -183,15 +169,15 @@
                 </div>
             </section>
 
-            <section class="card">
-                <div class="card-cover"></div>
-                <div class="card-icon"><img src="{{ asset('img/seo.svg') }}" alt="Icon for SEO"></div>
-                <div class="card-body">
-                    <div class="card-header mt-1">Maximise Your Brand's SEO</div>
-                    <div class="card-main">Increase your brand's traffic and online exposure.</div>
-                    <div class="card-link mt-3"><a href="/maximise-your-brands-seo">Boost Traffic <i class="fas fa-chevron-circle-right"></i></a></div>
-                </div>
-            </section>
+{{--            <section class="card">--}}
+{{--                <div class="card-cover"></div>--}}
+{{--                <div class="card-icon"><img src="{{ asset('img/seo.svg') }}" alt="Icon for SEO"></div>--}}
+{{--                <div class="card-body">--}}
+{{--                    <div class="card-header mt-1">Maximise Your Brand's SEO</div>--}}
+{{--                    <div class="card-main">Increase your brand's traffic and online exposure.</div>--}}
+{{--                    <div class="card-link mt-3"><a href="/maximise-your-brands-seo">Boost Traffic <i class="fas fa-chevron-circle-right"></i></a></div>--}}
+{{--                </div>--}}
+{{--            </section>--}}
 
             <section class="card">
                 <div class="card-cover"></div>
@@ -210,6 +196,18 @@
         </etails>
     </section>
 </section>
+
+<div class="section make-small make-dark theme-green banner-header">
+    <div class="container make-centered large-container mb-4">
+        <h2>Looking for easy, affordable and reliable web hosting?</h2>
+
+        <article class="btn-collection">
+            <a href="/webhosting-solutions/" title="Link to WebHosting solutions page">
+                <button class="btn-special btn-solid btn-black">Learn More</button>
+            </a>
+        </article>
+    </div>
+</div>
 
 <section class="section make-light theme-orange autoScroll">
     <section class="container make-centered">

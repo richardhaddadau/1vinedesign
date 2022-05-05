@@ -65,9 +65,7 @@
         <a href="/business-websites"><h2>Business Websites<div class="menu-underline"></div></h2></a>
         <a href="/ecommerce-solutions"><h2>eCommerce Solutions<div class="menu-underline"></div></h2></a>
         <a href="/premium-development"><h2>Premium Development<div class="menu-underline"></div></h2></a>
-        {{--        <a href="/security-and-ethical-hacking"><h2>Security and Ethical Hacking<div class="menu-underline"></div></h2></a>--}}
         <a href="/web-maintenance"><h2>Web Maintenance<div class="menu-underline"></div></h2></a>
-        <a href="/web-seo"><h2>Web SEO<div class="menu-underline"></div></h2></a>
         <a href="/other-deliverables"><h2>Other Deliverables<div class="menu-underline"></div></h2></a>
         <a href="/webhosting-solutions"><h2>Webhosting Solutions<div class="menu-underline"></div></h2></a>
     </div>
