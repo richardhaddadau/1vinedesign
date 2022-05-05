@@ -46,7 +46,7 @@
         <section class="container">
             <article class="hero-content">
                 <h1 class="make-white">Build anything with 1VINE.</h1>
-                <h3 class="make-white subtitle">The design and development consultancy that is building the future, today!</h3>
+                <h3 class="make-white subtitle">Whatever the project, 1VINE is at your service.</h3>
 
                 <button class="hero-btn btn-solid btn-orange mt-2" onclick="goTo(1)">Start Your Journey <i class="fas fa-hiking"></i></button>
             </article>
