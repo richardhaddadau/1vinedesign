@@ -2598,6 +2598,14 @@ ul.testimonials {
     width: 70%;
 }
 
+.for-cells-3 .pricing-cell {
+    width: 30%;
+}
+
+.pricing-group.for-cells-3 .pricing-cost {
+    font-size: 265%;
+}
+
 .pricing-cell {
     position: relative;
 
@@ -2612,10 +2620,6 @@ ul.testimonials {
     border-radius: 10px;
 
     text-align: center;
-}
-
-.for-cells-3 .pricing-cell {
-    width: 30%;
 }
 
 .pricing-cell * {
@@ -2684,6 +2688,17 @@ a.pricing-button.primary {
     color: white !important;
 }
 
+.pricing-footnotes {
+    margin-top: 50px !important;
+
+    width: 100% !important;
+
+    text-align: left;
+    font-size: 80%;
+    font-weight: 500;
+    font-style: italic;
+}
+
 .theme-green a.pricing-button.secondary {
     background-color: rgba(131, 177, 35, 0.15);
 
@@ -2717,7 +2732,7 @@ a.pricing-button:hover {
 
     justify-content: space-evenly;
 
-    width: 90%;
+    width: 100% !important;
 }
 
 .pricing-table-features {
