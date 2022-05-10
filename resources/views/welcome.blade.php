@@ -80,9 +80,9 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}" alt="Illustrator logo"> Illustrator</li></a>
-                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}" alt="InDesign logo"> InDesign</li></a>
-                            <a href="/adobe-design-services"><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}" alt="Photoshop logo"> Photoshop</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}" alt="Illustrator logo"> Illustrator</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}" alt="InDesign logo"> InDesign</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}" alt="Photoshop logo"> Photoshop</li></a>
                         </ul>
                     </div>
                 </div>
@@ -95,33 +95,15 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/javascript-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}" alt="Javascript logo"> Javascript</li></a>
-                            <a href="/laravel-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
-                            <a href="/wordpress-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-wordpress.svg')  }}" alt="Wordpress logo"> Wordpress</li></a>
-                            <a href="/content-management-systems"><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')}}" alt="Strapi logo"> Strapi</li></a>
-                            <a href="/content-management-systems"><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')}}" alt="Statamic logo"> Statamic</li></a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="service-card" data-service-single="Development">
-                    <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
-                    <div class="service-body">
-                        <p>Do you have a great project idea that need professional development? Then you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
-                        <p><a href="/premium-development">See pricing and more <i class="fas
-                        fa-arrow-circle-right"></i></a></p>
-                    </div>
-                    <div class="service-footer">
-                        <ul class="service-footer-list">
-                            <a href="/laravel-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
-                            <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')}}" alt="React logo"> React</li></a>
-                            <a href="/python-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}" alt="Python logo"> Python</li></a>
-                            <a href="/react-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}" alt="React Native logo"> React Native</li></a>
-                            <a href="/database-management-services"><li class="service-footer-item"><img src="{{ asset('img/tools-mysql.svg')  }}" alt="MySQL logo"> MySQL</li></a>
-                            <a href="/database-management-services"><li class="service-footer-item"><img src="{{ asset('img/tools-fauna.svg')  }}" alt="FaunaDB logo"> FaunaDB</li></a>
-                            <a href="/frontend-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-svelte.svg')  }}" alt="Svelte logo"> Svelte</li></a>
-                            <a href="#"><li class="service-footer-item"><img src="{{ asset('img/tools-csharp.svg')  }}" alt="C# logo"> C#</li></a>
-                            <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}" alt="Kotlin logo"> Kotlin</li></a>
-                            <a href="/native-development-services"><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}" alt="Swift logo"> Swift</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-javascript.svg')  }}" alt="Javascript logo"> Javascript</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-wordpress.svg')  }}" alt="Wordpress logo"> Wordpress</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-strapi.svg')}}" alt="Strapi logo"> Strapi</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-statamic.svg')}}" alt="Statamic logo"> Statamic</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-mailchimp.svg')}}"
+                                                                    alt="Mailchimp logo"> Mailchimp</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-mailerlite.svg')}}"
+                                                                    alt="MailerLite logo"> MailerLite</li></a>
                         </ul>
                     </div>
                 </div>
@@ -135,10 +117,41 @@
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
-                            <a href="/shopify-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')}}" alt="Shopify logo"> Shopify</li></a>
-                            <a href="/bigcommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}" alt="BigCommerce logo"> BigCommerce</li></a>
-                            <a href="/woocommerce-ecommerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}" alt="WooCommerce logo"> WooCommerce</li></a>
-                            <a href="/vend-commerce-services"><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg') }}" alt="Vend logo"> Vend</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-shopify.svg')}}" alt="Shopify logo"> Shopify</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-bigcommerce.svg')  }}" alt="BigCommerce logo"> BigCommerce</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-woocommerce.svg')  }}" alt="WooCommerce logo"> WooCommerce</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-stripe.svg')}}"
+                                                                    alt="Stripe logo"> Stripe</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-vend.svg') }}" alt="Vend logo"> Vend</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-square.svg')  }}"
+                                                                    alt="Square logo"> Square</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-mailchimp.svg')}}"
+                                                                    alt="Mailchimp logo"> Mailchimp</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-mailerlite.svg')}}" alt="MailerLite logo"> MailerLite</li></a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-service-single="Development">
+                    <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
+                    <div class="service-body">
+                        <p>Do you have a great project idea that need professional development? Then you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
+                        <p><a href="/premium-development">See pricing and more <i class="fas
+                        fa-arrow-circle-right"></i></a></p>
+                    </div>
+                    <div class="service-footer">
+                        <ul class="service-footer-list">
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-laravel.svg')  }}" alt="Laravel logo"> Laravel</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-tailwind.svg')  }}"
+                                                                    alt="TailwindCSS logo"> Tailwind CSS</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-react.svg')}}" alt="React logo"> React</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-reactnative.svg')  }}" alt="React Native logo"> React Native</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-python.svg')  }}" alt="Python logo"> Python</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-fauna.svg')  }}" alt="FaunaDB logo"> FaunaDB</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-mysql.svg')  }}" alt="MySQL logo"> MySQL</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-svelte.svg')  }}" alt="Svelte logo"> Svelte</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-csharp.svg')  }}" alt="C# logo"> C#</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-kotlin.svg')  }}" alt="Kotlin logo"> Kotlin</li></a>
+                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-swift.svg')  }}" alt="Swift logo"> Swift</li></a>
                         </ul>
                     </div>
                 </div>
@@ -146,7 +159,7 @@
         </div>
 
         <article class="btn-collection mt-3">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </article>
     </section>
 </section>
@@ -192,7 +205,7 @@
         </article>
 
         <etails class="btn-collection mt-3">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </etails>
     </section>
 </section>
@@ -225,7 +238,7 @@
         <p class="col-10">Have a chat with me to find out how you can stand out from the competition and get more customers who will value what your service and your product.</p>
 
         <article class="btn-collection mt-3">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </article>
     </section>
 </section>
