@@ -40,11 +40,46 @@
 
 @section('menu-chapter', 'Other Deliverables')
 
-<!-- Hero Section -->
-<div class="section make-dark theme-orange make-medium">
-    <div class="container">
-        <div class="hero-content">
-            <h1 class="make-centered">Other Deliverables</h1>
+<div class="section make-small make-dark theme-green banner-header">
+    <div class="container" style="padding-bottom: 30px;">
+
+    </div>
+</div>
+
+<div class="section make-medium make-green theme-green">
+    <div class="container large-container">
+
+        <div class="pricing-banner">
+            <div class="pricing-topic">
+                <h2>Branded Deliverables</h2>
+                <p>Pick and choose the deliverables you need.</p>
+            </div>
+
+            <div class="pricing-group">
+                <div class="pricing-cell">
+                    <h4 class="pricing-title">Premium Logo</h4>
+                    <h3 class="pricing-cost">$850</h3>
+                    <p class="pricing-terms">one-off</p>
+                    <ul class="pricing-list">
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unique Design</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Future-proof</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Style Guide</li>
+                    </ul>
+                    <a class="pricing-button primary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                </div>
+
+                <div class="pricing-cell">
+                    <h4 class="pricing-title">Vehicle Wrap Design</h4>
+                    <h3 class="pricing-cost">$650*</h3>
+                    <p class="pricing-terms">one-off</p>
+                    <ul class="pricing-list">
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Branded Design</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Full vehicle wrap</li>
+                        <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Premium Service</li>
+                    </ul>
+                    <a class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -252,7 +287,7 @@
         </div>
 
         <div class="btn-collection mt-3 make-centered">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </div>
     </div>
 </div>
@@ -285,7 +320,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -297,14 +332,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>

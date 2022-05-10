@@ -18,7 +18,7 @@
 
     <!-- Facebook -->
     <meta property="og:site_name" content="1VINE Design">
-    <meta property="og:title" content="Protect your website - 1VINE Design">
+    <meta property="og:title" content="Premium Development - 1VINE Design">
     <meta property="og:description" content="Whether your project is for web, mobile or even desktop apps, I can help.">
     <meta property="og:image" content="https://1vinedesign.com.au/img/bg.jpg">
     <meta property="og:url" content="https://1vinedesign.com.au/web-maintenance">
@@ -51,13 +51,13 @@
 
         <div class="pricing-banner">
             <div class="pricing-topic">
-                <h2>Protect your website</h2>
+                <h2>Premium Development</h2>
                 <p>Whether your project is for web, mobile or even desktop apps, I can help.</p>
             </div>
 
             <div class="pricing-group">
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Extras</h4>
+                    <h4 class="pricing-title">Web Apps</h4>
                     <h3 class="pricing-cost">$189</h3>
                     <p class="pricing-terms">per month</p>
                     <ul class="pricing-list">
@@ -70,7 +70,7 @@
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">The Lot</h4>
+                    <h4 class="pricing-title">Mobile Apps</h4>
                     <h3 class="pricing-cost">$349</h3>
                     <p class="pricing-terms">per month</p>
                     <ul class="pricing-list">

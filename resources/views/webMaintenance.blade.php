@@ -146,7 +146,7 @@
         </div>
 
         <div class="btn-collection mt-3 make-centered">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </div>
     </div>
 </div>

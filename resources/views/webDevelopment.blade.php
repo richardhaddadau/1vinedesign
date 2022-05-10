@@ -63,7 +63,7 @@
         <p class="col-10">In 2021, a website is as necessary for your brand identity as your logo is. Your customers visit your website to learn more about you, your products, your services and your portfolio. As far as touchpoints go, and for almost all industries, your website trumps any other deliverable that you can invest in.</p>
         <p class="col-10">Your website is also your digital real estate. When someone searches online for a specific product or a particular service that you offer and provide, it is your website that will be your best agent.</p>
         <p class="col-10">Sometimes, your website goes even beyond just a digital information portfolio. Perhaps you want your visitors to interact with your website to make a purchase, subscribe to a membership, fill out details, or use your digital services. You want a professional developer to build a website that is innovative, secure and dependable.</p>
-        
+
         <h2 class="make-centered">Choose <span class="make-one">1VINE</span> for Serious Web Development</h2>
         <p class="col-10">For over 20 years, I've worked in programming within the web development and software development spaces. I've built everything from custom membership portals, CMS (Content Management System) sites and private social media platforms to software used by engineering firms and organisations.</p>
         <p class="col-10">In development circles, I am what is referred to as a full stack programmer. I work with client-side (frontend) and server-side (backend) technologies and processes.</p>
@@ -157,7 +157,7 @@
         </div>
 
         <div class="btn-collection mt-3 make-centered">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </div>
     </div>
 </div>
@@ -197,7 +197,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -209,14 +209,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>

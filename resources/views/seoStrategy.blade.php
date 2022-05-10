@@ -176,7 +176,7 @@
         </div>
 
         <div class="btn-collection mt-3 make-centered">
-            <a href="https://square.site/book/4JW4JM0AVHYZW/1vine-design" title="Book a free consultation on Square" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
+            <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </div>
     </div>
 </div>
@@ -209,7 +209,7 @@
                                 <script src="https://www.google.com/recaptcha/api.js"></script>
                                 <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
                             </div> -->
-                            
+
                             <input type="hidden" name="ml-submit" value="1">
 
                             <div class="ml-form-embedSubmit">
@@ -221,14 +221,14 @@
 
                         </form>
                     </div>
-      
+
                     <div class="ml-form-successBody row-success" style="display:none">
                         <div class="ml-form-successContent">
                             <h4>Thank you!</h4>
                             <p>You have successfully joined our subscriber list.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
         </div>
