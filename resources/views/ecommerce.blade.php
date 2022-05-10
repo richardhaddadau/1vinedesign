@@ -58,7 +58,7 @@
             <div class="pricing-group for-cells-3">
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Basic</h4>
-                    <h3 class="pricing-cost">$7k</h3>
+                    <h3 class="pricing-cost">$4580</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Modern eStore</li>
@@ -70,7 +70,7 @@
 
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Standard</h4>
-                    <h3 class="pricing-cost">$15k</h3>
+                    <h3 class="pricing-cost">$9890</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Responsive Design</li>
@@ -108,24 +108,28 @@
 
                 <h5 class="pricing-head">eCommerce Store</h5>
                 <div class="pricing-table-feature-item">WooCommerce Base</div>
-                <div class="pricing-table-feature-item">Premium Commerce Base</div>
+                <div class="pricing-table-feature-item">Shopify/BigCommerce Base*</div>
+                <div class="pricing-table-feature-item">Domain Name**</div>
+                <div class="pricing-table-feature-item">SSL Certificate**</div>
                 <div class="pricing-table-feature-item">Branded Theme</div>
                 <div class="pricing-table-feature-item">Project Plan Delivery</div>
-                <div class="pricing-table-feature-item">Store Navigation</div>
+                <div class="pricing-table-feature-item">Custom Header/Footer</div>
+                <div class="pricing-table-feature-item">Custom Store Navigation</div>
                 <div class="pricing-table-feature-item">Single-Page Checkout</div>
-                <div class="pricing-table-feature-item">Product Population</div>
-                <div class="pricing-table-feature-item">Product Description</div>
-                <div class="pricing-table-feature-item">Product Images</div>
-                <div class="pricing-table-feature-item">Initial SEO</div>
-                <div class="pricing-table-feature-item rows-3">Domain Names<br>&nbsp;<br>&nbsp;</div>
-                <div class="pricing-table-feature-item">Web Hosting</div>
-                <div class="pricing-table-feature-item">SSL Certificate</div>
-                <div class="pricing-table-feature-item">Email Address Capacity</div>
-                <div class="pricing-table-feature-item">Emails Setup</div>
+                <div class="pricing-table-feature-item">Products Population&dagger;</div>
+                <div class="pricing-table-feature-item">Categories Setup</div>
                 <div class="pricing-table-feature-item">Blog Setup</div>
-                <div class="pricing-table-feature-item">Extra Pages</div>
-                <div class="pricing-table-feature-item">Content Copywriting</div>
+                <div class="pricing-table-feature-item">Full SEO Setup</div>
+                <div class="pricing-table-feature-item">Analytics Integration</div>
                 <div class="pricing-table-feature-item">POS Integration</div>
+                <div class="pricing-table-feature-item">eCommerce Plugin Installation&ddagger;</div>
+                <div class="pricing-table-feature-item">Custom Plugin Development</div>
+
+                <h5 class="pricing-head">Strategic Content/Copywriting</h5>
+                <div class="pricing-table-feature-item">Image Search/Stock</div>
+                <div class="pricing-table-feature-item">Product Descriptions</div>
+                <div class="pricing-table-feature-item">Category Descriptions</div>
+                <div class="pricing-table-feature-item">Original Photography</div>
             </div>
 
             <div class="pricing-plan-col">
@@ -137,23 +141,28 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>&nbsp;<br>&nbsp;</div>
-                <div class="pricing-table-feature-marker">150GB</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker">100</div>
-                <div class="pricing-table-feature-marker">1 Email</div>
-                <div class="pricing-table-feature-marker">3</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/ecommerce-basic">Purchase</a>
-                <h5 class="pricing-foot">$2850<span>AUD</span></h5>
+                <h5 class="pricing-foot">$4580<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -165,23 +174,28 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>&nbsp;</div>
-                <div class="pricing-table-feature-marker">Standard</div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker">500</div>
-                <div class="pricing-table-feature-marker">5 Emails</div>
-                <div class="pricing-table-feature-marker">6</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">Up to 250</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/ecommerce-standard">Purchase</a>
-                <h5 class="pricing-foot">$5890<span>AUD</span></h5>
+                <h5 class="pricing-foot">$9890<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -193,13 +207,12 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>&nbsp;</div>
-                <div class="pricing-table-feature-marker">Standard</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker">500</div>
-                <div class="pricing-table-feature-marker">5 Emails</div>
-                <div class="pricing-table-feature-marker">6</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">Up to 500</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
@@ -208,8 +221,14 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
+                <h5 class="pricing-head">&nbsp;</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
                 <a class="pricing-foot-button" href="/get-quote/ecommerce-extensive">Purchase</a>
-                <h5 class="pricing-foot">$5890<span>AUD</span></h5>
+                <h5 class="pricing-foot">$19k<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -221,16 +240,21 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">Any<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">Unlimited</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker">Unlimited</div>
-                <div class="pricing-table-feature-marker">Unlimited</div>
-                <div class="pricing-table-feature-marker">Unlimited</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <h5 class="pricing-head">&nbsp;</h5>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
@@ -240,6 +264,11 @@
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
+
+        <p class="pricing-footnotes">* 12 Month Subscription on Shopify/BigCommerce included (Basic/Standard Level).<br>
+            ** 12 Month Subscription.<br>
+            &dagger; Extra product population that exceed package offerings can be added on as extra features.<br>
+            &ddagger; Installation only. Subscriptions costs not included</p>
     </div>
 </div>
 
