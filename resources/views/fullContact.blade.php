@@ -56,7 +56,7 @@
             @else
                 <div class="input-field mb-2 quote-select-wrapper make-default">
             @endif
-                <span class="quote-select">Chosen Package*: </span>
+                <span class="quote-select">Chosen Service*: </span>
                 <select id="quote_select" name="quote_select" class="browser-default mt-1" required>
 
                     @if (isset($theKey))
@@ -93,12 +93,13 @@
             </div>
 
             <div class="input-field mt-2">
-                <input id="quote_tel" name="quote_tel" type="tel" pattern="[0-9]{2} [0-9]{4} [0-9]{4}" class="validate">
+                <input id="quote_tel" name="quote_tel" type="tel" pattern="[0-9]{2} [0-9]{4} [0-9]{4}"
+                       class="validate" maxlength="12">
                 <label for="quote_tel">Phone (eg. 07 1234 5678)</label>
             </div>
 
             <div class="input-field mt-2">
-                <input id="quote_mobile" name="quote_mobile" type="tel" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" class="validate" required>
+                <input id="quote_mobile" name="quote_mobile" type="tel" pattern="[0-9]{4} [0-9]{3} [0-9]{3}" class="validate" maxlength="12" required>
                 <label for="quote_mobile">Mobile (eg. 0412 345 678)*</label>
             </div>
 
