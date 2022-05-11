@@ -2089,18 +2089,23 @@ form.make-contact input {
 }
 
 .make-contact label.make-invalid {
-    color: var(--main-theme-color) !important;
+    color: #db3e00 !important;
     font-weight: bold;
     opacity: 1;
 }
 
 .make-contact label.make-valid {
-    color: var(--secondary-theme-color) !important;
+    color: #7eb200 !important;
 }
 
 .make-contact input.make-valid,
 .make-contact textarea.make-valid {
-    border-bottom: 1px solid var(--secondary-theme-color) !important;
+    border-bottom: 1px solid #7eb200 !important;
+}
+
+.make-contact input.make-invalid,
+.make-contact textarea.make-invalid {
+    border-bottom: 1px solid #db3e00 !important;
 }
 
 .make-contact span label {

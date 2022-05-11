@@ -339,13 +339,20 @@ if (document.querySelector("form.make-contact")) {
 
 let selfValidateEmail = (emailInput) => {
     if (emailInput.value.length === 0) {
+        emailInput.classList.remove("make-valid");
         emailInput.classList.remove("validate");
-        emailInput.classList.remove("invalid");
+        emailInput.classList.remove("make-invalid");
+
         document
             .querySelector('label[for="' + emailInput.id + '"')
             .classList.remove("make-invalid");
+
+        document
+            .querySelector('label[for="' + emailInput.id + '"')
+            .classList.remove("make-valid");
     } else {
         emailInput.classList.add("validate");
+
         let emailFormat =
             /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
@@ -356,59 +363,99 @@ let selfValidateEmail = (emailInput) => {
             document
                 .querySelector('label[for="' + emailInput.id + '"')
                 .classList.remove("make-invalid");
+
             emailInput.classList.add("make-valid");
+            emailInput.classList.remove("make-invalid");
         } else {
             document
                 .querySelector('label[for="' + emailInput.id + '"')
                 .classList.remove("make-valid");
+
             document
                 .querySelector('label[for="' + emailInput.id + '"')
                 .classList.add("make-invalid");
+
             emailInput.classList.remove("make-valid");
+            emailInput.classList.add("make-invalid");
         }
     }
 };
 
 let selfValidateText = (textInput, min) => {
-    if (
-        textInput.value.trim().split(/\s+/).length > min - 1 &&
-        textInput.value.length > 0
-    ) {
-        document
-            .querySelector('label[for="' + textInput.id + '"')
-            .classList.add("make-valid");
+    if (textInput.value.length === 0) {
+        textInput.classList.remove("validate");
+        textInput.classList.remove("make-valid");
+        textInput.classList.remove("make-invalid");
+
         document
             .querySelector('label[for="' + textInput.id + '"')
             .classList.remove("make-invalid");
-        textInput.classList.add("make-valid");
-    } else {
+
         document
             .querySelector('label[for="' + textInput.id + '"')
             .classList.remove("make-valid");
-        document
-            .querySelector('label[for="' + textInput.id + '"')
-            .classList.add("make-invalid");
-        textInput.classList.remove("make-valid");
+    } else {
+        textInput.classList.add("validate");
+
+        if (textInput.value.trim().split(/\s+/).length > min - 1) {
+            document
+                .querySelector('label[for="' + textInput.id + '"')
+                .classList.add("make-valid");
+
+            document
+                .querySelector('label[for="' + textInput.id + '"')
+                .classList.remove("make-invalid");
+
+            textInput.classList.add("make-valid");
+            textInput.classList.remove("make-invalid");
+        } else {
+            document
+                .querySelector('label[for="' + textInput.id + '"')
+                .classList.remove("make-valid");
+
+            document
+                .querySelector('label[for="' + textInput.id + '"')
+                .classList.add("make-invalid");
+
+            textInput.classList.remove("make-valid");
+            textInput.classList.add("make-invalid");
+        }
     }
 };
 
 let selfValidateTel = (telInput) => {
-    if (telInput.value.match(telInput.getAttribute("pattern"))) {
-        document
-            .querySelector('label[for="' + telInput.id + '"')
-            .classList.add("make-valid");
+    if (telInput.value.length === 0) {
+        telInput.classList.remove("make-valid");
+        telInput.classList.remove("validate");
+        telInput.classList.remove("make-invalid");
         document
             .querySelector('label[for="' + telInput.id + '"')
             .classList.remove("make-invalid");
-        telInput.classList.add("make-valid");
     } else {
-        document
-            .querySelector('label[for="' + telInput.id + '"')
-            .classList.remove("make-valid");
-        document
-            .querySelector('label[for="' + telInput.id + '"')
-            .classList.add("make-invalid");
-        telInput.classList.remove("make-valid");
+        telInput.classList.add("validate");
+        if (telInput.value.match(telInput.getAttribute("pattern"))) {
+            document
+                .querySelector('label[for="' + telInput.id + '"')
+                .classList.add("make-valid");
+
+            document
+                .querySelector('label[for="' + telInput.id + '"')
+                .classList.remove("make-invalid");
+
+            telInput.classList.add("make-valid");
+            telInput.classList.remove("make-invalid");
+        } else {
+            document
+                .querySelector('label[for="' + telInput.id + '"')
+                .classList.remove("make-valid");
+
+            document
+                .querySelector('label[for="' + telInput.id + '"')
+                .classList.add("make-invalid");
+
+            telInput.classList.remove("make-valid");
+            telInput.classList.add("make-invalid");
+        }
     }
 };
 
@@ -613,7 +660,7 @@ window.addEventListener("load", function () {
     var user = detect.parse(navigator.userAgent);
     console.log(user.browser.family);
 
-    document.querySelectorAll('h1').innerText = user.browser.family;
+    document.querySelectorAll("h1").innerText = user.browser.family;
 
     // Check for Safari
     if (user.browser.family.toLowerCase().indexOf("safari") === 0) {
