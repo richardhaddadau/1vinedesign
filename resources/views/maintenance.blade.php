@@ -38,7 +38,7 @@
 <!-- Body Content -->
 @section('body-content')
 
-@section('menu-chapter', 'Business Websites')
+@section('menu-chapter', 'Web Maintenance')
 
 <div class="section make-small make-dark theme-green banner-header">
     <div class="container" style="padding-bottom: 30px;">
@@ -212,7 +212,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/ecommerce-basic">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/maintenance-barebones">Purchase</a>
                 <h5 class="pricing-foot">$99<span>AUD</span></h5>
             </div>
 
@@ -270,7 +270,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/ecommerce-basic">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/maintenance-extras">Purchase</a>
                 <h5 class="pricing-foot">$189<span>AUD</span></h5>
             </div>
 
@@ -328,13 +328,12 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/ecommerce-basic">Purchase</a>
+                <a class="pricing-foot-button" href="/get-quote/maintenance-the-lot">Purchase</a>
                 <h5 class="pricing-foot">$349<span>AUD</span></h5>
             </div>
         </div>
     </div>
 </div>
-
 
 <!-- <div class="section portfolio-summary">
     <ul class="portfolio-list">

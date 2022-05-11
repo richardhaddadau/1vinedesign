@@ -135,8 +135,10 @@
                     <h3 class="service-head"><i class="fa-brands fa-dev"></i> Premium Development</h3>
                     <div class="service-body">
                         <p>Do you have a great project idea that need professional development? Then you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
-                        <p><a href="/premium-development">See pricing and more <i class="fas
-                        fa-arrow-circle-right"></i></a></p>
+                        <p>
+                            <a href="/get-quote/premium-development">Hire 1VINE Development Services <i class="fas
+                        fa-arrow-circle-right"></i></a>
+                        </p>
                     </div>
                     <div class="service-footer">
                         <ul class="service-footer-list">
@@ -178,7 +180,8 @@
                 <div class="card-body">
                     <div class="card-header mt-1">Protect Your Brand Online</div>
                     <div class="card-main">Keep your online activities managed, safe and secure.</div>
-                    <div class="card-link mt-3"><a href="/protect-your-brand-online">Get Secure <i class="fas fa-chevron-circle-right"></i></a></div>
+                    <div class="card-link mt-3"><a href="/web-maintenance">Get Secure <i class="fas
+                    fa-chevron-circle-right"></i></a></div>
                 </div>
             </section>
 
