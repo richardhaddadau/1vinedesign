@@ -8,7 +8,8 @@
 @section('description', 'Establish your brand\'s digital footprint with a premium, professionally-built website.')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'business websites, cms website, wordpress website, affordable website packages, website
+packages, website development')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/business-websites')
@@ -46,12 +47,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic">
-                <h2>Establish your brand's digital footprint</h2>
+                <h1>Establish your brand's digital footprint</h1>
                 <p>with a premium, professionally-built website</p>
             </div>
 
@@ -90,7 +91,7 @@
 
         <article class="btn-collection">
             <a href="/webhosting-solutions/" title="Link to WebHosting solutions page">
-                <button class="btn-special btn-solid btn-black">Visit 1VINE Hosting</button>
+                <button class="btn-special btn-solid btn-black">Visit Hosting Options</button>
             </a>
         </article>
     </div>
@@ -109,9 +110,9 @@
                 <div class="pricing-table-feature-item">UI / UX Design</div>
                 <div class="pricing-table-feature-item">Image Search & Stock</div>
                 <div class="pricing-table-feature-item">Initial SEO Setup</div>
-                <div class="pricing-table-feature-item rows-3">Domain Names<br>&nbsp;<br>&nbsp;</div>
-                <div class="pricing-table-feature-item">Web Hosting</div>
-                <div class="pricing-table-feature-item">SSL Certificate</div>
+                <div class="pricing-table-feature-item">Domain Names*</div>
+                <div class="pricing-table-feature-item">Web Hosting*</div>
+                <div class="pricing-table-feature-item">SSL Certificate*</div>
                 <div class="pricing-table-feature-item">Email Address Capacity</div>
                 <div class="pricing-table-feature-item">Emails Setup</div>
                 <div class="pricing-table-feature-item">Multi-Page</div>
@@ -134,7 +135,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker">1</div>
                 <div class="pricing-table-feature-marker">150GB</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">100</div>
@@ -162,7 +163,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker">2</div>
                 <div class="pricing-table-feature-marker">Standard</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">500</div>
@@ -190,7 +191,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">Any<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker">Any</div>
                 <div class="pricing-table-feature-marker">Unlimited</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">Unlimited</div>
@@ -209,6 +210,10 @@
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
+
+        <p class="pricing-footnotes">
+            * 12 Month Subscription included.<br>
+        </p>
     </div>
 </div>
 

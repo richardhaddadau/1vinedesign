@@ -8,7 +8,8 @@
 @section('description', 'Establish your business, get customers and beat the competition.')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'branding, brand strategy, branding consultant, brand logo design, colour palette, brand
+typography, business strategy')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/branding-and-strategy')
@@ -46,19 +47,19 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic">
-                <h2>Build a brand that speaks for itself</h2>
+                <h1>Build a brand that speaks for itself</h1>
                 <p>Establish your business, get customers and beat the competition</p>
             </div>
 
             <div class="pricing-group">
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Starter</h4>
-                    <h3 class="pricing-cost">$4999</h3>
+                    <h3 class="pricing-cost">$4980</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Branding</li>
@@ -70,7 +71,7 @@
 
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Professional</h4>
-                    <h3 class="pricing-cost">$9999</h3>
+                    <h3 class="pricing-cost">$9850</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Strategy</li>
@@ -113,10 +114,12 @@
                 <div class="pricing-table-feature-item">Content Copywriting</div>
                 <div class="pricing-table-feature-item">Initial SEO Setup</div>
                 <div class="pricing-table-feature-item">Legal Pages</div>
-                <div class="pricing-table-feature-item rows-3">Domain Names<br>&nbsp;<br>&nbsp;</div>
-                <div class="pricing-table-feature-item">Web Hosting</div>
-                <div class="pricing-table-feature-item">SSL Certificate</div>
+                <div class="pricing-table-feature-item">Domain Names*</div>
+                <div class="pricing-table-feature-item">Web Hosting*</div>
+                <div class="pricing-table-feature-item">SSL Certificate*</div>
+                <div class="pricing-table-feature-item">Email Address Capacity</div>
                 <div class="pricing-table-feature-item">Email Addresses</div>
+                <div class="pricing-table-feature-item">Extra Custom Development</div>
 
                 <h5 class="pricing-head">Brand Strategy</h5>
                 <div class="pricing-table-feature-item">Business Analysis</div>
@@ -160,10 +163,12 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>&nbsp;<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker">1</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">100</div>
                 <div class="pricing-table-feature-marker">1 Email</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 {{-- Brand Strategy --}}
                 <h5 class="pricing-head">&nbsp;</h5>
@@ -184,7 +189,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/branding-starter">Purchase</a>
-                <h5 class="pricing-foot">$4999<span>AUD</span></h5>
+                <h5 class="pricing-foot">$4980<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -212,22 +217,24 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>&nbsp;</div>
+                <div class="pricing-table-feature-marker">2</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">500</div>
                 <div class="pricing-table-feature-marker">5 Emails</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 {{-- Brand Strategy --}}
                 <h5 class="pricing-head">&nbsp;</h5>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
                 {{-- Email Marketing --}}
                 <h5 class="pricing-head">&nbsp;</h5>
@@ -236,7 +243,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/branding-professional">Purchase</a>
-                <h5 class="pricing-foot">$9999<span>AUD</span></h5>
+                <h5 class="pricing-foot">$9850<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -264,10 +271,12 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker rows-3">.com.au<br>.com<br>.au</div>
+                <div class="pricing-table-feature-marker">Any</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">Unlimited</div>
+                <div class="pricing-table-feature-marker">Unlimited</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
                 {{-- Brand Strategy --}}
                 <h5 class="pricing-head">&nbsp;</h5>
@@ -291,6 +300,11 @@
                 <h5 class="pricing-foot call-for-quote">Call for Quote</h5>
             </div>
         </div>
+
+        <p class="pricing-footnotes">
+            * 12 Month Subscription included.<br>
+        </p>
+
     </div>
 </div>
 

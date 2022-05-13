@@ -169,6 +169,55 @@ h6.make-coloured,
     color: var(--main-theme-color) !important;
 }
 
+.make-light p a {
+    color: var(--main-theme-color) !important;
+
+    font-size: inherit;
+    font-weight: 700;
+
+    transition: 0.2s all ease;
+}
+
+.make-light p a:hover {
+    padding: 0.25em;
+    border: 2px solid var(--main-theme-color);
+    background-color: var(--main-theme-color);
+
+    color: #fff !important;
+}
+
+.make-centered {
+    text-align: center;
+}
+
+.make-left {
+    text-align: left;
+}
+
+.make-right {
+    text-align: right;
+}
+
+.make-small {
+    padding-top: 6.5em !important;
+    padding-bottom: 1em !important;
+}
+
+.make-medium {
+    padding-top: 10em !important;
+    padding-bottom: 10em !important;
+}
+
+.make-large {
+    padding-top: 15em !important;
+    padding-bottom: 15em !important;
+}
+
+.make-strong {
+    font-size: inherit;
+    font-weight: 600;
+}
+
 .mt-0 {
     margin-top: 0 !important;
 }
@@ -266,7 +315,7 @@ h6.make-coloured,
 }
 
 .mr-0 {
-    margin-right: 0em !important;
+    margin-right: 0 !important;
 }
 
 .mr-1 {
@@ -287,6 +336,102 @@ h6.make-coloured,
 
 .mr-5 {
     margin-right: 5em !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pt-1 {
+    padding-top: 1em !important;
+}
+
+.pt-2 {
+    padding-top: 2em !important;
+}
+
+.pt-3 {
+    padding-top: 3em !important;
+}
+
+.pt-4 {
+    padding-top: 4em !important;
+}
+
+.pt-5 {
+    padding-top: 5em !important;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.pr-1 {
+    padding-right: 1em !important;
+}
+
+.pr-2 {
+    padding-right: 2em !important;
+}
+
+.pr-3 {
+    padding-right: 3em !important;
+}
+
+.pr-4 {
+    padding-right: 4em !important;
+}
+
+.pr-5 {
+    padding-right: 5em !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.pb-1 {
+    padding-bottom: 1em !important;
+}
+
+.pb-2 {
+    padding-bottom: 2em !important;
+}
+
+.pb-3 {
+    padding-bottom: 3em !important;
+}
+
+.pb-4 {
+    padding-bottom: 4em !important;
+}
+
+.pb-5 {
+    padding-bottom: 5em !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pl-1 {
+    padding-left: 1em !important;
+}
+
+.pl-2 {
+    padding-left: 2em !important;
+}
+
+.pl-3 {
+    padding-left: 3em !important;
+}
+
+.pl-4 {
+    padding-left: 4em !important;
+}
+
+.pl-5 {
+    padding-left: 5em !important;
 }
 
 .col-1 {
@@ -361,55 +506,6 @@ p strong {
     font-weight: 700;
 }
 
-.make-light p a {
-    color: var(--main-theme-color) !important;
-
-    font-size: inherit;
-    font-weight: 700;
-
-    transition: 0.2s all ease;
-}
-
-.make-light p a:hover {
-    padding: 0.25em;
-    border: 2px solid var(--main-theme-color);
-    background-color: var(--main-theme-color);
-
-    color: #fff !important;
-}
-
-.make-centered {
-    text-align: center;
-}
-
-.make-left {
-    text-align: left;
-}
-
-.make-right {
-    text-align: right;
-}
-
-.make-small {
-    padding-top: 6.5em !important;
-    padding-bottom: 1em !important;
-}
-
-.make-medium {
-    padding-top: 10em !important;
-    padding-bottom: 10em !important;
-}
-
-.make-large {
-    padding-top: 15em !important;
-    padding-bottom: 15em !important;
-}
-
-.make-strong {
-    font-size: inherit;
-    font-weight: 600;
-}
-
 /* =========================
     4. "make-" Codes [General]
 ========================= */
@@ -476,7 +572,7 @@ p strong {
 
     width: 100%;
 
-    background-color: rgba(33, 33, 33, 0.5);
+    /*background-color: rgba(33, 33, 33, 0.5);*/
 }
 
 .section.hero h1,
@@ -3383,7 +3479,7 @@ a.futur-badge:hover {
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     h3 {
@@ -3421,6 +3517,10 @@ a.futur-badge:hover {
     /* ===  7. Main Page [Mobile & Tablet]  === */
     .section:not(.hero) .container {
         max-width: 85% !important;
+    }
+
+    .section.banner-header {
+        padding-top: 2.5em !important;
     }
 
     .backToTop,

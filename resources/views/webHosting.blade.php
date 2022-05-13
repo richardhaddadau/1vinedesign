@@ -8,7 +8,8 @@
 @section('description', 'Affordable and reliable Web-Hosting customised for business or personal use.')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'web hosting, affordable hosting options, web hosting solutions, shared web hosting, shared
+hosting packages,')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/webhosting-solutions')
@@ -48,12 +49,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic for-cells-3">
-                <h2>Easy Web Hosting</h2>
+                <h1>Easy Web Hosting</h1>
                 <p>Affordable and reliable Web-Hosting customised for business or personal use</p>
             </div>
 

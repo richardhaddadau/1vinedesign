@@ -8,7 +8,9 @@
 @section('description', 'Protect your website from security risks and keep it running at peak performance.')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'web maintenance, better performance, monthly maintenance, website care, website health audit,
+website security, server fixes, server performance, server maintenance, website backup, backup services, maintenance
+service')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/web-maintenance')
@@ -46,12 +48,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic for-cells-3">
-                <h2>Protect your website</h2>
+                <h1>Protect your website</h1>
                 <p>from security risks and keep it running at peak performance</p>
             </div>
 

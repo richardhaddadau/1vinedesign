@@ -8,10 +8,11 @@
 @section('description', 'Whether your project is for web, mobile or even desktop apps, I can help.')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'premium development, laravel development, backend development, frontend development, full stack
+ development, backend developer, frontend developer, full stack developer')
 
 <!-- Page URL -->
-@section('url', 'https://1vinedesign.com.au/web-maintenance')
+@section('url', 'https://1vinedesign.com.au/premium-development')
 
 <!-- Page Description -->
 @section('social-media-tags')
@@ -46,12 +47,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic">
-                <h2>Premium Development</h2>
+                <h1>Premium Development</h1>
                 <p>Whether your project is for web, mobile or even desktop apps, I can help.</p>
             </div>
 
@@ -85,7 +86,7 @@
     </div>
 </div>
 
-<div class="section make-dark make-small theme-green autoScroll">
+<div class="section make-light make-small theme-green autoScroll">
     <div class="container make-centered large-container mb-5">
         <h2>Web App Development</h2>
         <p class="col-10">
@@ -94,7 +95,7 @@
     </div>
 </div>
 
-<div class="section make-light make-small theme-green autoScroll">
+<div class="section make-dark make-small theme-green autoScroll">
     <div class="container make-centered large-container mb-5">
         <h2>Mobile App Development</h2>
         <p class="col-10">
@@ -102,6 +103,16 @@
         </p>
     </div>
 </div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Desktop Development</h2>
+        <p class="col-10">
+            More coming soon
+        </p>
+    </div>
+</div>
+
 
 <!-- <div class="section portfolio-summary">
     <ul class="portfolio-list">

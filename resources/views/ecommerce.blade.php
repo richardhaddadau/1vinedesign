@@ -8,7 +8,8 @@
 @section('description', 'Have an eCommerce strategy and premium-built store for your business')
 
 <!-- Page Keywords -->
-@section('keywords', '')
+@section('keywords', 'ecommerce solutions, shopify store, bigcommerce store, ecommerce site, woocommerce package,
+pos integration, premium ecommerce package')
 
 <!-- Page URL -->
 @section('url', 'https://1vinedesign.com.au/ecommerce-solutions')
@@ -46,12 +47,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic for-cells-3">
-                <h2>Start Selling Online</h2>
+                <h1>Start Selling Online</h1>
                 <p>Have an eCommerce strategy and premium-built store for your business</p>
             </div>
 

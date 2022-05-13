@@ -46,12 +46,12 @@
     </div>
 </div>
 
-<div class="section make-medium make-green theme-green">
+<div class="section make-small make-dark theme-green pb-5">
     <div class="container large-container">
 
         <div class="pricing-banner">
             <div class="pricing-topic">
-                <h2>Branded Deliverables</h2>
+                <h1>Branded Deliverables</h1>
                 <p>Pick and choose the deliverables you need.</p>
             </div>
 
