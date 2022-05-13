@@ -65,106 +65,375 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Future-proof</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Style Guide</li>
                     </ul>
-                    <div class="pricing-button primary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
+                    <div class="pricing-button primary" onclick="goTo(3)">See More <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Vehicle Wrap Design</h4>
-                    <h3 class="pricing-cost">$650*</h3>
+                    <h4 class="pricing-title">Van Wrap Design</h4>
+                    <h3 class="pricing-cost">$650</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Branded Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Full vehicle wrap</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Premium Service</li>
                     </ul>
-                    <div class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
+                    <div class="pricing-button secondary" onclick="goTo(6)">See More <i class="fas
+                    fa-th-list"></i></div>
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-<!-- <div class="section theme-orange deliverables-collection make-light">
-    <div class="deliverables-item" onclick="deliver(0)"><i class="fas fa-draw-polygon"></i> <span>Logo</span></div>
-    <div class="deliverables-item" onclick="deliver(1)"><i class="fas fa-address-card"></i> <span>Business Cards</span></div>
-    <div class="deliverables-item" onclick="deliver(2)"><i class="fas fa-mail-bulk"></i> <span>Stationery Sets</span></div>
-    <div class="deliverables-item" onclick="deliver(3)"><i class="far fa-sticky-note"></i> <span>Other Stationery</span></div>
-    <div class="deliverables-item" onclick="deliver(4)"><i class="fas fa-envelope-open-text"></i> <span>Email Newsletter</span></div>
-    <div class="deliverables-item" onclick="deliver(5)"><i class="fas fa-tshirt"></i> <span>Apparel Design</span></div>
-    <div class="deliverables-item" onclick="deliver(6)"><i class="fas fa-sign"></i> <span>Signage</span></div>
-    <div class="deliverables-item" onclick="deliver(7)"><i class="fas fa-car"></i> <span>Car Wraps</span></div>
-    <div class="deliverables-item" onclick="deliver(8)"><i class="fas fa-box-open"></i> <span>Packaging</span></div>
-</div> -->
-
-<div class="section make-light theme-green">
+<div class="section make-light make-small theme-green">
     <div class="container make-centered">
-        <h2 class="make-left">Branded Touchpoints</h2>
         <p class="col-10">Your touchpoints are the points of contact between your brand and your customers. Designed and planned well, these touchpoints can help increase your brand's awareness and better position you in the minds of your audience.</p>
-        <p class="col-10"><span class="make-one">1VINE</span> offers all sorts of touchpoints like:
-            <ul class="col-9 mt-1">
-                <li>- Logo</li>
-                <li>- Stationery Sets (Business Card, Letterhead and Envelope)</li>
-                <li>- Email Marketing</li>
-                <li>- Sales Deck</li>
-                <li>- Signage</li>
-                <li>- Vehicle Wraps</li>
-                <li>- Packaging</li>
-            </ul>
-        </p>
-        <p class="section-desc mb-3">I highly recommend that you have a branding strategy in place prior to considering the following touchpoints. If you would like to find out why, visit <a href="/empower-your-awesome-brand">Branding</a> for more information. Ask about package prices and discounts when multiple touchpoints are purchased together.</p>
+        <p class="section-desc mb-3">I highly recommend that you have a branding strategy in place prior to
+            considering the following touchpoints. If you would like to find out why, visit <a
+                href="/branding-and-strategy">Branding</a> for more information. Ask about package prices and discounts
+            when multiple touchpoints are purchased together.</p>
+    </div>
+</div>
 
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header"> Logo Design</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-pen-square"></i> 3 Major Revisions</li>
-                                <li><i class="fas fa-bezier-curve"></i> Source Vector Files</li>
-                                <li><i class="fas fa-desktop"></i> Web-ready Files</li>
-                                <li><i class="fas fa-print"></i> Print-Ready Files</li>
-                                <li><i class="fas fa-book"></i> 12+ Page Digital Style Guide</li>
-                                <li><i class="fas fa-boxes"></i> 3D Mockups</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price"><span class="package-per-month">From</span>$1800</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/touchpoints-logo-design"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Business Logo Design</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Web Ready Files</div>
+                <div class="pricing-table-feature-item">Print Ready Files</div>
+                <div class="pricing-table-feature-item">12+ Page Digital Style Guide</div>
+                <div class="pricing-table-feature-item">3D Mockups</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Premium</h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-logo-design">Purchase</a>
+                <h5 class="pricing-foot">$950<span>AUD</span></h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Professional Business Cards</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <h5 class="pricing-head">Design</h5>
+                <div class="pricing-table-feature-item">Premium Design</div>
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Canva Template</div>
+                <div class="pricing-table-feature-item">Print Ready Files</div>
+                <div class="pricing-table-feature-item">Exclusive Ownership</div>
+
+                <h5 class="pricing-head">Printing</h5>
+                <div class="pricing-table-feature-item">Printing Package</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Basic</h5>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-basic">Purchase</a>
+                <h5 class="pricing-foot">$150<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Plus</h5>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-plus">Purchase</a>
+                <h5 class="pricing-foot">$350<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Super</h5>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker">1000 Qty</div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-super">Purchase</a>
+                <h5 class="pricing-foot">$450<span>AUD</span></h5>
             </div>
         </div>
 
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header"> Stationery Sets</div>
-                        <span class="package-subheader">Business Cards, Letterheads, Envelopes</span>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-hand-sparkles"></i> 2 Initial Polished Concepts</li>
-                                <li><i class="fas fa-pen-square"></i> 3 Major Revisions</li>
-                                <li><i class="fas fa-id-badge"></i>5 Variations (names) Included</li>
-                                <li><i class="fas fa-bezier-curve"></i> Source Vector Files</li>
-                                <li><i class="fas fa-file-medical-alt"></i> Print-Ready Files</li>
-                                <!-- <li><i class="fas fa-print"></i> Printing Included</li> -->
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price"><span class="package-per-month">From</span>$2000</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/touchpoints-stationery-sets"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
+    </div>
+</div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Complete Stationery Set</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <h5 class="pricing-head">Design</h5>
+                <div class="pricing-table-feature-item">Business Card Design</div>
+                <div class="pricing-table-feature-item">Letterhead Design</div>
+                <div class="pricing-table-feature-item">Envelope Design</div>
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Business Card Canva Template</div>
+                <div class="pricing-table-feature-item">Print Ready Files</div>
+                <div class="pricing-table-feature-item">Exclusive Ownership</div>
+
+                <h5 class="pricing-head">Printing</h5>
+                <div class="pricing-table-feature-item">Business Card Printing</div>
+                <div class="pricing-table-feature-item">Envelope Printing</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Pro</h5>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-stationery-set-pro">Purchase</a>
+                <h5 class="pricing-foot">$750<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Extensive</h5>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-stationery-set-extensive">Purchase</a>
+                <h5 class="pricing-foot">$1150<span>AUD</span></h5>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Premium Vehicle Wraps</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Print Ready Files</div>
+                <div class="pricing-table-feature-item">On-Site Photos</div>
+                <div class="pricing-table-feature-item">Premium Template</div>
+                <div class="pricing-table-feature-item">Design Only</div>
+                <div class="pricing-table-feature-item">Semi-Card Cover</div>
+                <div class="pricing-table-feature-item">Entire Car Cover</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Semi</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-vehicle-wrap-semi">Purchase</a>
+                <h5 class="pricing-foot">$450<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Full</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <a class="pricing-foot-button" href="/get-quote/deliverables-vehicle-wrap-full">Purchase</a>
+                <h5 class="pricing-foot">$650<span>AUD</span></h5>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Social Media Package</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <div class="pricing-table-feature-item">Branded Profile Picture</div>
+                <div class="pricing-table-feature-item">Branded Facebook Cover</div>
+                <div class="pricing-table-feature-item">Branded Twitter Cover</div>
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Canva Templates</div>
+                <div class="pricing-table-feature-item">Web Ready Files</div>
+                <div class="pricing-table-feature-item">Branded YouTube Cover</div>
+                <div class="pricing-table-feature-item">Instagram Post Template</div>
+                <div class="pricing-table-feature-item">Sale/Special Templates</div>
+                <div class="pricing-table-feature-item">Facebook Post Template</div>
+                <div class="pricing-table-feature-item">YouTube Video Cover Template</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Selective</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button"
+                   href="/get-quote/deliverables-social-media-package-selective">Purchase</a>
+                <h5 class="pricing-foot">$350<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Extensive</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <a class="pricing-foot-button"
+                   href="/get-quote/deliverables-social-media-package-extensive">Purchase</a>
+                <h5 class="pricing-foot">$600<span>AUD</span></h5>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="section make-light make-small theme-green autoScroll">
+    <div class="container make-centered large-container mb-5">
+        <h2>Social Media Package</h2>
+        <div class="pricing-table">
+            <div class="pricing-table-features">
+                <h5 class="pricing-head">&nbsp;</h5>
+
+                <div class="pricing-table-feature-item">Branded Profile Picture</div>
+                <div class="pricing-table-feature-item">Branded Facebook Cover</div>
+                <div class="pricing-table-feature-item">Branded Twitter Cover</div>
+                <div class="pricing-table-feature-item">Source Vector Files</div>
+                <div class="pricing-table-feature-item">Canva Templates</div>
+                <div class="pricing-table-feature-item">Web Ready Files</div>
+                <div class="pricing-table-feature-item">Branded YouTube Cover</div>
+                <div class="pricing-table-feature-item">Instagram Post Template</div>
+                <div class="pricing-table-feature-item">Sale/Special Templates</div>
+                <div class="pricing-table-feature-item">Facebook Post Template</div>
+                <div class="pricing-table-feature-item">YouTube Video Cover Template</div>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Selective</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+
+                <a class="pricing-foot-button"
+                   href="/get-quote/deliverables-social-media-package-selective">Purchase</a>
+                <h5 class="pricing-foot">$350<span>AUD</span></h5>
+            </div>
+
+            <div class="pricing-plan-col">
+                <h5 class="pricing-head">Extensive</h5>
+
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+
+                <a class="pricing-foot-button"
+                   href="/get-quote/deliverables-social-media-package-extensive">Purchase</a>
+                <h5 class="pricing-foot">$600<span>AUD</span></h5>
             </div>
         </div>
 
@@ -196,29 +465,6 @@
                 <div class="package-card-front">
                     <div class="card-cover"></div>
                     <div class="card-left">
-                        <div class="package-header"> Sales Deck</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-pen-nib"></i> Design and build custom Keynote/Powerpoint sales deck<span> for investing purposes and raising capital</span></li>
-                                <li><i class="fas fa-newspaper"></i> 10-20 Slides <span>with custom master page designs and colour palette</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price"><span class="package-per-month">From</span>$3200</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/touchpoints-sales-deck"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
                         <div class="package-header">Signage</div>
                         <div class="package-subheader">Posters, Advertisements, Interior Signage, Flag Banners, Pull Up Banners, Promotion Stand Signage, Media Wall Signage</div>
                         <div class="package-features">
@@ -232,30 +478,6 @@
                         <!-- <div class="package-price">Varies</div> -->
                         <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
                         <a href="/get-quote/touchpoints-signage"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header"> Vehicle Wraps</div>
-                        <div class="package-subheader">Any Vehicle Type (Cars, SUVs, Utes, Vans, Trucks)</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-sun"></i> High Resolution</li>
-                                <li><i class="fas fa-bezier-curve"></i> Source Vector Files</li>
-                                <li><i class="fas fa-pen-nib"></i> Design Only. Printing Not Included</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price">Varies</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <a href="/get-quote/touchpoints-vehicle-wraps"><div class="purchase-link">Request<br>Quote</div></a>
                     </div>
                 </div>
             </div>
