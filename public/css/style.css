@@ -1349,7 +1349,7 @@ a:hover .fa-comment-alt {
 }
 
 .service-single .service-footer-list a:hover {
-    padding: inherit;
+    padding: 0;
 
     background-color: inherit;
     border: inherit;
@@ -1368,11 +1368,6 @@ a:hover .fa-comment-alt {
     opacity: 1;
 
     transition: all 0.5s ease;
-}
-
-.service-single .service-footer-list .service-footer-item:hover img {
-    filter: grayscale(0);
-    opacity: 1;
 }
 
 /* Portfolio Summary */
@@ -3725,6 +3720,19 @@ a.futur-badge:hover {
         background-color: transparent;
     }
 
+    .service-card {
+        padding: 10px !important;
+    }
+
+    .service-head,
+    .service-body {
+        padding: 10px !important;
+    }
+
+    .service-head {
+        padding-top: 30px !important;
+    }
+
     .service-single [data-service-single] {
         display: block;
 
@@ -3744,13 +3752,18 @@ a.futur-badge:hover {
         display: none;
     }
 
+    .service-single .service-footer {
+        border-radius: 7px;
+    }
+
     .service-single .service-footer-list {
         margin: auto;
-        justify-content: space-around;
+        padding: 1em;
+        justify-content: flex-start;
     }
 
     .service-single .service-footer-list .service-footer-item {
-        margin: auto;
+        margin: 1.5em 0.75em;
     }
 
     .service-single .service-footer-list .service-footer-item img {
@@ -4088,12 +4101,13 @@ a.futur-badge:hover {
     }
 
     .service-single .service-footer-list {
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     .service-single .service-footer-list .service-footer-item {
-        margin: 15px 10px;
+        margin: 20px 20px;
         min-width: inherit;
+        width: 50px;
     }
 
     .btn-submit.btn-solid,
