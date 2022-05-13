@@ -58,14 +58,14 @@
             <div class="pricing-group">
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Premium Logo</h4>
-                    <h3 class="pricing-cost">$850</h3>
+                    <h3 class="pricing-cost">$950</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unique Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Future-proof</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Style Guide</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -77,7 +77,7 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Full vehicle wrap</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Premium Service</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>

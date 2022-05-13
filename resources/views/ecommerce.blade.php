@@ -66,7 +66,7 @@ pos integration, premium ecommerce package')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Responsive Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Product Import</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -78,7 +78,7 @@ pos integration, premium ecommerce package')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Product Builds</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> SEO Setup</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -90,7 +90,7 @@ pos integration, premium ecommerce package')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> App Builds</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> POS Integration</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>

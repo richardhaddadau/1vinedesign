@@ -66,7 +66,8 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Scalable Development</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Responsive Design</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Learn More <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Learn More <i class="fas
+                    fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -79,7 +80,7 @@
                             Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Deployment to Stores</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(3)">Details <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(3)">Details <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>

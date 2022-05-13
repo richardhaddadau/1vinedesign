@@ -66,7 +66,7 @@ typography, business strategy')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Webhosting</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Security</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -78,7 +78,8 @@ typography, business strategy')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Stationery Set</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Web Package</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas
+                    fa-th-list"></i></div>
                 </div>
             </div>
         </div>

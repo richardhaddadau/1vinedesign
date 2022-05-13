@@ -67,7 +67,7 @@ service')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> System Updates</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Website Health Check</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -80,7 +80,7 @@ service')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Performance
                             Optimisation</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -93,7 +93,7 @@ service')
                             Optimisation</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> On-Site SEO Fixes</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(2)">See More <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>

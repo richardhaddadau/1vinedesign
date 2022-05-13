@@ -66,7 +66,7 @@ packages, website development')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Initial SEO</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Webhosting</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(3)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(3)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -78,7 +78,7 @@ packages, website development')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> UI / UX Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Email Setup</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(3)">See Details <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(3)">See Details <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>

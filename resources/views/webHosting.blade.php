@@ -68,7 +68,7 @@ hosting packages,')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 100 Emails</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Cloud Network</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -80,7 +80,7 @@ hosting packages,')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 500 Emails</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unlimited Websites</li>
                     </ul>
-                    <a class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button primary" onclick="goTo(2)">Compare <i class="fas fa-th-list"></i></div>
                 </div>
 
                 <div class="pricing-cell">
@@ -92,7 +92,7 @@ hosting packages,')
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unlimited Emails</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unlimited Websites</li>
                     </ul>
-                    <a class="pricing-button secondary" onclick="goTo(2)">See Details <i class="fas fa-th-list"></i></a>
+                    <div class="pricing-button secondary" onclick="goTo(2)">Details <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>
