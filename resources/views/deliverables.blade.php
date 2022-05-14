@@ -140,6 +140,7 @@
 
                 <h5 class="pricing-head">Printing</h5>
                 <div class="pricing-table-feature-item">Printing Package</div>
+                <div class="pricing-table-feature-item">Printing Quantity</div>
             </div>
 
             <div class="pricing-plan-col">
@@ -153,6 +154,7 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <h5 class="pricing-head"> </h5>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-basic">Purchase</a>
@@ -171,6 +173,7 @@
 
                 <h5 class="pricing-head"> </h5>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-plus">Purchase</a>
                 <h5 class="pricing-foot">$350<span>AUD</span></h5>
@@ -187,7 +190,8 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
                 <h5 class="pricing-head"> </h5>
-                <div class="pricing-table-feature-marker">1000 Qty</div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker">1000</div>
 
                 <a class="pricing-foot-button" href="/get-quote/deliverables-business-cards-super">Purchase</a>
                 <h5 class="pricing-foot">$450<span>AUD</span></h5>
@@ -373,144 +377,11 @@
             </div>
         </div>
 
-    </div>
-</div>
-
-<div class="section make-light make-small theme-green autoScroll">
-    <div class="container make-centered large-container mb-5">
-        <h2>Social Media Package</h2>
-        <div class="pricing-table">
-            <div class="pricing-table-features">
-                <h5 class="pricing-head">&nbsp;</h5>
-
-                <div class="pricing-table-feature-item">Branded Profile Picture</div>
-                <div class="pricing-table-feature-item">Branded Facebook Cover</div>
-                <div class="pricing-table-feature-item">Branded Twitter Cover</div>
-                <div class="pricing-table-feature-item">Source Vector Files</div>
-                <div class="pricing-table-feature-item">Canva Templates</div>
-                <div class="pricing-table-feature-item">Web Ready Files</div>
-                <div class="pricing-table-feature-item">Branded YouTube Cover</div>
-                <div class="pricing-table-feature-item">Instagram Post Template</div>
-                <div class="pricing-table-feature-item">Sale/Special Templates</div>
-                <div class="pricing-table-feature-item">Facebook Post Template</div>
-                <div class="pricing-table-feature-item">YouTube Video Cover Template</div>
-            </div>
-
-            <div class="pricing-plan-col">
-                <h5 class="pricing-head">Selective</h5>
-
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
-
-                <a class="pricing-foot-button"
-                   href="/get-quote/deliverables-social-media-package-selective">Purchase</a>
-                <h5 class="pricing-foot">$350<span>AUD</span></h5>
-            </div>
-
-            <div class="pricing-plan-col">
-                <h5 class="pricing-head">Extensive</h5>
-
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
-
-                <a class="pricing-foot-button"
-                   href="/get-quote/deliverables-social-media-package-extensive">Purchase</a>
-                <h5 class="pricing-foot">$600<span>AUD</span></h5>
-            </div>
-        </div>
-
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header"> Email Marketing</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-file-invoice"></i> Email Newsletter Template <span>on marketing platform</span></li>
-                                <li><i class="fab fa-mailchimp"></i> Marketing Platform Setup <span>Mailchimp or Mailerlite</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price"><span class="package-per-month">From</span>$1200</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <span class="package-gst">Not including GST</span>
-                        <a href="/get-quote/touchpoints-email-marketing"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header">Signage</div>
-                        <div class="package-subheader">Posters, Advertisements, Interior Signage, Flag Banners, Pull Up Banners, Promotion Stand Signage, Media Wall Signage</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-bezier-curve"></i> Source Vector Files</li>
-                                <li><i class="fas fa-pen-nib"></i> Design Only. Printing Not Included</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price">Varies</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <a href="/get-quote/touchpoints-signage"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="package-card">
-            <div class="package-card-content">
-                <div class="package-card-front">
-                    <div class="card-cover"></div>
-                    <div class="card-left">
-                        <div class="package-header"> Packaging</div>
-                        <div class="package-subheader">Branded Product Packaging (Box, Pouch, Carton, Bottle), Branded Packaging Accessories (Stickers, Tape, Wrapping)</div>
-                        <div class="package-features">
-                            <ul>
-                                <li><i class="fas fa-pen-square"></i> 3 Major Revisions</li>
-                                <li><i class="fas fa-sun"></i> High Resolution</li>
-                                <li><i class="fas fa-bezier-curve"></i> Source Vector Files</li>
-                                <li><i class="fas fa-pen-nib"></i> Design Only. Printing Not Included</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="card-right">
-                        <!-- <div class="package-price">Varies</div> -->
-                        <div class="package-price"><span class="package-per-month">Coming Soon</span></div>
-                        <a href="/get-quote/touchpoints-packaging"><div class="purchase-link">Request<br>Quote</div></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="btn-collection mt-3 make-centered">
+        <div class="btn-collection mt-3 make-centered" style="flex-direction: column">
+            <h2>Looking for something else?</h2><br/>
             <a href="https://calendly.com/1vinedesign" title="Book a free consultation on Calendly" target="_blank"><button class="btn-special btn-solid btn-black">Book a free consultation <i class="fas fa-calendar-check"></i></button></a>
         </div>
+
     </div>
 </div>
 

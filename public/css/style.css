@@ -2204,7 +2204,9 @@ form.make-contact input {
 }
 
 .make-contact .quote-select-wrapper {
-    padding: 0px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
     border-radius: 10px;
 }
 
@@ -2219,7 +2221,7 @@ form.make-contact input {
 }
 
 .make-contact select {
-    padding: 10px 0 10px 10px;
+    padding: 10px 0;
 
     height: auto;
     border: none;
@@ -2237,10 +2239,12 @@ form.make-contact input {
 .make-contact select option {
     color: #212121 !important;
     font-size: 0.8em;
+    text-align: center;
 }
 
 .make-contact span.quote-select {
-    font-size: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 .grecaptcha-badge {

@@ -64,8 +64,7 @@
                     @else
                         <option value="" disabled selected>Choose your option</option>
                     @endif
-
-                    @for ($x = 1; $x < 22; $x++)
+                    @for ($x = 1; $x < 26; $x++)
                         @if (isset($theKey) && ($theKey === $x))
                             <option value="{{ $x }}" selected>
                         @else
