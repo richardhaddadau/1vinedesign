@@ -58,7 +58,7 @@
             <div class="pricing-group">
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Premium Logo</h4>
-                    <h3 class="pricing-cost">$950</h3>
+                    <h3 class="pricing-cost">$790</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unique Design</li>
@@ -69,7 +69,7 @@
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Van Wrap Design</h4>
+                    <h4 class="pricing-title">Vehicle Wrap Design</h4>
                     <h3 class="pricing-cost">$650</h3>
                     <p class="pricing-terms">one-off</p>
                     <ul class="pricing-list">
@@ -102,11 +102,13 @@
             <div class="pricing-table-features">
                 <h5 class="pricing-head">&nbsp;</h5>
 
+                <div class="pricing-table-feature-item">Brand-Specific Design</div>
                 <div class="pricing-table-feature-item">Source Vector Files</div>
                 <div class="pricing-table-feature-item">Web Ready Files</div>
                 <div class="pricing-table-feature-item">Print Ready Files</div>
                 <div class="pricing-table-feature-item">12+ Page Digital Style Guide</div>
                 <div class="pricing-table-feature-item">3D Mockups</div>
+                <div class="pricing-table-feature-item">Exclusive Ownership</div>
             </div>
 
             <div class="pricing-plan-col">
@@ -116,9 +118,11 @@
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
                 <a class="pricing-foot-button" href="/get-quote/deliverables-logo-design">Purchase</a>
-                <h5 class="pricing-foot">$950<span>AUD</span></h5>
+                <h5 class="pricing-foot">$790<span>AUD</span></h5>
             </div>
         </div>
     </div>
