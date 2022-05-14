@@ -20,7 +20,7 @@
 @section('menu-chapter', 'Welcome')
 
 <!-- Hero Section -->
-<header class="section hero theme-orange autoScroll">
+<header class="section make-dark make-medium theme-green autoScroll">
     <section class="container">
         <article class="hero-content make-centered">
             <a href="https://calendly.com/1vinedesign"><h1 class="make-white make-links-button make-links-full">Free Discovery Session</h1></a>

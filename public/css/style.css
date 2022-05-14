@@ -2659,7 +2659,7 @@ ul.testimonials {
 .make-links-button:hover {
     background: var(--main-theme-color);
     border-color: var(--main-theme-color);
-    color: white;
+    color: white !important;
 }
 
 .make-links-button a {

@@ -42,7 +42,7 @@
     <link rel="preload" href="{{ asset('fonts/Montserrat-SemiBold.otf') }}" as="font" crossorigin>
 
     <!-- 1VINEDesign CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.min.css?v23') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css?v24') }}">
     @yield('extra-css')
 
     <!-- FontAwesome CSS -->
