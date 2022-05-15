@@ -42,7 +42,7 @@
     <link rel="preload" href="{{ asset('fonts/Montserrat-SemiBold.otf') }}" as="font" crossorigin>
 
     <!-- 1VINEDesign CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.min.css?v24') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css?v25') }}">
     @yield('extra-css')
 
     <!-- FontAwesome CSS -->
@@ -197,31 +197,28 @@
 
     <footer class="footer make-dark">
       <div class="footer-collection">
-        <div class="footer-one">
-          <img src="{{ asset('img/footer-logo.svg') }}" alt="1VINE Design Footer Logo">
-        </div>
+          <div class="footer-two">
+              <h3 class="mb-1">Services</h3>
+              <p class="mt-0">
+                  <a href="/branding-and-strategy">Branding and Strategy</a><br>
+                  <a href="/business-websites">Business Websites</a><br>
+                  <a href="/ecommerce-solutions">eCommerce Solutions</a><br>
+                  <a href="/premium-development">Premium Development</a><br>
+                  <a href="/web-maintenance">Web Maintenance</a><br>
+                  <a href="/other-deliverables">Other Deliverables</a><br>
+                  <a href="/webhosting-solutions">Webhosting Solutions</a>
+              </p>
+              <!-- <a href="/frequently-asked-questions">FAQ</a><p class="mt-0"> -->
+          </div>
 
-        <div class="footer-two">
-          <h3 class="mb-1">Explore More</h3>
-          <p class="mt-0">
-              <a href="/">Home</a><br>
-            <a href="/about-1vine">About</a><br>
-            <a href="/work-portfolio">Our Work</a>
-          </p>
-
-          <h3 class="mb-1">Services</h3>
-          <p class="mt-0">
-              <a href="/branding-and-strategy">Branding and Strategy</a><br>
-              <a href="/business-websites">Business Websites</a><br>
-              <a href="/ecommerce-solutions">eCommerce Solutions</a><br>
-              <a href="/premium-development">Premium Development</a><br>
-              <a href="/web-maintenance">Web Maintenance</a><br>
-              <a href="/other-deliverables">Other Deliverables</a><br>
-              <a href="/webhosting-solutions">Webhosting Solutions</a>
-          </p>
-
-          <!-- <a href="/frequently-asked-questions">FAQ</a><p class="mt-0"> -->
-        </div>
+          <div class="footer-two">
+              <h3 class="mb-1">Explore More</h3>
+              <p class="mt-0">
+                  <a href="/">Home</a><br>
+                  <a href="/about-1vine">About</a><br>
+                  <a href="/work-portfolio">My Work</a>
+              </p>
+          </div>
 
         <div class="footer-three">
           <h3 class="mb-1">Contact Us</h3>
@@ -260,7 +257,7 @@
     <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}"></script>
 
     <!-- 1VINE JS -->
-    <script type="text/javascript" src="{{ asset('js/app.min.js?v23') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/app.min.js?v24') }}"></script>
 
     <!-- Detect JS -->
     <script type="text/javascript" src="{{ asset('js/Detect.min.js') }}"></script>

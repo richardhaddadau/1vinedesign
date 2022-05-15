@@ -557,7 +557,7 @@ let findFooter = () => {
             .position !== "relative"
     ) {
         document.querySelector(".make-last").style.marginBottom =
-            document.querySelector(".footer").offsetHeight + "px";
+            document.querySelector("footer").offsetHeight - 75 + "px";
     } else {
         document.querySelector(".make-last").style.marginBottom = "0px";
     }
@@ -658,7 +658,6 @@ document.querySelectorAll(".service-list-item").forEach(function (item) {
 
 window.addEventListener("load", function () {
     var user = detect.parse(navigator.userAgent);
-    console.log(user.browser.family);
 
     document.querySelectorAll("h1").innerText = user.browser.family;
 
