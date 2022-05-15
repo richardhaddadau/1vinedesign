@@ -97,7 +97,8 @@
 
         <div class="team-collection">
             <div class="team-item">
-                <div class="team-photo"><img src="{{ asset('img/team/sm_Richard-Haddad.jpg') }}" alt=""></div>
+                <div class="team-photo"><img src="{{ asset('img/team/sm_Richard-Haddad.jpg') }}" alt="Photo of
+                Richard Haddad"></div>
 
                 <div class="team-name">Richard Haddad</div>
                 <div class="team-role">Director</div>
