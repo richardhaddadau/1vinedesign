@@ -70,46 +70,42 @@
             <a href="https://beautyretreatbribieisland.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/beauty-retreat-bribie-island-logo.svg') }}" alt="Logo of Beauty Retreat Bribie Island">
             </a>
-            
+
             <a href="" target="_blank">
                     <img src="{{ asset('img/clients/bohemian-creations-logo.svg') }}" alt="Logo of Bohemian Creations">
             </a>
-            
+
             <a href="https://bonnibuns.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/bonnibuns-logo.svg') }}" alt="Logo of Bonnibuns">
             </a>
-            
-            <a href="https://www.brighterday.today/" target="_blank">
-                <img src="{{ asset('img/clients/brighter-day-logo.svg') }}" alt="Logo of Brighter Day">
-            </a>
-            
+
             <a href="https://shop.cadeaurable.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/cadeaurable-logo.svg') }}" alt="Logo of Cadeaurable">
             </a>
-            
+
             <a href="https://facebook.com/ecogemau/" target="_blank">
                 <img src="{{ asset('img/clients/eco-gem-logo.svg') }}" alt="Logo of Eco Gem">
             </a>
-            
+
             <a href="https://facebook.com/familycovenantchurch.org/" target="_blank">
                 <img src="{{ asset('img/clients/family-covenant-church-logo.svg') }}" alt="Logo of Family Covenant Church">
             </a>
-            
+
             <a href="https://facebook.com/GoldStandardTherapy" target="_blank">
                 <img src="{{ asset('img/clients/gold-standard-therapy-logo.svg') }}" alt="Logo of Gold Standard Therapy">
             </a>
-            
+
             <a href="https://intercorpdevelopments.com.au/" target="_blank">
-                <img src="{{ asset('img/clients/intercorp-logo.svg') }}" alt="Logo of Intercorp Developments">
+                <img src="{{ asset('img/clients/intercorp-logo.svg') }}" alt="Logo of Intercorp">
             </a>
-            
-            <a href="https://platinumhemp.com.au/" target="_blank">
+
+            <a href="" target="_blank">
                 <img src="{{ asset('img/clients/platinum-hemp-logo.svg') }}" alt="Logo of Platinum Hemp"></a>
-            
+
             <a href="https://smarterbydesign.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/smarter-by-design-logo.svg') }}" alt="Logo of Smarter By Design">
             </a>
-            
+
             <a href="https://sovereigntrades.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/sovereign-trades-logo.svg') }}" alt="Logo of Sovereign Trades">
             </a>
@@ -121,7 +117,7 @@
             <a href="https://vipertac.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/vipertac-logo.svg') }}" alt="Logo of Vipertac">
             </a>
-            
+
             <a href="https://weq.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/willis-electrical-qld-logo.svg') }}" alt="Logo of WEQ">
             </a>
@@ -130,7 +126,26 @@
     </div>
 </div>
 
-<div class="section make-light theme-orange">
+<div class="section make-dark theme-orange">
+    <div class="container make-left">
+        <h2>Other Designers I've Collaborated With</h2>
+        <div class="heading-underline"></div>
+        <div class="client-gallery">
+
+            <a href="https://blackcactusdigital.com/" target="_blank">
+                <img src="{{ asset('img/clients/black-cactus-digital-logo.svg?v3') }}" alt="Logo of Black Cactus
+                Digital">
+            </a>
+
+            <a href="https://misfitbranding.com/" target="_blank">
+                <img src="{{ asset('img/clients/misfit-logo.svg?v3') }}" alt="Logo of Misfit Branding">
+            </a>
+
+        </div>
+    </div>
+</div>
+
+<div class="section make-light theme-green">
     <div class="container make-left make-full-width">
         <div style="max-width: 900px; margin: 0 auto;">
             <h2>Some of My Previous Work.</h2>
@@ -142,7 +157,7 @@
                 <img src="{{ asset('img/work/auburn-friends-website.jpg') }}" alt="Mockup of Auburn Friends Website">
                 <div class="work-item-title">Auburn Friends<span>Website</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/boz-concrete-scanning-and-cutting-logo.jpg') }}" alt="Mockup of BOZ Concrete Scanning & Cutting">
                 <div class="work-item-title">BOZ Concrete Scanning & Cutting<span>Logo</span></div>
@@ -152,12 +167,12 @@
                 <img src="{{ asset('img/work/astara-beauty-flyers.jpg') }}" alt="Mockup of Astara Beauty">
                 <div class="work-item-title">Astara Beauty<span>Flyers</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/beauty-retreat-website.jpg') }}" alt="Mockup of Beauty Retreat Website">
                 <div class="work-item-title">Beauty Retreat<span>Website</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/brighter-day-logo.jpg') }}" alt="Mockup of Brighter Day Logo">
                 <div class="work-item-title">Brighter Day<span>Logo</span></div>
@@ -167,12 +182,12 @@
                 <img src="{{ asset('img/work/cadeaurable-website.jpg') }}" alt="Mockup of Cadeaurable eCommerce Store">
                 <div class="work-item-title">Cadeaurable<span>eCommerce Store</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/bohemian-creations-logo.jpg') }}" alt="Mockup of Bohemian Creations Logo">
                 <div class="work-item-title">Bohemian Creations<span>Logo</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/cadeaurable-logo.jpg') }}" alt="Mockup of Cadeaurable Logo">
                 <div class="work-item-title">Cadeaurable<span>Logo</span></div>
@@ -187,7 +202,7 @@
                 <img src="{{ asset('img/work/gold-standard-therapy-banner.jpg') }}" alt="Mockup of Gold Standard Therapy">
                 <div class="work-item-title">Gold Standard Therapy<span>Banner</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/eco-gem-logo.jpg') }}" alt="Mockup of Eco Gem Logo">
                 <div class="work-item-title">Eco Gem<span>Logo</span></div>
@@ -197,7 +212,7 @@
                 <img src="{{ asset('img/work/sovereign-trades-business-card.jpg') }}" alt="Mockup of Sovereign Trades Business Cards">
                 <div class="work-item-title">Sovereign Trades<span>Business Cards</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/platinum-hemp-logo.jpg') }}" alt="Mockup of Platinum Hemp Logo">
                 <div class="work-item-title">Platinum Hemp<span>Logo</span></div>
@@ -217,7 +232,7 @@
                 <img src="{{ asset('img/work/willis-electrical-qld-website.jpg') }}" alt="Mockup of WEQ Website">
                 <div class="work-item-title">WEQ<span>Website</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/smarter-by-design-website-01.jpg') }}" alt="Mockup of Smarter By Design Website">
                 <div class="work-item-title">Smarter By Design<span>Website</span></div>
@@ -227,12 +242,12 @@
                 <img src="{{ asset('img/work/family-covenant-church-flyers.jpg') }}" alt="Mockup of Family Covenant Church Flyers">
                 <div class="work-item-title">Family Covenant Church<span>Flyers</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/sovereign-trades-website.jpg') }}" alt="Mockup of Sovereign Trades Website">
                 <div class="work-item-title">Sovereign Trades<span>Website</span></div>
             </div>
-            
+
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/willis-electrical-qld-logo.jpg') }}" alt="Mockup of WEQ Logo">
                 <div class="work-item-title">WEQ<span>Logo</span></div>
@@ -252,70 +267,8 @@
                 <img src="{{ asset('img/work/smarter-by-design-booklet.jpg') }}" alt="Mockup of Smarter By Design Booklet">
                 <div class="work-item-title">Smarter By Design<span>Booklet</span></div>
             </div>
-            
+
         </div>
-    </div>
-</div>
-
-<div class="section make-orange theme-orange autoScroll">
-    <div class="container">
-        <div id="mlb2-1895856" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-1895856">
-            <div class="ml-form-align-center">
-                <div class="ml-form-embedWrapper embedForm">
-                    <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-                        <div class="ml-form-embedContent" style="">
-                            <h2>Do you like free advice? Free gifts?</h2>
-                            <p class="section-desc mt-0">Find out how you can establish your brand,<br>get more customers and beat the competition.</p>
-                        </div>
-
-                        <form class="col-6 mt-2 make-subscribe ml-block-form" action="https://static.mailerlite.com/webforms/submit/n2d2v8" data-code="n2d2v8" method="post" target="_blank">
-                            <div class="ml-form-formContent">
-                                <div class="ml-form-fieldRow ml-last-item">
-                                    <div class="input-field ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                                        <input id="sub_email" aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" autocomplete="email" required>
-                                        <label for="sub_email">Email Address</label>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- <div class="ml-form-recaptcha ml-validate-required" style="float:left">
-                                <style type="text/css">
-                                .ml-form-recaptcha{margin-bottom:20px}.ml-form-recaptcha.ml-error iframe{border:solid 1px red}@media screen and (max-width:480px){.ml-form-recaptcha{width:220px!important}.g-recaptcha{transform:scale(.78);-webkit-transform:scale(.78);transform-origin:0 0;-webkit-transform-origin:0 0}}
-                                </style>
-                                <script src="https://www.google.com/recaptcha/api.js"></script>
-                                <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
-                            </div> -->
-                            
-                            <input type="hidden" name="ml-submit" value="1">
-
-                            <div class="ml-form-embedSubmit">
-                                <button type="submit" class="btn-subscribe btn-solid btn-black mt-3">Sign me up! <i class="fas fa-file-signature"></i></button>
-                                <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
-                            </div>
-
-                            <input type="hidden" name="anticsrf" value="true">
-
-                        </form>
-                    </div>
-      
-                    <div class="ml-form-successBody row-success" style="display:none">
-                        <div class="ml-form-successContent">
-                            <h4>Thank you!</h4>
-                            <p>You have successfully joined our subscriber list.</p>
-                        </div>
-                    </div>
-    
-                </div>
-            </div>
-        </div>
-
-        <script>
-            // function ml_webform_success_1895856(){try{window.top.location.href="http:///thank-you"}catch(t){window.location.href="http:///thank-you"}}
-            function ml_webform_success_1895856(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-1895856 .row-success").show(),r(".ml-subscribe-form-1895856 .row-form").hide()}
-        </script>
-
-        <img src="https://track.mailerlite.com/webforms/o/1895856/n2d2v8?v1615042620" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
-        <script src="https://static.mailerlite.com/js/w/webforms.min.js?v42b571e293fbe042bc115150134382c9" type="text/javascript"></script>
     </div>
 </div>
 
