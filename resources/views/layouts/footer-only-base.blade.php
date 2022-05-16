@@ -42,7 +42,7 @@
     <link rel="preload" href="{{ asset('fonts/Montserrat-SemiBold.otf') }}" as="font" crossorigin>
 
     <!-- 1VINEDesign CSS -->
-    <link rel="stylesheet" href="{{ asset('css/style.min.css?v25') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.min.css') }}">
     @yield('extra-css')
 
     <!-- FontAwesome CSS -->
@@ -257,7 +257,7 @@
     <script type="text/javascript" src="{{ asset('js/materialize.min.js') }}"></script>
 
     <!-- 1VINE JS -->
-    <script type="text/javascript" src="{{ asset('js/app.min.js?v24') }}"></script>
+    <script type="text/javascript" src="{{ asset('js/app.min.js') }}"></script>
 
     <!-- Detect JS -->
     <script type="text/javascript" src="{{ asset('js/Detect.min.js') }}"></script>
