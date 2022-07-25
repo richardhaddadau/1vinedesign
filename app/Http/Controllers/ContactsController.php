@@ -6,7 +6,8 @@ use Illuminate\Http\Request;
 use App\Mail\NewContact;
 use App\Mail\ReceivedContact;
 use App\Models\Contact;
-use Mail;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 
 class ContactsController extends Controller
 {
@@ -34,27 +35,30 @@ class ContactsController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Request $request)
+    public function store(Request $request): \Illuminate\Http\RedirectResponse
     {
         $newContact = new Contact;
         $newContact->name = $request->input('contact_name');
         $newContact->email = $request->input('contact_email');
         $newContact->project = $request->input('contact_message');
 
-        $token = $request->get('g-recaptcha-response');
+        $token = $request->get('h-captcha-response');
 
-        $newContact->score = RecaptchaV3::verify($token, 'contact');
+        $data = array(
+            'secret' => env('HCAPTCHA_SECRET'),
+            'response' => $token
+            );
 
-        if ($newContact->score > 0.5) {
+        $response = Http::post('https://hcaptcha.com/siteverify', [$data]);
+
+//        if ($response['success'] && ($response['score'] > 0.5)) {
             Mail::to('contact@1vinedesign.com.au')->send(new NewContact($newContact));
             Mail::to($newContact['email'])->send(new ReceivedContact());
 
             return redirect()->back()->with(['success' => 'Contact Successful']);
-        } else {
-            return abort(400, 'Uh-oh! Google ReCaptcha thinks you\'re a robot. Try again, maybe?');
-        }
+//        }
     }
 
     /**

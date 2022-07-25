@@ -3,10 +3,13 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+
+use GuzzleHttp\Client;
 use App\Mail\NewQuote;
 use App\Mail\ReceivedQuote;
 use App\Models\Quote;
-use Mail;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 
 class QuotesController extends Controller
 {
@@ -34,38 +37,32 @@ class QuotesController extends Controller
      * Store a newly created resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @return \Illuminate\Http\RedirectResponse
      */
     public function store(Request $request)
     {
         $arrPackage = array(
-            1 => "Branding - Starter",
-            2 => "Branding - Professional",
-            3 => "Branding - Enterprise",
-            4 => "Website - Essential",
-            5 => "Website - Premium",
-            6 => "Website - Enterprise",
-            7 => "eCommerce Basic",
-            8 => "eCommerce Standard",
-            9 => "eCommerce Extensive",
-            10 => "eCommerce Enterprise",
-            11 => "Maintenance - BareBones",
-            12 => "Maintenance - Extras",
-            13 => "Maintenance - The Lot",
-            14 => "Premium Development",
-            15 => "Deliverables - Logo Design",
-            16 => "Deliverables - Business Cards - Basic",
-            17 => "Deliverables - Business Cards - Plus",
-            18 => "Deliverables - Business Cards - Super",
-            19 => "Deliverables - Stationery Sets - Pro",
-            20 => "Deliverables - Stationery Sets - Extensive",
-            21 => "Deliverables - Vehicle Wraps - Semi",
-            22 => "Deliverables - Vehicle Wraps - Full",
-            23 => "Deliverables - Social Media Package - Selective",
-            24 => "Deliverables - Social Media Package - Extensive",
-            25 => "Other",
-//            26 => "Development - Web Apps",
-//            27 => "Development - Mobile Apps",
+            1 => "Branding - The Starter",
+            2 => "Branding - The Professional",
+            3 => "Branding - The Premium",
+            4 => "Website - Essentials",
+            5 => "Website - The Premium",
+            6 => "Website - The Enterprise",
+            7 => "eCommerce - The Standard",
+            8 => "eCommerce - The Extensive",
+            9 => "Maintenance - The Bare Necessities",
+            10 => "Maintenance - The Extra",
+            11 => "Maintenance - The Lot",
+            12 => "SEO - One-Way",
+            13 => "SEO - Combative",
+            14 => "TouchPoints - Logo Design",
+            15 => "TouchPoints - Stationery Sets",
+            16 => "TouchPoints - Email Marketing",
+            17 => "TouchPoints - Sales Deck",
+            18 => "TouchPoints - Signage",
+            19 => "TouchPoints - Vehicle Wraps",
+            20 => "TouchPoints - Packaging",
+            21 => "TouchPoints - Other"
         );
 
         $newQuote = new Quote;
@@ -77,19 +74,21 @@ class QuotesController extends Controller
         $newQuote->mobile = $request->input('quote_mobile');
         $newQuote->project = $request->input('quote_message');
 
-        $token = $request->get('g-recaptcha-response');
-        die($newQuote->package);
+        $token = $request->get('h-recaptcha-response');
 
-        $newQuote->score = RecaptchaV3::verify($token, 'quote');
+        $data = array(
+            'secret' => env('HCAPTCHA_SECRET'),
+            'response' => $token
+        );
 
-        if ($newQuote->score > 0.5) {
+        $response = Http::post('https://hcaptcha.com/siteverify', [$data]);
+
+//        if ($response['success'] && ($response['score'] > 0.5)) {
             Mail::to('contact@1vinedesign.com.au')->send(new NewQuote($newQuote));
             Mail::to($newQuote['email'])->send(new ReceivedQuote());
 
             return redirect()->back()->with(['success' => 'Quote Successful']);
-        } else {
-            return abort(400, 'Uh-oh! Google ReCaptcha thinks you\'re a robot. Try again, maybe?');
-        }
+//        }
     }
 
     /**
