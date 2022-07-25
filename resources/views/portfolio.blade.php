@@ -99,8 +99,14 @@
                 <img src="{{ asset('img/clients/intercorp-logo.svg') }}" alt="Logo of Intercorp">
             </a>
 
+            <a href="https://nikitamorell.com/" target="_blank">
+                <img src="{{ asset('img/clients/nikita-morell-logo.svg') }}" alt="Logo of Nikita Morell"></a>
+
             <a href="" target="_blank">
                 <img src="{{ asset('img/clients/platinum-hemp-logo.svg') }}" alt="Logo of Platinum Hemp"></a>
+
+            <a href="https://reconcili8.com.au/" target="_blank">
+                <img src="{{ asset('img/clients/reconcili8-logo.svg') }}" alt="Logo of Reconcili8"></a>
 
             <a href="https://smarterbydesign.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/smarter-by-design-logo.svg') }}" alt="Logo of Smarter By Design">
@@ -109,6 +115,13 @@
             <a href="https://sovereigntrades.com.au/" target="_blank">
                 <img src="{{ asset('img/clients/sovereign-trades-logo.svg') }}" alt="Logo of Sovereign Trades">
             </a>
+
+            <a href="https://stickeroo.com.au/" target="_blank">
+                <img src="{{ asset('img/clients/stickeroo-logo.svg') }}" alt="Logo of Stickeroo">
+            </a>
+
+            {{--            <a href="https://teacherspeechie.com.au/" target="_blank">--}}
+            {{--                <img src="{{ asset('img/clients/teacher-speechie-logo.svg') }}" alt="Logo of Teacher Speechie"></a>--}}
 
             <a href="https://thefourletterwordco.com/" target="_blank">
                 <img src="{{ asset('img/clients/the-four-letter-word-co-logo.svg') }}" alt="Logo of The Four Letter Word Co.">
@@ -133,12 +146,16 @@
         <div class="client-gallery">
 
             <a href="https://blackcactusdigital.com/" target="_blank">
-                <img src="{{ asset('img/clients/black-cactus-digital-logo.svg?v3') }}" alt="Logo of Black Cactus
+                <img src="{{ asset('img/clients/black-cactus-digital-logo.svg') }}" alt="Logo of Black Cactus
                 Digital">
             </a>
 
             <a href="https://misfitbranding.com/" target="_blank">
-                <img src="{{ asset('img/clients/misfit-logo.svg?v3') }}" alt="Logo of Misfit Branding">
+                <img src="{{ asset('img/clients/misfit-logo.svg') }}" alt="Logo of Misfit Branding">
+            </a>
+
+            <a href="https://thedesignorder.com.au/" target="_blank">
+                <img src="{{ asset('img/clients/the-design-order-logo.svg') }}" alt="Logo of The Design Order">
             </a>
 
         </div>
