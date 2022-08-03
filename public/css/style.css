@@ -145,6 +145,11 @@ h4 {
     text-decoration: underline;
 }
 
+h5 {
+    font-weight: 700;
+    font-size: 1.15em;
+}
+
 h3.subtitle {
     margin-bottom: 0;
     margin-top: 0;
@@ -515,6 +520,17 @@ p strong {
 
 .make-last {
     border-bottom: var(--main-theme-color) solid 10px;
+}
+
+h1.make-special,
+h2.make-special,
+h3.make-special,
+h4.make-special,
+h5.make-special,
+p.make-special,
+span.make-special,
+a.make-special {
+    color: var(--main-theme-color) !important;
 }
 
 /* =========================
@@ -2343,6 +2359,28 @@ form.make-contact input {
     float: none !important;
 }
 
+.ml-button-horizontal button {
+    height: 52px !important;
+
+    background-color: transparent;
+    border: 3px solid #fff !important;
+
+    color: #fff !important;
+
+    transition: all 0.25s ease;
+}
+
+.ml-button-horizontal button.primary:hover {
+    background-color: #fff;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.25);
+
+    color: var(--main-theme-color) !important;
+}
+
+.g-recaptcha {
+    transform: scale(1.15) !important;
+}
+
 .freebie-form .g-recaptcha div {
     margin: auto;
 }
@@ -2639,7 +2677,7 @@ ul.testimonials {
 
 .team-collection .team-name {
     margin: 0 auto;
-    padding: 0 1em;
+    padding: 0.5em 1em;
 
     width: fit-content;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
@@ -2649,6 +2687,7 @@ ul.testimonials {
 }
 
 .team-collection .team-role {
+    margin-top: 0.5em;
     margin-bottom: 2em;
 
     font-size: 0.9em;
@@ -2659,6 +2698,7 @@ ul.testimonials {
 .team-collection .team-description {
     font-size: 1em;
     font-weight: 200;
+    line-height: 1.5rem;
 }
 
 /* TOP LINKS */
@@ -2742,14 +2782,25 @@ ul.testimonials {
 
     width: 50%;
 
-    background-color: white;
     border-radius: 10px;
 
     text-align: center;
 }
 
-.pricing-cell * {
-    color: #212121 !important;
+.make-light .pricing-cell {
+    background-color: #212121;
+}
+
+.make-dark .pricing-cell {
+    background-color: white;
+}
+
+.make-light .pricing-cell * {
+    color: white;
+}
+
+.make-dark .pricing-cell * {
+    color: #212121;
 }
 
 .pricing-title {
