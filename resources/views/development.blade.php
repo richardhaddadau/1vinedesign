@@ -66,7 +66,7 @@
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Scalable Development</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Responsive Design</li>
                     </ul>
-                    <div class="pricing-button primary" onclick="goTo(2)">Learn More <i class="fas
+                    <div class="pricing-button primary" onclick="goTo(3)">Learn More <i class="fas
                     fa-th-list"></i></div>
                 </div>
 
@@ -80,7 +80,7 @@
                             Design</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Deployment to Stores</li>
                     </ul>
-                    <div class="pricing-button secondary" onclick="goTo(3)">Details <i class="fas fa-th-list"></i></div>
+                    <div class="pricing-button primary" onclick="goTo(2)">Details <i class="fas fa-th-list"></i></div>
                 </div>
             </div>
         </div>
@@ -89,19 +89,176 @@
 
 <div class="section make-light make-small theme-green autoScroll">
     <div class="container make-centered large-container mb-5">
-        <h2>Web App Development</h2>
+        <h2>Mobile App Development</h2>
         <p class="col-10">
-            More coming soon
+            Native and Hybrid
         </p>
+        <p class="col-10 make-left">
+            But you know all of this. That's why you're here. You want to know why you should trust 1VINE with your
+            next big web app project. Here are a few reasons:
+        </p>
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">1. I have the experience</span><br />
+            I build apps that scale with customer demand as well as a business' growing goals and dreams.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">2. I know many technologies</span><br />
+            Projects should be built with the right tools, not limited to suit what's available.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">3. I am trusted</span><br />
+            I have a reputation of delivering on my promises.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">4. I use my own work</span><br />
+            From project managing to automating tasks, I have built tools that I needed.
+        </p>
+
+        <p class="col-10 make-left">
+            Leave your name and email <a href='javascript:void(0)' onclick="goTo(3)">above</a> to receive my
+            "Choosing a Good Developer" resource for free!
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong">So, how does this work?</span><br />
+            There are two ways we can go about a new project depending on the scope and goals. Based on that, pricing
+            can be either hourly/monthly or by project. If you're unsure which method suits your project best,
+            consider leaving your email <a href='javascript:void(0)' onclick="goTo(5)">below</a> to get my
+            "Planning Your Project" guide.
+        </p>
+
+        <div class="pricing-group for-cells-3 mt-3">
+            <div class="pricing-cell">
+                <h4 class="pricing-title">Hourly or Monthly</h4>
+                <h3 class="pricing-cost">$75</h3>
+                <p class="pricing-terms">per hour</p>
+                <ul class="pricing-list">
+                    <p>Perfect for projects with:</p>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Ongoing work</li>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Variable scope</li>
+                </ul>
+            </div>
+
+            <div class="pricing-cell">
+                <h4 class="pricing-title">By Project</h4>
+                <h3 class="pricing-cost">Variable</h3>
+                <p class="pricing-terms">based on requirement</p>
+                <p>Perfect for projects with:</p>
+                <ul class="pricing-list">
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Set goals</li>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Fixed scope</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="section make-dark make-small theme-green autoScroll">
+<div class="section make-green theme-green autoScroll">
+    <div class="container">
+        <h2>What to look for in a developer</h2>
+        <p class="section-desc mt-0">Get my free "Choosing a Good Developer" resource by email.</p>
+        <div class="ml-embedded" data-form="17Ni6h"></div>
+    </div>
+</div>
+
+<div class="section make-dark make-small theme-orange autoScroll">
     <div class="container make-centered large-container mb-5">
-        <h2>Mobile App Development</h2>
-        <p class="col-10">
-            More coming soon
+        <h2>Web App Development</h2>
+        <p class="col-10 make-left">
+            Not all websites are made the same. A typical business website provides information and points customers to
+            resources and products. Sometimes, though, you need something bigger! Website in the 2020s are providing
+            a lot more than just information which is why a big bunch of them are being referred to as web apps.
         </p>
+
+        <p class="col-10 make-right">
+            Think of websites like Canva, Facebook, Twitter, Netflix, WhatsApp Web and many others. Technically
+            speaking, these are still websites. You load up your browser and "browse" to them as you would any other
+            website. However, you're not there for information on a service or to find the number to call for a
+            service.
+        </p>
+
+        <p class="col-9 quote-post">
+            <i class="fas fa-quote-left"></i> The website is the service! <i class="fas fa-quote-right"></i>
+        </p>
+
+        <p class="col-10">
+            You can interact with friends on Facebook, watch movies on Netflix, design business cards on Canva or
+            judge someone on Twitter...just for the fun of it. You can do that because technology has changed a lot
+            and websites, rather than just tell you about a service, have become channels through which you can provide
+            these services to your customers right from their browsers.
+        </p>
+
+        <p class="col-10 make-left">
+            But you know all of this. That's why you're here. You want to know why you should trust 1VINE with your
+            next big web app project. Here are a few reasons:
+        </p>
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">1. I have the experience</span><br />
+            I build apps that scale with customer demand as well as a business' growing goals and dreams.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">2. I know many technologies</span><br />
+            Projects should be built with the right tools, not limited to suit what's available.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">3. I am trusted</span><br />
+            I have a reputation of delivering on my promises.
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong make-special">4. I use my own work</span><br />
+            From project managing to automating tasks, I have built tools that I needed.
+        </p>
+
+        <p class="col-10 make-left">
+            Leave your name and email <a href='javascript:void(0)' onclick="goTo(3)">above</a> to receive my
+            "Choosing a Good Developer" resource for free!
+        </p>
+
+        <p class="col-10 make-left">
+            <span class="make-strong">So, how does this work?</span><br />
+            There are two ways we can go about a new project depending on the scope and goals. Based on that, pricing
+            can be either hourly/monthly or by project. If you're unsure which method suits your project best,
+            consider leaving your email <a href='javascript:void(0)' onclick="goTo(5)">below</a> to get my
+            "Planning Your Project" guide.
+        </p>
+
+        <div class="pricing-group for-cells-3 mt-3">
+            <div class="pricing-cell">
+                <h4 class="pricing-title">Hourly or Monthly</h4>
+                <h3 class="pricing-cost">$65</h3>
+                <p class="pricing-terms">per hour</p>
+                <ul class="pricing-list">
+                    <p>Perfect for projects with:</p>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Ongoing work</li>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Variable scope</li>
+                </ul>
+            </div>
+
+            <div class="pricing-cell">
+                <h4 class="pricing-title">By Project</h4>
+                <h3 class="pricing-cost">Variable</h3>
+                <p class="pricing-terms">based on requirement</p>
+                <p>Perfect for projects with:</p>
+                <ul class="pricing-list">
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Set goals</li>
+                    <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Fixed scope</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section make-orange theme-orange autoScroll">
+    <div class="container">
+        <h2>Want to know how to approach your project?</h2>
+        <p class="section-desc mt-0">Get my free "Planning Your Project" resource by email.</p>
+        <div class="ml-embedded" data-form="ysi5sz"></div>
     </div>
 </div>
 
