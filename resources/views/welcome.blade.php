@@ -246,69 +246,68 @@
     </section>
 </section>
 
-<div class="section make-orange theme-orange autoScroll">
-    <div class="container">
-        <div id="mlb2-1895856" class="mcol-11 ml-f orm-embedContainer ml-subscribe-form ml-subscribe-form-1895856">
-            <div class="ml-form-align-center">
-                <div class="ml-form-embedWrapper embedForm">
-                    <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
-                        <div class="ml-form-embedContent" style="">
-                            <h2>Do you like free advice?</h2>
-                            <p class="section-desc mt-0">Get the greatest help and tips to push your brand further.<br>
-                            Stop struggling to get customers, make competitors an afterthought.</p>
-                        </div>
+{{--<div class="section make-orange theme-orange autoScroll">--}}
+{{--    <div class="container">--}}
+{{--        <div id="mlb2-1895856" class="mcol-11 ml-f orm-embedContainer ml-subscribe-form ml-subscribe-form-1895856">--}}
+{{--            <div class="ml-form-align-center">--}}
+{{--                <div class="ml-form-embedWrapper embedForm">--}}
+{{--                    <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">--}}
+{{--                        <div class="ml-form-embedContent" style="">--}}
+{{--                            <h2>Do you like free advice?</h2>--}}
+{{--                            <p class="section-desc mt-0">Get the greatest help and tips to push your brand further.<br>--}}
+{{--                            Stop struggling to get customers, make competitors an afterthought.</p>--}}
+{{--                        </div>--}}
 
-                        <form class="col-6 mt-2 make-subscribe ml-block-form" action="https://static.mailerlite.com/webforms/submit/n2d2v8" data-code="n2d2v8" method="post" target="_blank">
-                            <div class="ml-form-formContent">
-                                <div class="ml-form-fieldRow ml-last-item">
-                                    <div class="input-field ml-field-group ml-field-email ml-validate-email ml-validate-required">
-                                        <input id="sub_email" aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" autocomplete="email" required>
-                                        <label for="sub_email">Email Address</label>
-                                    </div>
-                                </div>
-                            </div>
+{{--                        <form class="col-6 mt-2 make-subscribe ml-block-form" action="https://static.mailerlite.com/webforms/submit/n2d2v8" data-code="n2d2v8" method="post" target="_blank">--}}
+{{--                            <div class="ml-form-formContent">--}}
+{{--                                <div class="ml-form-fieldRow ml-last-item">--}}
+{{--                                    <div class="input-field ml-field-group ml-field-email ml-validate-email ml-validate-required">--}}
+{{--                                        <input id="sub_email" aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" autocomplete="email" required>--}}
+{{--                                        <label for="sub_email">Email Address</label>--}}
+{{--                                    </div>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
 
-                            <!-- <div class="ml-form-recaptcha ml-validate-required" style="float:left">
-                                <style type="text/css">
-                                .ml-form-recaptcha{margin-bottom:20px}.ml-form-recaptcha.ml-error iframe{border:solid 1px red}@media screen and (max-width:480px){.ml-form-recaptcha{width:220px!important}.g-recaptcha{transform:scale(.78);-webkit-transform:scale(.78);transform-origin:0 0;-webkit-transform-origin:0 0}}
-                                </style>
-                                <script src="https://www.google.com/recaptcha/api.js"></script>
-                                <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>
-                            </div> -->
+{{--                            <!-- <div class="ml-form-recaptcha ml-validate-required" style="float:left">--}}
+{{--                                <style type="text/css">--}}
+{{--                                .ml-form-recaptcha{margin-bottom:20px}.ml-form-recaptcha.ml-error iframe{border:solid 1px red}@media screen and (max-width:480px){.ml-form-recaptcha{width:220px!important}.g-recaptcha{transform:scale(.78);-webkit-transform:scale(.78);transform-origin:0 0;-webkit-transform-origin:0 0}}--}}
+{{--                                </style>--}}
+{{--                                <script src="https://www.google.com/recaptcha/api.js"></script>--}}
+{{--                                <div class="g-recaptcha" data-sitekey="6Lf1KHQUAAAAAFNKEX1hdSWCS3mRMv4FlFaNslaD"></div>--}}
+{{--                            </div> -->--}}
 
-                            <input type="hidden" name="ml-submit" value="1">
+{{--                            <input type="hidden" name="ml-submit" value="1">--}}
 
-                            <div class="ml-form-embedSubmit">
-                                <button type="submit" class="btn-subscribe btn-solid btn-black mt-3">Sign me up! <i class="fas fa-file-signature"></i></button>
-                                <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>
-                            </div>
+{{--                            <div class="ml-form-embedSubmit">--}}
+{{--                                <button type="submit" class="btn-subscribe btn-solid btn-black mt-3">Sign me up! <i class="fas fa-file-signature"></i></button>--}}
+{{--                                <button disabled="disabled" style="display:none" type="button" class="loading"> <div class="ml-form-embedSubmitLoad"></div> <span class="sr-only">Loading...</span> </button>--}}
+{{--                            </div>--}}
 
-                            <input type="hidden" name="anticsrf" value="true">
+{{--                            <input type="hidden" name="anticsrf" value="true">--}}
 
-                        </form>
-                    </div>
+{{--                        </form>--}}
+{{--                    </div>--}}
 
-                    <div class="ml-form-successBody row-success" style="display:none">
-                        <div class="ml-form-successContent">
-                            <h4>Thank you!</h4>
-                            <p>You have successfully joined our subscriber list.</p>
-                        </div>
-                    </div>
+{{--                    <div class="ml-form-successBody row-success" style="display:none">--}}
+{{--                        <div class="ml-form-successContent">--}}
+{{--                            <h4>Thank you!</h4>--}}
+{{--                            <p>You have successfully joined our subscriber list.</p>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
 
-                </div>
-            </div>
-        </div>
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
-        <script>
-            // function ml_webform_success_1895856(){try{window.top.location.href="http:///thank-you"}catch(t){window.location.href="http:///thank-you"}}
-            function ml_webform_success_1895856(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-1895856 .row-success").show(),r(".ml-subscribe-form-1895856 .row-form").hide()}
-        </script>
+{{--        <script>--}}
+{{--            // function ml_webform_success_1895856(){try{window.top.location.href="http:///thank-you"}catch(t){window.location.href="http:///thank-you"}}--}}
+{{--            function ml_webform_success_1895856(){var r=ml_jQuery||jQuery;r(".ml-subscribe-form-1895856 .row-success").show(),r(".ml-subscribe-form-1895856 .row-form").hide()}--}}
+{{--        </script>--}}
 
-        <img src="https://track.mailerlite.com/webforms/o/1895856/n2d2v8?v1615042620" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">
-        <script src="https://static.mailerlite.com/js/w/webforms.min.js?v42b571e293fbe042bc115150134382c9" type="text/javascript"></script>
-    </div>
-</div>
-
+{{--        <img src="https://track.mailerlite.com/webforms/o/1895856/n2d2v8?v1615042620" width="1" height="1" style="max-width:1px;max-height:1px;visibility:hidden;padding:0;margin:0;display:block" alt="." border="0">--}}
+{{--        <script src="https://static.mailerlite.com/js/w/webforms.min.js?v42b571e293fbe042bc115150134382c9" type="text/javascript"></script>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 
 <div class="section make-light make-medium theme-orange autoScroll">
