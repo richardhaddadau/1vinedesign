@@ -136,7 +136,7 @@
                     <div class="service-body">
                         <p>Do you have a great project idea that need professional development? Then you're probably after a developer with programming experience in various applications. Whether your project is for web, mobile or even desktop apps, I can help.</p>
                         <p>
-                            <a href="/get-quote/premium-development">Hire 1VINE Services <i class="fas
+                            <a href="/premium-development">Hire 1VINE Services <i class="fas
                         fa-arrow-circle-right"></i></a>
                         </p>
                     </div>

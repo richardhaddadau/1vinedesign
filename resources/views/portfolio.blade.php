@@ -171,28 +171,8 @@
 
         <div class="work-gallery">
             <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/auburn-friends-website.jpg') }}" alt="Mockup of Auburn Friends Website">
-                <div class="work-item-title">Auburn Friends<span>Website</span></div>
-            </div>
-
-            <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/boz-concrete-scanning-and-cutting-logo.jpg') }}" alt="Mockup of BOZ Concrete Scanning & Cutting">
-                <div class="work-item-title">BOZ Concrete Scanning & Cutting<span>Logo</span></div>
-            </div>
-
-            <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/astara-beauty-flyers.jpg') }}" alt="Mockup of Astara Beauty">
-                <div class="work-item-title">Astara Beauty<span>Flyers</span></div>
-            </div>
-
-            <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/beauty-retreat-website.jpg') }}" alt="Mockup of Beauty Retreat Website">
-                <div class="work-item-title">Beauty Retreat<span>Website</span></div>
-            </div>
-
-            <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/brighter-day-logo.jpg') }}" alt="Mockup of Brighter Day Logo">
-                <div class="work-item-title">Brighter Day<span>Logo</span></div>
+                <img src="{{ asset('img/work/nikita-morell-website.jpg') }}" alt="Mockup of Nikita Morell Website">
+                <div class="work-item-title">Nikita Morell<span>Website</span></div>
             </div>
 
             <div  class="work-item autoScroll">
@@ -201,18 +181,43 @@
             </div>
 
             <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/bohemian-creations-logo.jpg') }}" alt="Mockup of Bohemian Creations Logo">
-                <div class="work-item-title">Bohemian Creations<span>Logo</span></div>
+                <img src="{{ asset('img/work/boz-concrete-scanning-and-cutting-logo.jpg') }}" alt="Mockup of BOZ Concrete Scanning & Cutting">
+                <div class="work-item-title">BOZ Concrete Scanning & Cutting<span>Logo</span></div>
             </div>
 
             <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/cadeaurable-logo.jpg') }}" alt="Mockup of Cadeaurable Logo">
-                <div class="work-item-title">Cadeaurable<span>Logo</span></div>
+                <img src="{{ asset('img/work/willis-electrical-qld-business-card.jpg') }}" alt="Mockup of WEQ Business Cards">
+                <div class="work-item-title">WEQ<span>Business Cards</span></div>
+            </div>
+
+            <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/auburn-friends-website.jpg') }}" alt="Mockup of Auburn Friends Website">
+                <div class="work-item-title">Auburn Friends<span>Website</span></div>
+            </div>
+
+            <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/astara-beauty-flyers.jpg') }}" alt="Mockup of Astara Beauty">
+                <div class="work-item-title">Astara Beauty<span>Flyers</span></div>
             </div>
 
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/vipertac-ecommerce.jpg') }}" alt="Mockup of ViperTac eCommerce Store">
                 <div class="work-item-title">ViperTac<span>eCommerce Store</span></div>
+            </div>
+
+            <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/willis-electrical-qld-van.jpg') }}" alt="Mockup of WEQ Vehicle Wrap">
+                <div class="work-item-title">WEQ<span>Vehicle Wrap</span></div>
+            </div>
+
+            <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/beauty-retreat-website.jpg') }}" alt="Mockup of Beauty Retreat Website">
+                <div class="work-item-title">Beauty Retreat<span>Website</span></div>
+            </div>
+
+            <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/cadeaurable-logo.jpg') }}" alt="Mockup of Cadeaurable Logo">
+                <div class="work-item-title">Cadeaurable<span>Logo</span></div>
             </div>
 
             <div  class="work-item autoScroll">
@@ -231,6 +236,12 @@
             </div>
 
             <div  class="work-item autoScroll">
+                <img src="{{ asset('img/work/bohemian-creations-logo.jpg') }}" alt="Mockup of Bohemian Creations Logo">
+                <div class="work-item-title">Bohemian Creations<span>Logo</span></div>
+            </div>
+
+
+            <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/platinum-hemp-logo.jpg') }}" alt="Mockup of Platinum Hemp Logo">
                 <div class="work-item-title">Platinum Hemp<span>Logo</span></div>
             </div>
@@ -238,11 +249,6 @@
             <div  class="work-item autoScroll">
                 <img src="{{ asset('img/work/willis-electrical-qld-banner.jpg') }}" alt="Mockup of WEQ Banner">
                 <div class="work-item-title">WEQ<span>Banner</span></div>
-            </div>
-
-            <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/willis-electrical-qld-business-card.jpg') }}" alt="Mockup of WEQ Business Cards">
-                <div class="work-item-title">WEQ<span>Business Cards</span></div>
             </div>
 
             <div  class="work-item autoScroll">
@@ -276,13 +282,13 @@
             </div>
 
             <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/willis-electrical-qld-van.jpg') }}" alt="Mockup of WEQ Vehicle Wrap">
-                <div class="work-item-title">WEQ<span>Vehicle Wrap</span></div>
+                <img src="{{ asset('img/work/smarter-by-design-booklet.jpg') }}" alt="Mockup of Smarter By Design Booklet">
+                <div class="work-item-title">Smarter By Design<span>Booklet</span></div>
             </div>
 
             <div  class="work-item autoScroll">
-                <img src="{{ asset('img/work/smarter-by-design-booklet.jpg') }}" alt="Mockup of Smarter By Design Booklet">
-                <div class="work-item-title">Smarter By Design<span>Booklet</span></div>
+                <img src="{{ asset('img/work/brighter-day-logo.jpg') }}" alt="Mockup of Brighter Day Logo">
+                <div class="work-item-title">Brighter Day<span>Logo</span></div>
             </div>
 
         </div>
