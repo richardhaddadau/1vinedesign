@@ -140,7 +140,7 @@ packages, website development')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">100</div>
                 <div class="pricing-table-feature-marker">1 Email</div>
-                <div class="pricing-table-feature-marker">3</div>
+                <div class="pricing-table-feature-marker">3+</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
@@ -168,7 +168,7 @@ packages, website development')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker">500</div>
                 <div class="pricing-table-feature-marker">5 Emails</div>
-                <div class="pricing-table-feature-marker">6</div>
+                <div class="pricing-table-feature-marker">6+</div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
