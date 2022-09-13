@@ -133,7 +133,7 @@
         <div class="pricing-group for-cells-3 mt-3">
             <div class="pricing-cell">
                 <h4 class="pricing-title">Hourly or Monthly</h4>
-                <h3 class="pricing-cost">$75</h3>
+                <h3 class="pricing-cost">$120</h3>
                 <p class="pricing-terms">per hour</p>
                 <ul class="pricing-list">
                     <p>Perfect for projects with:</p>
@@ -156,13 +156,13 @@
     </div>
 </div>
 
-<div class="section make-green theme-green autoScroll">
-    <div class="container">
-        <h2>What to look for in a developer</h2>
-        <p class="section-desc mt-0">Get my free "Choosing a Good Developer" resource by email.</p>
-        <div class="ml-embedded" data-form="17Ni6h"></div>
-    </div>
-</div>
+{{--<div class="section make-green theme-green autoScroll">--}}
+{{--    <div class="container">--}}
+{{--        <h2>What to look for in a developer</h2>--}}
+{{--        <p class="section-desc mt-0">Get my free "Choosing a Good Developer" resource by email.</p>--}}
+{{--        <div class="ml-embedded" data-form="17Ni6h"></div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 <div class="section make-dark make-small theme-orange autoScroll">
     <div class="container make-centered large-container mb-5">
@@ -231,7 +231,7 @@
         <div class="pricing-group for-cells-3 mt-3">
             <div class="pricing-cell">
                 <h4 class="pricing-title">Hourly or Monthly</h4>
-                <h3 class="pricing-cost">$65</h3>
+                <h3 class="pricing-cost">$85</h3>
                 <p class="pricing-terms">per hour</p>
                 <ul class="pricing-list">
                     <p>Perfect for projects with:</p>
@@ -254,13 +254,13 @@
     </div>
 </div>
 
-<div class="section make-orange theme-orange autoScroll">
-    <div class="container">
-        <h2>Want to know how to approach your project?</h2>
-        <p class="section-desc mt-0">Get my free "Planning Your Project" resource by email.</p>
-        <div class="ml-embedded" data-form="ysi5sz"></div>
-    </div>
-</div>
+{{--<div class="section make-orange theme-orange autoScroll">--}}
+{{--    <div class="container">--}}
+{{--        <h2>Want to know how to approach your project?</h2>--}}
+{{--        <p class="section-desc mt-0">Get my free "Planning Your Project" resource by email.</p>--}}
+{{--        <div class="ml-embedded" data-form="ysi5sz"></div>--}}
+{{--    </div>--}}
+{{--</div>--}}
 
 <div class="section make-light make-small theme-green autoScroll">
     <div class="container make-centered large-container mb-5">
