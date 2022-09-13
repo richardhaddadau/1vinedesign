@@ -182,7 +182,7 @@ service')
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
 
                 <h5 class="pricing-head">&nbsp;</h5>
-                <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
+                <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-minus"></i></div>
@@ -214,7 +214,7 @@ service')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/maintenance-barebones">Purchase</a>
+                <a class="pricing-foot-button" href="https://buy.stripe.com/7sIeWa2Sk4dh6cMfYY">Subscribe</a>
                 <h5 class="pricing-foot">$99<span>AUD</span></h5>
             </div>
 
@@ -272,7 +272,7 @@ service')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/maintenance-extras">Purchase</a>
+                <a class="pricing-foot-button" href="https://buy.stripe.com/fZe15kgJah0358I7st">Subscribe</a>
                 <h5 class="pricing-foot">$189<span>AUD</span></h5>
             </div>
 
@@ -330,7 +330,7 @@ service')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="/get-quote/maintenance-the-lot">Purchase</a>
+                <a class="pricing-foot-button" href="https://buy.stripe.com/fZedS60KcfVZ9oY5km">Subscribe</a>
                 <h5 class="pricing-foot">$349<span>AUD</span></h5>
             </div>
         </div>
