@@ -127,6 +127,9 @@
         })(window, document, "clarity", "script", "6bckdzde7e");
     </script>
 
+    {{-- hCaptcha --}}
+    <script src="https://js.hcaptcha.com/1/api.js" async defer></script>
+
     @yield('extra-head')
   </head>
 
@@ -256,9 +259,7 @@
                   <label for="contact_message">Project Details (min. 10 words)*</label>
               </div>
 
-              <div class="recaptcha-notice">This site is protected by reCAPTCHA & the Google
-              <a href="https://policies.google.com/privacy">Privacy Policy</a> &
-              <a href="https://policies.google.com/terms">Terms of Service</a> apply.</div>
+                <div class="h-captcha" data-sitekey={{ env('HCAPTCHA_SITEKEY') }}></div>
 
               <button class="btn-submit btn-solid btn-orange mt-3" name="contact_submit" title="Subscribe to our newsletter"><span class="default">Send Me Your awesome idea! <i class="fas fa-rocket"></i></span><span class="loading"><i class="fas fa-spinner"></i></span></button>
               <!-- <input type="text" class="btn-submit btn-solid btn-orange mt-3" title="Subscribe to our newsletter" onclick="actionIt()">Send Me Your awesome idea! <i class="fas fa-rocket"></i></button> -->

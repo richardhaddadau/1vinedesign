@@ -44,21 +44,34 @@ class ContactsController extends Controller
         $newContact->email = $request->input('contact_email');
         $newContact->project = $request->input('contact_message');
 
-        $token = $request->get('h-captcha-response');
+        $dataSecret = env('HCAPTCHA_SECRET');
+        $dataResponse = $request->get('h-captcha-response');
+        $dataIP = $request->ip();
 
         $data = array(
-            'secret' => env('HCAPTCHA_SECRET'),
-            'response' => $token
-            );
+            'secret' => $dataSecret,
+            'response' => $dataResponse,
+            'remoteip' => $dataIP
+        );
 
-        $response = Http::post('https://hcaptcha.com/siteverify', [$data]);
+        $verify = curl_init();
 
-//        if ($response['success'] && ($response['score'] > 0.5)) {
+        curl_setopt($verify, CURLOPT_URL, 'https://hcaptcha.com/siteverify');
+        curl_setopt($verify, CURLOPT_POST, true);
+        curl_setopt($verify, CURLOPT_POSTFIELDS, http_build_query($data));
+        curl_setopt($verify, CURLOPT_RETURNTRANSFER, true);
+
+        $response = curl_exec($verify);
+        $responseJson = json_decode($response);
+
+        if ($responseJson->success) {
             Mail::to('contact@1vinedesign.com.au')->send(new NewContact($newContact));
             Mail::to($newContact['email'])->send(new ReceivedContact());
 
             return redirect()->back()->with(['success' => 'Contact Successful']);
-//        }
+        } else {
+            return redirect()->back()->with(['success' => 'Oops! Something went wrong. Please try again later.']);
+        }
     }
 
     /**
