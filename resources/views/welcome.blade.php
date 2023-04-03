@@ -62,9 +62,9 @@
 
         <div class="service-block mt-3">
             <div class="service-list">
-                <div class="service-list-item active" data-service="Branding">
-                    <i class="fa-solid fa-box-open"></i> <span>Branding and Strategy</span></div>
-                <div class="service-list-item" data-service="Websites">
+{{--                <div class="service-list-item active" data-service="Branding">--}}
+{{--                    <i class="fa-solid fa-box-open"></i> <span>Branding and Strategy</span></div>--}}
+                <div class="service-list-item active" data-service="Websites">
                     <i class="fa-solid fa-desktop"></i> <span>Business Websites</span></div>
                 <div class="service-list-item" data-service="eCommerce">
                     <i class="fa-solid fa-tags"></i> <span>eCommerce Solutions</span></div>
@@ -72,21 +72,21 @@
                     <i class="fa-brands fa-dev"></i> <span>Premium Development</span></div>
             </div>
             <div class="service-single">
-                <div class="service-card show grow" data-service-single="Branding">
-                    <h3 class="service-head"><i class="fa-solid fa-box-open"></i> Branding and Strategy</h3>
-                    <div class="service-body">
-                        <p>Your brand is a reputation and a promise. Customers want to know that they can trust you and you want them to know that they absolutely can. That's why branding is so crucial for every business. It isn't just about people seeing your brand but knowing that yours is the service or product that they need.</p>
-                        <p><a href="/branding-and-strategy">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>
-                    </div>
-                    <div class="service-footer">
-                        <ul class="service-footer-list">
-                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}" alt="Illustrator logo"> Illustrator</li></a>
-                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}" alt="InDesign logo"> InDesign</li></a>
-                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}" alt="Photoshop logo"> Photoshop</li></a>
-                        </ul>
-                    </div>
-                </div>
-                <div class="service-card" data-service-single="Websites">
+{{--                <div class="service-card show grow" data-service-single="Branding">--}}
+{{--                    <h3 class="service-head"><i class="fa-solid fa-box-open"></i> Branding and Strategy</h3>--}}
+{{--                    <div class="service-body">--}}
+{{--                        <p>Your brand is a reputation and a promise. Customers want to know that they can trust you and you want them to know that they absolutely can. That's why branding is so crucial for every business. It isn't just about people seeing your brand but knowing that yours is the service or product that they need.</p>--}}
+{{--                        <p><a href="/branding-and-strategy">See pricing and more <i class="fas fa-arrow-circle-right"></i></a></p>--}}
+{{--                    </div>--}}
+{{--                    <div class="service-footer">--}}
+{{--                        <ul class="service-footer-list">--}}
+{{--                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-illustrator.svg')  }}" alt="Illustrator logo"> Illustrator</li></a>--}}
+{{--                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-indesign.svg')  }}" alt="InDesign logo"> InDesign</li></a>--}}
+{{--                            <a><li class="service-footer-item"><img src="{{ asset('img/tools-photoshop.svg')  }}" alt="Photoshop logo"> Photoshop</li></a>--}}
+{{--                        </ul>--}}
+{{--                    </div>--}}
+{{--                </div>--}}
+                <div class="service-card show grow" data-service-single="Websites">
                     <h3 class="service-head"><i class="fa-solid fa-desktop"></i> Business Websites</h3>
                     <div class="service-body">
                         <p>Did you know that 97% of consumers search online for a service or product they're after? That means that if you don't have an online presence, most consumers aren't even seeing your brand. Get a professional website built by an expert developer who will put your brand and your needs first.</p>

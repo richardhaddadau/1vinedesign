@@ -280,13 +280,13 @@
         <div class="footer-two">
           <h3 class="mb-1">Services</h3>
           <p class="mt-0">
-            <a href="/branding-and-strategy">Branding and Strategy</a><br>
+{{--            <a href="/branding-and-strategy">Branding and Strategy</a><br>--}}
             <a href="/business-websites">Business Websites</a><br>
             <a href="/ecommerce-solutions">eCommerce Solutions</a><br>
             <a href="/premium-development">Premium Development</a><br>
             <a href="/web-maintenance">Web Maintenance</a><br>
-            <a href="/other-deliverables">Other Deliverables</a><br>
-            <a href="/webhosting-solutions">Webhosting Solutions</a>
+            <a href="/webhosting-solutions">Webhosting Solutions</a><br>
+            <a href="/other-deliverables">Other Deliverables</a>
           </p>
           <!-- <a href="/frequently-asked-questions">FAQ</a><p class="mt-0"> -->
         </div>

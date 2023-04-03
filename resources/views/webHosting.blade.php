@@ -61,8 +61,8 @@ hosting packages,')
             <div class="pricing-group for-cells-3">
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Basic</h4>
-                    <h3 class="pricing-cost">$90</h3>
-                    <p class="pricing-terms">per year</p>
+                    <h3 class="pricing-cost">$7.50</h3>
+                    <p class="pricing-terms">per month</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 150GB Space</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 100 Emails</li>
@@ -73,8 +73,8 @@ hosting packages,')
 
                 <div class="pricing-cell">
                     <h4 class="pricing-title">Standard</h4>
-                    <h3 class="pricing-cost">$168</h3>
-                    <p class="pricing-terms">per year</p>
+                    <h3 class="pricing-cost">$14.00</h3>
+                    <p class="pricing-terms">per month</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 500GB Space</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> 500 Emails</li>
@@ -84,9 +84,9 @@ hosting packages,')
                 </div>
 
                 <div class="pricing-cell">
-                    <h4 class="pricing-title">Business</h4>
-                    <h3 class="pricing-cost">$252</h3>
-                    <p class="pricing-terms">per year</p>
+                    <h4 class="pricing-title">Extensive</h4>
+                    <h3 class="pricing-cost">$21.00</h3>
+                    <p class="pricing-terms">per month</p>
                     <ul class="pricing-list">
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unlimited Space</li>
                         <li class="pricing-list-item"><i class="fa-solid fa-circle-check"></i> Unlimited Emails</li>
@@ -196,8 +196,8 @@ hosting packages,')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="https://www.1vinehosting.com.au/web-hosting/">Purchase</a>
-                <h5 class="pricing-foot">$90/yr<span>AUD</span></h5>
+                <a class="pricing-foot-button" href="https://get.1vinehosting.com.au/web-hosting/">Purchase</a>
+                <h5 class="pricing-foot">$7.50/mo<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -245,8 +245,8 @@ hosting packages,')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="https://www.1vinehosting.com.au/web-hosting/">Purchase</a>
-                <h5 class="pricing-foot">$168/yr<span>AUD</span></h5>
+                <a class="pricing-foot-button" href="https://get.1vinehosting.com.au/web-hosting/">Purchase</a>
+                <h5 class="pricing-foot">$14/mo<span>AUD</span></h5>
             </div>
 
             <div class="pricing-plan-col">
@@ -294,8 +294,8 @@ hosting packages,')
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
                 <div class="pricing-table-feature-marker"><i class="fas fa-check"></i></div>
 
-                <a class="pricing-foot-button" href="https://www.1vinehosting.com.au/web-hosting/">Purchase</a>
-                <h5 class="pricing-foot">$252/yr<span>AUD</span></h5>
+                <a class="pricing-foot-button" href="https://get.1vinehosting.com.au/web-hosting/">Purchase</a>
+                <h5 class="pricing-foot">$21/mo<span>AUD</span></h5>
             </div>
         </div>
     </div>

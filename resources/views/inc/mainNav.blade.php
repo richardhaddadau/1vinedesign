@@ -61,13 +61,13 @@
       <a href="/about-1vine"><h2>About 1VINE <div class="menu-underline"></div></h2></a>
       <a href="/work-portfolio"><h2>Work Portfolio <div class="menu-underline"></div></h2></a>
       <h5>Services</h5>
-        <a href="/branding-and-strategy"><h2>Branding and Strategy<div class="menu-underline"></div></h2></a>
+{{--        <a href="/branding-and-strategy"><h2>Branding and Strategy<div class="menu-underline"></div></h2></a>--}}
         <a href="/business-websites"><h2>Business Websites<div class="menu-underline"></div></h2></a>
         <a href="/ecommerce-solutions"><h2>eCommerce Solutions<div class="menu-underline"></div></h2></a>
         <a href="/premium-development"><h2>Premium Development<div class="menu-underline"></div></h2></a>
         <a href="/web-maintenance"><h2>Web Maintenance<div class="menu-underline"></div></h2></a>
-        <a href="/other-deliverables"><h2>Other Deliverables<div class="menu-underline"></div></h2></a>
         <a href="/webhosting-solutions"><h2>Webhosting Solutions<div class="menu-underline"></div></h2></a>
+        <a href="/other-deliverables"><h2>Other Deliverables<div class="menu-underline"></div></h2></a>
     </div>
   </div>
 </div>
